@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d82ada6a-73f2-48fb-9f1e-4043d131498b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appunti.php" afterPath="$PROJECT_DIR$/appunti.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cancella_messaggi.php" afterPath="$PROJECT_DIR$/cancella_messaggi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalogo_corsi_iscrizione.php" afterPath="$PROJECT_DIR$/catalogo_corsi_iscrizione.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cerca_pagina_popup_op.php" afterPath="$PROJECT_DIR$/cerca_pagina_popup_op.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cerca_utenti_popup_op.php" afterPath="$PROJECT_DIR$/cerca_utenti_popup_op.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cerca_utenti_result.php" afterPath="$PROJECT_DIR$/cerca_utenti_result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collegamento_risorse.php" afterPath="$PROJECT_DIR$/collegamento_risorse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commento_del.php" afterPath="$PROJECT_DIR$/commento_del.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commento_nuovo.php" afterPath="$PROJECT_DIR$/commento_nuovo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contatti_cancella.php" afterPath="$PROJECT_DIR$/contatti_cancella.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contatti_lista.php" afterPath="$PROJECT_DIR$/contatti_lista.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contatti_modifica.php" afterPath="$PROJECT_DIR$/contatti_modifica.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contatti_op.php" afterPath="$PROJECT_DIR$/contatti_op.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contatti_view.php" afterPath="$PROJECT_DIR$/contatti_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corsi_cancella_iscrizione.php" afterPath="$PROJECT_DIR$/corsi_cancella_iscrizione.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corsi_edizione_cancella.php" afterPath="$PROJECT_DIR$/corsi_edizione_cancella.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corsi_edizione_mod_op.php" afterPath="$PROJECT_DIR$/corsi_edizione_mod_op.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corsi_edizione_nuova_op.php" afterPath="$PROJECT_DIR$/corsi_edizione_nuova_op.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="dc027910-f81e-4776-b4f5-23fde21df9f6" name="ignore" comment="" />
+    <ignored path="kairos.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1386271277413" ignored="false" />
+    <file path="/lo_pagina_asset_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868670714" ignored="false" />
+    <file path="/lo_pagina_add_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381507793857" ignored="false" />
+    <file path="/lo_pagina_asset_edit.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383074557367" ignored="false" />
+    <file path="/testata.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381573951552" ignored="false" />
+    <file path="/testata.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383410616287" ignored="false" />
+    <file path="C:/home/php/bootstrapdemo/examples/sticky-footer-navbar/index.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381581654636" ignored="false" />
+    <file path="/index.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381654641158" ignored="false" />
+    <file path="/testata_create_new.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383405808424" ignored="false" />
+    <file path="/testata_create_new.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381595426984" ignored="false" />
+    <file path="/stringhe_it.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383073667849" ignored="false" />
+    <file path="/a.dummy" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1386271650633" ignored="false" />
+    <file path="/menu_ambienti.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381578526001" ignored="false" />
+    <file path="/piede.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381596297234" ignored="false" />
+    <file path="/index.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382781161709" ignored="false" />
+    <file path="C:/home/php/bootstrapdemo/examples/jumbotron/index.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381654648905" ignored="false" />
+    <file path="/example-simple.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381663991232" ignored="false" />
+    <file path="/news_crea.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381664435460" ignored="false" />
+    <file path="/news_create.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381668161552" ignored="false" />
+    <file path="/news_crea_go.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381667776364" ignored="false" />
+    <file path="/10-10-2013-autoincrement_hp_news.sql" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381667391670" ignored="false" />
+    <file path="/news_template.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381670080310" ignored="false" />
+    <file path="/news_render.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381670467761" ignored="false" />
+    <file path="/news_delete.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381670815059" ignored="false" />
+    <file path="/msg.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381671775541" ignored="false" />
+    <file path="/admin_index_template.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381783013511" ignored="false" />
+    <file path="/admin_index.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381673476129" ignored="false" />
+    <file path="/repository_del.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381782739749" ignored="false" />
+    <file path="/init_sito.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382781679884" ignored="false" />
+    <file path="/scorm_api.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381857145410" ignored="false" />
+    <file path="/lo_test_item_opzione_add_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381863438310" ignored="false" />
+    <file path="/fragment.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381861459042" ignored="false" />
+    <file path="/lo_test_item_add_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381862268620" ignored="false" />
+    <file path="/10-10-2013-autoincrement_lo_test_item_opzioni.sql" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381863949827" ignored="false" />
+    <file path="/dummy.sql" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381862343290" ignored="false" />
+    <file path="/a.sql" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381862343290" ignored="false" />
+    <file path="/lo_test_item_opzione_add.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381862702928" ignored="false" />
+    <file path="/stringhe_ro.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383072316065" ignored="false" />
+    <file path="/lo_test_item_add.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383072296854" ignored="false" />
+    <file path="/lo_test_item_edit.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381863653756" ignored="false" />
+    <file path="/materiali_template.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381950316546" ignored="false" />
+    <file path="/materiali.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381952019037" ignored="false" />
+    <file path="/materiali_index_template.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381953231837" ignored="false" />
+    <file path="/materiali_index.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1381955006596" ignored="false" />
+    <file path="/repository_index_template.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382266793268" ignored="false" />
+    <file path="/repository_index.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382253511680" ignored="false" />
+    <file path="/index.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382965268927" ignored="false" />
+    <file path="/materiali_nuovo_file_add.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382255194115" ignored="false" />
+    <file path="/html_editor_lo.js.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382259627366" ignored="false" />
+    <file path="/html_editor_conf.js.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382259872236" ignored="false" />
+    <file path="/funzioni_materiali.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382260987351" ignored="false" />
+    <file path="/lo_folder_form_add.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382277837794" ignored="false" />
+    <file path="/lab_materiali_index.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382820740336" ignored="false" />
+    <file path="/lo_assegna_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382280549357" ignored="false" />
+    <file path="/18-10-2013-autoincrement_materiali_sequenza.sql" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382280287800" ignored="false" />
+    <file path="/addforum.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382782339059" ignored="false" />
+    <file path="/ajax.checkinvito.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382782423241" ignored="false" />
+    <file path="/appunti.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382782468919" ignored="false" />
+    <file path="/appunti_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382782543401" ignored="false" />
+    <file path="/articolo_nuovo.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382782819466" ignored="false" />
+    <file path="/cerca_pagina_popup_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868541249" ignored="false" />
+    <file path="/cerca_utenti_popup_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382810570252" ignored="false" />
+    <file path="/cerca_utenti_result.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868582359" ignored="false" />
+    <file path="/contatti_lista.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382783092228" ignored="false" />
+    <file path="/corsi_esporta_iscritti.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382783436786" ignored="false" />
+    <file path="/corsi_gestione_iscrizioni_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382783467790" ignored="false" />
+    <file path="/corsi_nuovo_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382783638420" ignored="false" />
+    <file path="/articolo_del.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382790506674" ignored="false" />
+    <file path="/corsi_gruppo_modifica_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382790540758" ignored="false" />
+    <file path="/editor_iscrizioni_gruppo_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382790605578" ignored="false" />
+    <file path="/forum_attinenza_post.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382790951923" ignored="false" />
+    <file path="/funzioni_sito.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382814825342" ignored="false" />
+    <file path="/funzioni_repository.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384082365758" ignored="false" />
+    <file path="/funzioni_lab_materiali.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382820507227" ignored="false" />
+    <file path="/admin_index_old.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382820606791" ignored="false" />
+    <file path="/materiali_index_base.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382820760831" ignored="false" />
+    <file path="/materiali_index_bis.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382820809383" ignored="false" />
+    <file path="/operate.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382820893149" ignored="false" />
+    <file path="/funzioni_forum.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382867981774" ignored="false" />
+    <file path="/funzioni_materiali_bis.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868212051" ignored="false" />
+    <file path="/esporta_iscritti.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868623719" ignored="false" />
+    <file path="/calendario.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868799917" ignored="false" />
+    <file path="/display.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868875155" ignored="false" />
+    <file path="/forum_admin_index.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868914816" ignored="false" />
+    <file path="/modify.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868925843" ignored="false" />
+    <file path="/monitor_chat.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868948946" ignored="false" />
+    <file path="/test_risultati_dettaglio.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382868965080" ignored="false" />
+    <file path="/KairosSource.scala" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382869316094" ignored="false" />
+    <file path="/modulo_utente.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1382869975910" ignored="false" />
+    <file path="/lo_test_item_mod.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383070565108" ignored="false" />
+    <file path="/lo_test_item_mod_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383071631602" ignored="false" />
+    <file path="/lo_test_asset_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383073074572" ignored="false" />
+    <file path="/repository_sposta.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383073275034" ignored="false" />
+    <file path="/lo_pagina_asset_edit_1.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383074577648" ignored="false" />
+    <file path="/lo_pagina_asset_edit_12.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383074699600" ignored="false" />
+    <file path="/10-10-2013-autoincrement_lo_pagina_asset.sql" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383076609463" ignored="false" />
+    <file path="/lo_viewer.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383079139285" ignored="false" />
+    <file path="/logingateway.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383323191471" ignored="false" />
+    <file path="/HomeController.java" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383763721849" ignored="false" />
+    <file path="/login.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383324637937" ignored="false" />
+    <file path="/testata_new_template.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384605224284" ignored="false" />
+    <file path="/SigninController.java" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383392701946" ignored="false" />
+    <file path="/home.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383393095739" ignored="false" />
+    <file path="/production.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383405753367" ignored="false" />
+    <file path="/signin.html" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383407632443" ignored="false" />
+    <file path="/SignupController.java" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383411188132" ignored="false" />
+    <file path="/function_admin.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383763409773" ignored="false" />
+    <file path="/JdbcUserRepository.java" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383763517951" ignored="false" />
+    <file path="/fragment.java" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1383764225785" ignored="false" />
+    <file path="/lo_sco_importa.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384080462771" ignored="false" />
+    <file path="/lo_scorm_importa.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384084949454" ignored="false" />
+    <file path="/utente_modifica_ruolo.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384087814290" ignored="false" />
+    <file path="/development.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384087501141" ignored="false" />
+    <file path="/utente_modifica_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384088185805" ignored="false" />
+    <file path="/registrazione.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384088455357" ignored="false" />
+    <file path="/funzioni_xml_lom.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384466057252" ignored="false" />
+    <file path="/esporta.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384466254076" ignored="false" />
+    <file path="/scheda_utente.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384605423459" ignored="false" />
+    <file path="/lo_repository_add_licenza.inc" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1384605735719" ignored="false" />
+    <file path="/corsi_edizione_nuova_op.php" changelist="d82ada6a-73f2-48fb-9f1e-4043d131498b" time="1386271573849" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="C:\wamp\www\kairos" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="kairos" />
+    <favorites_list name="refactoring">
+      <favorite_root url="file://$PROJECT_DIR$/index.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/img/kairos_demo/testata.gif" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/include/testata.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/include/testata_create_new.inc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/include/init_sito.inc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/include/testata_create.inc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/include/menu_ambienti.inc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/include/testata.inc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/bootstrap/dist/css/sticky-footer-navbar.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/utilies" module="utilies" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/utilies/src" module="utilies" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/utilies/src/HelloWorld.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/utilies/utilies.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+    <favorites_list name="social">
+      <favorite_root url="file://$PROJECT_DIR$/2.0/social/src/main/java/org/springframework/social/showcase/signup/SignupController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="commento_nuovo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commento_nuovo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="10" selection-start="392" selection-end="392" vertical-scroll-proportion="-6.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contatti_cancella.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contatti_cancella.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="10" selection-start="225" selection-end="225" vertical-scroll-proportion="-5.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contatti_lista.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contatti_lista.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="18" selection-start="2045" selection-end="2045" vertical-scroll-proportion="-4.3076925">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contatti_modifica.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contatti_modifica.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="-6.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contatti_op.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contatti_op.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="10" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-4.3076925">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contatti_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contatti_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="10" selection-start="316" selection-end="316" vertical-scroll-proportion="-4.3076925">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="corsi_cancella_iscrizione.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/corsi_cancella_iscrizione.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="10" selection-start="528" selection-end="528" vertical-scroll-proportion="-5.3846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="corsi_edizione_cancella.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/corsi_edizione_cancella.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="240" selection-end="240" vertical-scroll-proportion="-4.4615383">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="corsi_edizione_mod_op.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/corsi_edizione_mod_op.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="10" selection-start="954" selection-end="954" vertical-scroll-proportion="-5.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="corsi_edizione_nuova_op.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/corsi_edizione_nuova_op.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="14" selection-start="801" selection-end="801" vertical-scroll-proportion="1.0769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/appunti.php" />
+        <option value="$PROJECT_DIR$/cerca_pagina_popup_op.php" />
+        <option value="$PROJECT_DIR$/cerca_utenti_popup_op.php" />
+        <option value="$PROJECT_DIR$/cerca_utenti_result.php" />
+        <option value="$PROJECT_DIR$/collegamento_risorse.php" />
+        <option value="$PROJECT_DIR$/commento_del.php" />
+        <option value="$PROJECT_DIR$/commento_nuovo.php" />
+        <option value="$PROJECT_DIR$/contatti_cancella.php" />
+        <option value="$PROJECT_DIR$/contatti_lista.php" />
+        <option value="$PROJECT_DIR$/contatti_modifica.php" />
+        <option value="$PROJECT_DIR$/contatti_op.php" />
+        <option value="$PROJECT_DIR$/contatti_view.php" />
+        <option value="$PROJECT_DIR$/corsi_cancella_iscrizione.php" />
+        <option value="$PROJECT_DIR$/corsi_edizione_cancella.php" />
+        <option value="$PROJECT_DIR$/corsi_edizione_mod_op.php" />
+        <option value="$PROJECT_DIR$/corsi_edizione_nuova_op.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="http://localhost" name="LAMP" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="748" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kairos_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="C:/home/JAVA/spring-mvc-jpa-example/spring-mvc-jpa-example" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="Database.TableEditor.Splitter" value="0.9" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\kairos\dbincremental" />
+      <recent name="C:\wamp\www\kairos" />
+      <recent name="C:\wamp\www\kairos\raintpl\templates\kairos" />
+      <recent name="C:\wamp\www\kairos\bootstrap" />
+      <recent name="C:\wamp\www\kairos\pagine\kairos_demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\kairos\pagine\kairos_demo" />
+      <recent name="C:\wamp\www\kairos\new_lo_viwer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.kairos">
+    <configuration default="true" type="ResinConfigurationType" factoryName="Local">
+      <option name="PORT" value="80" />
+      <deployment />
+      <server-settings />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="EXPLORER" server_name="LAMP" start_url="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="LAMP" session_id="REBORN$">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" value="http://localhost/kairos/index.php?risorsa=lo_pagina_asset_edit&amp;id_pagina=53&amp;risorsa_padre=lo_525461e78ff20" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" value="http://localhost/kairos/index.php?risorsa=lo_pagina_asset_edit&amp;id_pagina=53&amp;risorsa_padre=lo_525461e78ff20" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="LAMP" session_id="REBORN$">
+      <RunnerSettings RunnerId="PhpRemoteDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRemoteDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="kairos" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="LAMP" start_url="http://localhost/kairos">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Resin 4.0.37" type="ResinConfigurationType" factoryName="Local" APPLICATION_SERVER_NAME="Resin 4.0.37" show_console_on_std_out="true" show_console_on_std_err="true">
+      <option name="PORT" value="80" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings DEPLOYMENT_METHOD="JMX">
+            <option name="contextPath" value="/kairos" />
+            <option name="defaultContextPath" value="false" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="autoBuildClassPath" value="true" />
+        <option name="deployMode" value="manual" />
+        <option name="port" value="8080" />
+      </server-settings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Remote Debug.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Web Application.kairos" />
+      <item index="3" class="java.lang.String" itemvalue="Resin.Resin 4.0.37" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d82ada6a-73f2-48fb-9f1e-4043d131498b" name="Default" comment="" />
+      <changelist id="dc027910-f81e-4776-b4f5-23fde21df9f6" name="ignore" comment="" />
+      <created>1379757378276</created>
+      <updated>1379757378276</updated>
+      <workItem from="1381046381964" duration="103000" />
+      <workItem from="1381061372818" duration="574000" />
+      <workItem from="1381063132557" duration="67000" />
+      <workItem from="1381261662336" duration="1840000" />
+    </task>
+    <task id="LOCAL-00001" summary="replaced reference to client network">
+      <created>1379758677437</created>
+      <updated>1379758677437</updated>
+    </task>
+    <task id="LOCAL-00002" summary="replaced reference to client network">
+      <created>1379759213158</created>
+      <updated>1379759213158</updated>
+    </task>
+    <task id="LOCAL-00003" summary="replaced reference to client network">
+      <created>1379766189188</created>
+      <updated>1379766189188</updated>
+    </task>
+    <task id="LOCAL-00004" summary="replaced reference to client network">
+      <created>1380133584072</created>
+      <updated>1380133584072</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactored some of the configurations">
+      <created>1380360276301</created>
+      <updated>1380360276301</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactored some of the configurations">
+      <created>1380361977864</created>
+      <updated>1380361977864</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactored some of the configurations">
+      <created>1380371066435</created>
+      <updated>1380371066435</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactored some of the configurations">
+      <created>1380371416632</created>
+      <updated>1380371416632</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactored some of the configurations">
+      <created>1380378386605</created>
+      <updated>1380378386605</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactored some of the configurations">
+      <created>1380381117806</created>
+      <updated>1380381117806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactored some of the configurations">
+      <created>1380385482512</created>
+      <updated>1380385482512</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactored some of the configurations">
+      <created>1380468541741</created>
+      <updated>1380468541741</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixed language session problem">
+      <created>1380487118387</created>
+      <updated>1380487118387</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed language session problem">
+      <created>1380489419576</created>
+      <updated>1380489419576</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed language session problem">
+      <created>1380489649812</created>
+      <updated>1380489649812</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed language session problem">
+      <created>1380489841520</created>
+      <updated>1380489841520</updated>
+    </task>
+    <task id="LOCAL-00017" summary="chat added">
+      <created>1380490788405</created>
+      <updated>1380490788405</updated>
+    </task>
+    <task id="LOCAL-00018" summary="chat added">
+      <created>1380490986763</created>
+      <updated>1380490986763</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixed lo editor and removed some useless code">
+      <created>1380651689696</created>
+      <updated>1380651689696</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixed lo editor and removed some useless code">
+      <created>1380653560433</created>
+      <updated>1380653560433</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added context for kairos and fixed LO viewer">
+      <created>1381050882114</created>
+      <updated>1381050882114</updated>
+    </task>
+    <task id="LOCAL-00022" summary="learning object viewer translation in romanian and english">
+      <created>1381054051673</created>
+      <updated>1381054051673</updated>
+    </task>
+    <task id="LOCAL-00023" summary="page saving enabled == i should first run the db update script">
+      <created>1381511085652</created>
+      <updated>1381511085652</updated>
+    </task>
+    <task id="LOCAL-00024" summary="page saving enabled == i should first run the db update script">
+      <created>1381512905325</created>
+      <updated>1381512905325</updated>
+    </task>
+    <task id="LOCAL-00025" summary="page saving enabled == i should first run the db update script">
+      <created>1381513405672</created>
+      <updated>1381513405672</updated>
+    </task>
+    <task id="LOCAL-00026" summary="page saving enabled == i should first run the db update script">
+      <created>1381513610773</created>
+      <updated>1381513610773</updated>
+    </task>
+    <task id="LOCAL-00027" summary="page saving enabled == i should first run the db update script">
+      <created>1381593451115</created>
+      <updated>1381593451115</updated>
+    </task>
+    <task id="LOCAL-00028" summary="page saving enabled == i should first run the db update script">
+      <created>1381595094997</created>
+      <updated>1381595094997</updated>
+    </task>
+    <task id="LOCAL-00029" summary="page saving enabled == i should first run the db update script">
+      <created>1381595342248</created>
+      <updated>1381595342248</updated>
+    </task>
+    <task id="LOCAL-00030" summary="page saving enabled == i should first run the db update script">
+      <created>1381595468520</created>
+      <updated>1381595468520</updated>
+    </task>
+    <task id="LOCAL-00031" summary="page saving enabled == i should first run the db update script">
+      <created>1381595563009</created>
+      <updated>1381595563009</updated>
+    </task>
+    <task id="LOCAL-00032" summary="page saving enabled == i should first run the db update script">
+      <created>1381596057184</created>
+      <updated>1381596057184</updated>
+    </task>
+    <task id="LOCAL-00033" summary="page saving enabled == i should first run the db update script">
+      <created>1381596359494</created>
+      <updated>1381596359494</updated>
+    </task>
+    <task id="LOCAL-00034" summary="theming">
+      <created>1381596900683</created>
+      <updated>1381596900683</updated>
+    </task>
+    <task id="LOCAL-00035" summary="templating engine antnd some redesign of the front page news sections">
+      <created>1381672338231</created>
+      <updated>1381672338231</updated>
+    </task>
+    <task id="LOCAL-00036" summary="templating engine antnd some redesign of the front page news sections">
+      <created>1381675060926</created>
+      <updated>1381675060926</updated>
+    </task>
+    <task id="LOCAL-00037" summary="delete enabled">
+      <created>1381782783732</created>
+      <updated>1381782783732</updated>
+    </task>
+    <task id="LOCAL-00038" summary="delete enabled">
+      <created>1381783091014</created>
+      <updated>1381783091014</updated>
+    </task>
+    <task id="LOCAL-00039" summary="delete enabled">
+      <created>1381783300308</created>
+      <updated>1381783300308</updated>
+    </task>
+    <task id="LOCAL-00040" summary="delete enabled">
+      <created>1381783401052</created>
+      <updated>1381783401052</updated>
+    </task>
+    <task id="LOCAL-00041" summary="sco fixed">
+      <created>1381857501753</created>
+      <updated>1381857501753</updated>
+    </task>
+    <task id="LOCAL-00042" summary="sco fixed">
+      <created>1381862655596</created>
+      <updated>1381862655596</updated>
+    </task>
+    <task id="LOCAL-00043" summary="sco fixed">
+      <created>1381863745281</created>
+      <updated>1381863745281</updated>
+    </task>
+    <task id="LOCAL-00044" summary="sco fixed">
+      <created>1381864143572</created>
+      <updated>1381864143572</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fixed admin layout -- beginning continut">
+      <created>1381951511620</created>
+      <updated>1381951511620</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fixed admin layout -- beginning continut">
+      <created>1381955288506</created>
+      <updated>1381955288506</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fixed admin layout -- beginning continut">
+      <created>1382026802535</created>
+      <updated>1382026802535</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fixed admin layout -- beginning continut">
+      <created>1382253616565</created>
+      <updated>1382253616565</updated>
+    </task>
+    <task id="LOCAL-00049" summary="video editor">
+      <created>1382261581094</created>
+      <updated>1382261581094</updated>
+    </task>
+    <task id="LOCAL-00050" summary="video editor">
+      <created>1382263878893</created>
+      <updated>1382263878893</updated>
+    </task>
+    <task id="LOCAL-00051" summary="items alignment with bootstrap">
+      <created>1382267671156</created>
+      <updated>1382267671156</updated>
+    </task>
+    <task id="LOCAL-00052" summary="items alignment with bootstrap">
+      <created>1382267821396</created>
+      <updated>1382267821396</updated>
+    </task>
+    <task id="LOCAL-00053" summary="items alignment with bootstrap">
+      <created>1382277608564</created>
+      <updated>1382277608565</updated>
+    </task>
+    <task id="LOCAL-00054" summary="items alignment with bootstrap">
+      <created>1382277887883</created>
+      <updated>1382277887883</updated>
+    </task>
+    <task id="LOCAL-00055" summary="items alignment with bootstrap">
+      <created>1382278107280</created>
+      <updated>1382278107280</updated>
+    </task>
+    <task id="LOCAL-00056" summary="items alignment with bootstrap">
+      <created>1382278255915</created>
+      <updated>1382278255915</updated>
+    </task>
+    <task id="LOCAL-00057" summary="items alignment with bootstrap">
+      <created>1382278484422</created>
+      <updated>1382278484422</updated>
+    </task>
+    <task id="LOCAL-00058" summary="materiali assegna">
+      <created>1382280886354</created>
+      <updated>1382280886354</updated>
+    </task>
+    <task id="LOCAL-00059" summary="mysqli integration basis for resin server">
+      <created>1382784049343</created>
+      <updated>1382784049343</updated>
+    </task>
+    <task id="LOCAL-00060" summary="mysqli integration basis for resin server">
+      <created>1382820955328</created>
+      <updated>1382820955328</updated>
+    </task>
+    <task id="LOCAL-00061" summary="mysqli integration basis for resin server">
+      <created>1382868998307</created>
+      <updated>1382868998307</updated>
+    </task>
+    <task id="LOCAL-00062" summary="source transformer in scala for replacing mysql with mysqli">
+      <created>1382869409227</created>
+      <updated>1382869409227</updated>
+    </task>
+    <task id="LOCAL-00063" summary="source transformer in scala for replacing mysql with mysqli">
+      <created>1382870475177</created>
+      <updated>1382870475177</updated>
+    </task>
+    <task id="LOCAL-00064" summary="bugs">
+      <created>1383074809533</created>
+      <updated>1383074809533</updated>
+    </task>
+    <task id="LOCAL-00065" summary="bugs">
+      <created>1383410199820</created>
+      <updated>1383410199820</updated>
+    </task>
+    <task id="LOCAL-00066" summary="bugs">
+      <created>1383410646502</created>
+      <updated>1383410646502</updated>
+    </task>
+    <task id="LOCAL-00067" summary="bugs">
+      <created>1383410778706</created>
+      <updated>1383410778706</updated>
+    </task>
+    <task id="LOCAL-00068" summary="bugs">
+      <created>1383493756341</created>
+      <updated>1383493756341</updated>
+    </task>
+    <task id="LOCAL-00069" summary="import learning objects adjustments">
+      <created>1384085465201</created>
+      <updated>1384085465201</updated>
+    </task>
+    <task id="LOCAL-00070" summary="import learning objects adjustments">
+      <created>1384086984431</created>
+      <updated>1384086984431</updated>
+    </task>
+    <task id="LOCAL-00071" summary="user management adjusments">
+      <created>1384089268951</created>
+      <updated>1384089268951</updated>
+    </task>
+    <task id="LOCAL-00072" summary="user management adjusments">
+      <created>1384605378370</created>
+      <updated>1384605378370</updated>
+    </task>
+    <task id="LOCAL-00073" summary="user management adjusments">
+      <created>1384605476843</created>
+      <updated>1384605476843</updated>
+    </task>
+    <task id="LOCAL-00074" summary="user management adjusments">
+      <created>1384605776682</created>
+      <updated>1384605776683</updated>
+    </task>
+    <task id="LOCAL-00075" summary="user management and revisiting group and courses creation">
+      <created>1384610204897</created>
+      <updated>1384610204898</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2584000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="748" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.68543047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7126246" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27899924" sideWeight="0.31456953" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61092716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32392028" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="user management and revisiting group and courses creation" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="replaced reference to client network" />
+    <MESSAGE value="refactored some of the configurations" />
+    <MESSAGE value="fixed language session problem" />
+    <MESSAGE value="chat added" />
+    <MESSAGE value="fixed lo editor and removed some useless code" />
+    <MESSAGE value="added context for kairos and fixed LO viewer" />
+    <MESSAGE value="learning object viewer translation in romanian and english" />
+    <MESSAGE value="page saving enabled == i should first run the db update script" />
+    <MESSAGE value="theming" />
+    <MESSAGE value="templating engine antnd some redesign of the front page news sections" />
+    <MESSAGE value="delete enabled" />
+    <MESSAGE value="sco fixed" />
+    <MESSAGE value="fixed admin layout -- beginning continut" />
+    <MESSAGE value="video editor" />
+    <MESSAGE value="items alignment with bootstrap" />
+    <MESSAGE value="materiali assegna" />
+    <MESSAGE value="mysqli integration basis for resin server" />
+    <MESSAGE value="source transformer in scala for replacing mysql with mysqli" />
+    <MESSAGE value="bugs" />
+    <MESSAGE value="import learning objects adjustments" />
+    <MESSAGE value="user management adjusments" />
+    <MESSAGE value="user management and revisiting group and courses creation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/script/html_editor.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ftp_comune/index.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ftp_comune/init_sito.inc</url>
+          <line>1</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lo_test_item_add_op.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lo_pagina_add_op.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lo_viewer_new.php</url>
+          <line>232</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/function_admin.inc</url>
+          <line>8</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/funzioni_repository.inc</url>
+          <line>215</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/funzioni_repository.inc</url>
+          <line>484</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/funzioni_materiali.inc</url>
+          <line>48</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/pagine/kairos_demo/repository_index.inc</url>
+          <line>91</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/funzioni_repository.inc</url>
+          <line>11</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="324" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/appunti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="514" selection-end="514" vertical-scroll-proportion="-4.4615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cerca_pagina_popup_op.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="10" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-3.9615386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cerca_utenti_popup_op.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="10" selection-start="2632" selection-end="2632" vertical-scroll-proportion="-3.9615386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cerca_utenti_result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="10" selection-start="2494" selection-end="2494" vertical-scroll-proportion="-4.3076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collegamento_risorse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="14" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commento_del.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="197" selection-end="197" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commento_nuovo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="392" selection-end="392" vertical-scroll-proportion="-6.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contatti_cancella.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="225" selection-end="225" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contatti_lista.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="18" selection-start="2045" selection-end="2045" vertical-scroll-proportion="-4.3076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contatti_modifica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="10" selection-start="1566" selection-end="1566" vertical-scroll-proportion="-6.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contatti_op.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="10" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-4.3076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contatti_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="316" selection-end="316" vertical-scroll-proportion="-4.3076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corsi_cancella_iscrizione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="10" selection-start="528" selection-end="528" vertical-scroll-proportion="-5.3846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corsi_edizione_cancella.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="240" selection-end="240" vertical-scroll-proportion="-4.4615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corsi_edizione_mod_op.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="10" selection-start="954" selection-end="954" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corsi_edizione_nuova_op.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="801" selection-end="801" vertical-scroll-proportion="1.0769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kairos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -1,0 +1,538 @@
+<?php
+require "../include/init_sito.inc";
+require "./config_xml_lom.php";
+require "./variabili_xml_lom.php";
+function cancella_metadata($id_rep,$id_lo) {
+	global $db;
+	$query="DELETE FROM lo_metadata WHERE id_rep='$id_rep' AND id_lo='$id_lo'";
+	$result=$mysqli->query($query);
+	$query="DELETE FROM lo_metadata_valore WHERE id_rep='$id_rep'";
+	$result=$mysqli->query($query);
+	$query="SELECT * FROM lo_metadata WHERE id_rep_sup='$id_rep' AND id_lo='$id_lo'";
+	$result=$mysqli->query($query);
+	if ($result->num_rows) {
+		while ($riga=$result->fetch_array()) {
+			$id_rep=$riga[id_rep];
+			cancella_metadata($id_rep,$id_lo);
+		};
+	};
+};
+
+function mostra_lom($id_lo,$id_profile,$id_lom_sup=0,$id_rep_sup=0) {
+	global $opt_lang;
+	global $db,$mysqli;
+	global $win_ie,$opera,$mozilla,$firefox;
+	global $colore_sfondo,$colore_sfondo_neutro;
+	
+	$query="SELECT * FROM lo_schema WHERE id_lom_sup='$id_lom_sup' AND id_profile='$id_profile' ORDER BY id_lom";
+	$result=$mysqli->query($query);
+	
+	$colore=$colore_sfondo;
+	
+		while ($riga=$result->fetch_array()) {
+			$id_lom=$riga[id_lom];
+			$nome=htmlentities($riga[nome]);
+			$size=$riga[size];
+			$tipocampo=$riga[tipocampo];
+			$valuespace=$riga[valuespace];
+			$langstring=$riga[langstring];
+			$datetype=$riga[datetype];
+			$valdefault=$riga[valdefault];
+            $obbligatorio=$riga[obbligatorio];
+            $commento=$riga[commento];
+			
+			$nome=strtoupper(substr($nome,0,1)).substr($nome,1,strlen($nome));
+			
+            if ($obbligatorio) $nome="<b>".$nome."</b>";
+			
+			$query1="SELECT * FROM lo_metadata WHERE id_lom='$id_lom' AND id_lo='$id_lo' AND id_rep_sup='$id_rep_sup' ORDER BY id_rep";
+			$result1=$mysqli->query($query1);
+	
+			$icona_meno="";
+			$icona_piu="";
+			if ($result1->num_rows) {
+				while ($riga1=$result1->fetch_array()) {
+					$id_rep=$riga1[id_rep];
+					$lang=trim($riga1[lang]);
+					$valore=trim($riga1[valore]);
+					
+					$id_campo=$id_rep_sup."_".$id_rep."_".str_replace(".","-",$id_lom);
+					
+					$sezione=$id_rep_sup."_".$id_lom;
+					
+					$icona_meno="<input name=\"del\" src=\"img/ico_elimina.gif\" onclick=\"invia_azione('del','$id_campo','$sezione');\" type=\"image\">";
+
+					//$icona_meno ="<a href=\"javascript:;\" onclick=\"invia_azione('del','$id_campo','$sezione');\" onMouseOut=\"MM_swapImgRestore()\" onMouseOver=\"MM_swapImage('img_meno_$id_campo','','img/ico_elimina_over.gif',1)\"><img src=\"img/ico_elimina.gif\" width=\"17\" height=\"15\" alt=\"elimina\" border=\"0\" name=\"img_meno_$id_campo\"></a>";				
+					
+					//$icona_meno="<input name=\"del\" value=\"-\" onclick=\"invia_azione('del','$id_campo','$sezione');\" type=\"submit\">";
+		
+					if ($result1->num_rows<$size) {
+						$icona_piu="<input name=\"add\" src=\"img/ico_aggiungi.gif\" onclick=\"invia_azione('add','$id_campo','$sezione');\" type=\"image\">";
+					} else {
+						$icona_piu="";
+					};
+					
+					echo "<a name=\"$sezione\">";
+					
+					if ($id_lom_sup=='0') {
+						echo "<TR bgColor=$colore>
+						<td width=20>$id_lom</td>
+						<td>$nome $icona_piu $icona_meno ";
+						if (trim($commento)) {
+						
+							echo "[<A href=\"javascript:;\" onClick=\"popup('mostra_commento.php?id_lom=$id_lom&id_profile=$id_profile','guida',500,400,1,0);\">?</a>]";
+						};
+						echo "</td></tr>
+						<tr bgColor=$colore><td></td><td valign=top>";
+						
+					} else {
+						echo "<ul style=\"list-style-type:none\"><li>";
+						echo "$id_lom.$nome $icona_piu $icona_meno ";
+	
+						if (trim($commento)) {
+							echo "[<A href=\"javascript:;\" onClick=\"popup('mostra_commento.php?id_lom=$id_lom&id_profile=$id_profile','guida',500,400,1,0);\">?</a>]";
+						};
+					};
+					
+					
+	
+					$query2="SELECT * FROM lo_schema WHERE id_lom_sup='$id_lom'  AND id_profile='$id_profile' ORDER BY id_lom";
+					$result2=$mysqli->query($query2);
+					if ($result2->num_rows) {
+						mostra_lom($id_lo,$id_profile,$id_lom,$id_rep);
+					} else {
+						echo "<ul style=\"list-style-type:none\"><li>";
+						
+                        echo "<table border=\"0\">
+                        <tr><td valign=\"top\"> 
+                        ";
+						if ($langstring) {
+							$opzioni="";
+						
+							for ($i=0;$i<count($opt_lang);$i++) {
+								$sel="";
+								if ($lang==$opt_lang[$i]) $sel="selected";
+								$opzioni.="<option value=\"$opt_lang[$i]\" $sel>$opt_lang[$i]</option>";
+							};
+							
+							$id_campo_l=$id_campo."_lang_0";
+							
+							
+							
+							echo "<table border=\"0\">
+                        	<tr><td valign=\"top\">
+                    	    ";
+							
+							
+							echo "<select  name=\"$id_campo_l\">$opzioni</select>
+							";
+							
+							echo "</td>";
+							echo "<td valign=\"top\">";
+							switch ($tipocampo) {
+							case "text":
+								echo "<input type=\"text\" name=\"$id_campo\" value=\"$valore\" size=\"50\">";
+								break;
+							
+							case "textarea":
+								echo "<textarea cols=\"50\" rows=\"05\" name=\"$id_campo\">$valore</textarea>";
+								break;
+								
+							case "select":
+								$opzioni="";
+								$lista=explode("\n",$valuespace);
+								for ($i=0;$i<count($lista);$i++) {
+									$sel="";
+									if ($valore==$lista[$i]) $sel="selected";
+									$opzioni.="<option value=\"$lista[$i]\" $sel>$lista[$i]</option>";
+								};
+								echo "<select  name=\"$id_campo\">$opzioni</select>";
+								break;
+							};
+							echo "</td>
+							<td valign=\"top\">
+							<input name=\"addlang\" src=\"img/ico_aggiungi.gif\" onclick=\"invia_azione('addlang','$id_campo','$sezione');\" type=\"image\">
+							</td></tr></table><br>";
+							
+							$query_l="SELECT * FROM lo_metadata_valore WHERE id_rep='$id_rep' ORDER BY n";
+							$result_l=$mysqli->query($query_l);
+							$k=1;
+							while ($riga_l=$result_l->fetch_array()) {
+								$lang=trim($riga_l[lang]);
+								$valore=trim($riga_l[valore]);
+								$id_campo=$id_rep_sup."_".$id_rep."_".str_replace(".","-",$id_lom)."_".$k;
+							
+								$opzioni="";
+								for ($i=0;$i<count($opt_lang);$i++) {
+									$sel="";
+									if ($lang==$opt_lang[$i]) $sel="selected";
+									$opzioni.="<option value=\"$opt_lang[$i]\" $sel>$opt_lang[$i]</option>";
+								};
+							
+								$id_campo_l=$id_rep_sup."_".$id_rep."_".str_replace(".","-",$id_lom)."_lang_".$k;
+								
+								
+								
+								echo "<table border=\"0\">
+                        		<tr><td valign=\"top\">
+                    	    	";
+								echo "<select  name=\"$id_campo_l\">$opzioni</select>";
+							
+								echo "</td>";
+								echo "<td valign=\"top\">";
+							
+								switch ($tipocampo) {
+								case "text":
+									echo "<input type=\"text\" name=\"$id_campo\" value=\"$valore\" size=\"50\">";
+									break;
+							
+								case "textarea":
+									echo "<textarea cols=\"50\" rows=\"05\" name=\"$id_campo\">$valore</textarea>";
+									break;
+								
+								case "select":
+									$opzioni="";
+									$lista=explode("\n",$valuespace);
+									for ($i=0;$i<count($lista);$i++) {
+										$sel="";
+										if ($valore==trim($lista[$i])) $sel="selected";
+										$opzioni.="<option value=\"$lista[$i]\" $sel>$lista[$i]</option>";
+									};
+									echo "<select  name=\"$id_campo\">$opzioni</select>";
+									break;
+								};
+								echo "
+								</td>
+								<td valign=\"top\">
+								<input name=\"dellang\" src=\"img/ico_elimina.gif\" onclick=\"invia_azione('dellang','$id_campo','$sezione');\" type=\"image\"></td></tr></table><br>";
+								$k++;
+								
+							};
+							
+
+						} else {
+							
+							
+							switch ($tipocampo) {
+							case "text":
+								echo "<input type=\"text\" name=\"$id_campo\" value=\"$valore\" size=\"50\">";
+								break;
+							
+							case "textarea":
+								echo "<textarea cols=\"50\" rows=\"05\" name=\"$id_campo\">$valore</textarea>";
+								break;
+								
+							case "select":
+								$opzioni="";
+								$lista=explode("\n",$valuespace);
+								for ($i=0;$i<count($lista);$i++) {
+									$sel="";
+									if ($valore==trim($lista[$i])) $sel="selected";
+									$opzioni.="<option value=\"$lista[$i]\" $sel>$lista[$i]</option>";
+								};
+								echo "<select  name=\"$id_campo\">$opzioni</select>";
+								break;
+							};
+							
+						};	
+						echo "</td></tr></table>";
+						echo "</li></ul>";
+					}
+					if ($id_lom_sup=='0') {
+						echo "</td></tr>";
+					} else {
+						echo "</li></ul>";
+					};
+					echo "</a>\n";
+				
+				};
+			} else {
+				$id_rep=0;
+				$id_campo=$id_rep_sup."_".$id_rep."_".str_replace(".","-",$id_lom);
+				
+				$sezione=$id_rep_sup."_".$id_lom;
+				
+				$icona_meno="";
+		
+				$icona_piu="<input name=\"add\" src=\"img/ico_aggiungi.gif\" onclick=\"invia_azione('add','$id_campo','$sezione');\" type=\"image\">";
+				
+				
+				if ($id_lom_sup=='0') {
+					echo "<TR bgColor=$colore>
+					<td width=20>$id_lom</td>
+					<td>$nome $icona_piu $icona_meno ";
+					if (trim($commento)) {
+						
+						echo "[<A href=\"javascript:;\" onClick=\"popup('mostra_commento.php?id_lom=$id_lom&id_profile=$id_profile','guida',500,400,1,0);\">?</a>]";
+					};
+						echo "</td></tr>
+						<tr bgColor=$colore><td></td><td valign=top>";
+						
+					} else {
+						echo "<ul style=\"list-style-type:none\"><li>";
+						echo "$id_lom.$nome  $icona_piu $icona_meno ";
+	
+						if (trim($commento)) {
+							echo "[<A href=\"javascript:;\" onClick=\"popup('mostra_commento.php?id_lom=$id_lom&id_profile=$id_profile','guida',500,400,1,0);\">?</a>]";
+						};
+				};
+				echo "<a name=\"$sezione\">";
+	
+	
+					
+				if ($id_lom_sup=='0') {
+					echo "</td></tr>";
+				} else {
+					echo "</li></ul>";
+				};
+				echo "</a>\n";
+			};
+			if ($colore==$colore_sfondo) {
+				$colore=$colore_sfondo_neutro;
+			} else {
+				$colore=$colore_sfondo;
+			};
+		};
+		
+};
+
+$id_lo=$_REQUEST[id_lo];
+if (!$id_lo) {
+	$msg="Nessun LO";
+    Header("Location:msg.php?msg=$msg");
+    exit();
+};
+
+$query="SELECT * FROM lo WHERE id_lo='$id_lo'";
+$result=$mysqli->query($query);
+if (!$result->num_rows) {
+	$query="INSERT INTO lo SET
+	id_lo='$id_lo',
+	id_profile='lom_garamond',
+	stato='0'";
+	$mysqli->query($query);
+};
+
+$azione=$_REQUEST[azione];
+$id_campo=$_REQUEST[id_campo];
+
+
+list($id_rep_sup,$id_rep,$id_lom,$n)=split("_",$id_campo);
+$id_lom=str_replace("-",".",$id_lom);
+
+$query="SELECT * FROM lo WHERE id_lo='$id_lo'";
+$result=$mysqli->query($query);
+$riga=$result->fetch_array();
+$id_profile=$riga[id_profile];
+
+switch ($azione) {
+	case "addlang":
+	require "./registro_lo.inc";
+	
+	$val_default="03.04";
+	$query1="SELECT * FROM lo_metadata WHERE id_lom='$val_default' AND id_lo='$id_lo' ";
+	$result1=$mysqli->query($query1);
+	$riga1=$result1->fetch_array();
+	$lang=trim($riga1[valore]);
+	
+	
+	$query1="SELECT COUNT(*) AS n_istanze FROM lo_metadata_valore WHERE id_rep='$id_rep'";
+	$result1=$mysqli->query($query1);
+	$riga1=$result1->fetch_array();
+	$n_istanze=$riga1[n_istanze]+1;
+	
+	$query="INSERT INTO lo_metadata_valore SET
+		id_rep='$id_rep',
+		n='$n_istanze',
+		lang='$lang',
+		valore=''";
+		$mysqli->query($query);
+	break;
+	
+	case "dellang":
+	require "./registro_lo.inc";
+	$query1="SELECT COUNT(*) AS n_istanze FROM lo_metadata_valore WHERE id_rep='$id_rep'";
+	$result1=$mysqli->query($query1);
+	$riga1=$result1->fetch_array();
+	$n_istanze=$riga1[n_istanze]+1;
+	$query="DELETE FROM lo_metadata_valore WHERE id_rep='$id_rep' AND n='$n'";
+	$mysqli->query($query);
+	$i=1;
+	$query1="SELECT * FROM lo_metadata_valore WHERE id_rep='$id_rep' ORDER BY n";
+	$result1=$mysqli->query($query1);
+	while ($riga1=$result1->fetch_array()) {
+		$n2=$riga1[n];
+		$query2="UPDATE lo_metadata_valore SET n='$i' WHERE id_rep='$id_rep' AND n='$n2'";
+		$mysqli->query($query2);
+		$i++;
+	};
+	break;
+	
+	
+	case "add":
+	
+	require "./registro_lo.inc";
+	
+	$query1="SELECT * FROM lo_schema WHERE id_lom='$id_lom' AND id_profile='$id_profile'";
+	$result1=$mysqli->query($query1);
+	$riga1=$result1->fetch_array();
+	$size=$riga1[size];
+	$val_default=$riga1[val_default];
+	$langstring=$riga1[langstring];
+	
+	$lang="";
+	$valore="";
+	if ($val_default or $langstring) {
+		if ($langstring) $val_default="03.04";
+		$query1="SELECT * FROM lo_metadata WHERE id_lom='$val_default' AND id_lo='$id_lo' ";
+		$result1=$mysqli->query($query1);
+		$riga1=$result1->fetch_array();
+		if ($langstring) {
+			$lang=trim($riga1[valore]);
+		} else {
+			$valore=trim($riga1[valore]);
+		};
+	};
+	
+	
+	$query1="SELECT COUNT(*) AS n_istanze FROM lo_metadata WHERE id_lom='$id_lom' AND id_lo='$id_lo' AND id_rep_sup='$id_rep_sup'";
+	$result1=$mysqli->query($query1);
+	$riga1=$result1->fetch_array();
+	$n_istanze=$riga1[n_istanze];
+	
+	if ($size>$n_istanze) {
+		$query="INSERT INTO lo_metadata SET
+		id_lo='$id_lo',
+		id_profile='$id_profile',
+		id_rep_sup='$id_rep_sup',
+		lang='$lang',
+		valore='$valore',
+		id_lom='$id_lom'";
+		$mysqli->query($query);
+	};
+	break;
+	
+	case "del":
+	require "./registro_lo.inc";
+	cancella_metadata($id_rep,$id_lo);
+	break;
+	
+	case "ok":
+	require "./registro_lo.inc";
+	
+	/* controllo obbligatorietÃÂÃÂ¯ÃÂÃÂ¿ÃÂÃÂ½ */
+	$query="SELECT * FROM lo_schema WHERE obbligatorio=1  AND id_profile='$id_profile' ORDER BY id_lom";
+	$result=$mysqli->query($query);
+	$errore="";
+	while ($riga=$result->fetch_array()) {
+        $id_lom=$riga[id_lom];
+        $nome=$riga[nome];
+        $query1="SELECT * FROM lo_metadata WHERE id_lom='$id_lom' AND id_lo='$id_lo'";
+$result1=$mysqli->query($query1);
+        if (!$result1->num_rows){
+          $errore.="Manca metadato obbligatorio: $id_lom $nome<br>";
+        };
+    };
+    if ($errore) {
+        Header("Location:msg.php?msg=$errore&id_lo=$id_lo");
+        exit();
+    }
+	
+	$query="UPDATE lo SET stato='1' WHERE id_lo='$id_lo'";
+	$mysqli->query($query);
+	
+	break;
+
+	default: 
+		//echo "niente <br>";
+		break;
+};
+
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>LOM Editor</title>
+
+	<link rel="stylesheet" href="stile_lom.css.php">
+	
+<script language="javascript">
+function invia_azione(azione,id_campo,sezione) {
+	document.modulo.action="#"+sezione;
+	document.modulo.azione.value=azione;
+	document.modulo.id_campo.value=id_campo;
+	return true;
+}
+
+function popup(url,titolo,w,l,scroll,resizable){
+	var winl = (screen.width-w)/2;
+    var wint = (screen.height-l)/2;
+	window.open(url, titolo, "toolbar=no, menubar=no, status=no, titlebar=yes,scrollbars="+scroll+", resizable="+resizable+", width="+w+", height="+l+", top="+wint+", left="+winl);
+};
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+</script>
+</head>
+
+<body>
+<form action="" method="post" name="modulo" id="modulo">
+<input type="hidden" name="id_lo" value="<?php echo($id_lo);?>">
+<input type="hidden" name="azione">
+<input type="hidden" name="id_campo">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<tr>
+<td class=testonegativo height=30 valign=center bgcolor=<?php echo($colore_scuro);?>>
+<img src="img/ico_lom.gif" width="20" height="20" alt="" align=absMiddle>&nbsp;<b>Editor LOM</b></td></tr>
+<tr><td valign=top>
+<TABLE cellSpacing=1 cellPadding=1 width="100%" bgColor=#ffffff border=0>
+
+<?php
+mostra_lom($id_lo,$id_profile,"0");
+?>
+
+</table>
+<br clear="all" />
+</td></tr>
+<tr>
+<td align=center>
+<p>
+<input type="submit" value="OK" onclick="invia_azione('ok','','0');"><br><br>[<a href="esporta.php?id_lo=<?php echo $id_lo ?>&encode=IMS">Esporta IMS LOM</a>] [<a href="esporta.php?id_lo=<?php echo $id_lo ?>&encode=LOM">Esporta IEEE LTSC LOM</a>]
+</p>
+</td></tr>
+</table>
+</form>
+<hr size=1>
+<p align=center>
+LOM Editor & Metadata Generator - &copy;2005 - <a href="http://ec2-54-229-184-60.eu-west-1.compute.amazonaws.com" target="_blank">Garamond</a>
+</p>
+</body>
+</html>
+<?php
+echo "                </div>
+</div>
+</div>
+</div>
+</div>";
+?>

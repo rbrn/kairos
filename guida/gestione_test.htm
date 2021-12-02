@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>manuale</title>
+	<link rel=stylesheet type="text/css" href="stile_sito.css">
+	<script language="JavaScript1.2" src="script_utili.js"></script>
+</head>
+
+<body bgcolor=white>
+
+<p span class=titolopagina>
+Gestione Test
+</p>
+<span class=testo>
+Questa funzione � accessibile solo agli utenti di admin.<br><br>
+Per <b>creare un nuovo test</b> si clicca sul link <b>[Nuovo test]</b>.
+<br><br>
+Si compilano i seguenti campi:<br><br>
+<b>ID test</b><br>
+E' il codice identificativo con cui il test deve essere etichettato e riconosciuto nel repository. <br>
+Le regole di composizione di un identificativo sono le solite: niente spazi, niente caratteri "strani", solo lettere, numeri o il carattere "_".
+<br><br>
+<b>Titolo</b><br>
+Rappresenta il titolo del test, viene mostrato all'utente durante la compilazione e nella presentazione dei risultati.
+<br><br>
+<b>Tipo</b><br>
+Indicare <b>Verifica</b> se si vuole creare un test di verifica con elaborazione di punteggio finale e feedback. Indicare <b>Sondaggio</b> se invece il test serve per rilevare informazioni o opinioni dagli utenti a cui viene somministrato.
+<br><br>
+<b>Numero domande random</b><br>
+Applicabile solo se il test � di tipo <b>Verifica</b>.<br>
+Consente in fase di somministrazione del test di estrarre casualmente un sottoinsieme di domande dal numero totale di domande definite nel test. Ad esempio: nel test possono essere definite 50 domande. Se si indica 10 come numero domande random, ogni volta che il test viene somministrato presenter� 10 domande estratte casualmente dalle 50 presenti. Questo garantisce che utenti diversi o lo stesso utente in tempi diversi che compilano il questionario non avr� mai la stessa sequenza di domande.<br>
+Se si vogliono somministrare <b>tutte</b> le domande, lasciare il campo <b>bianco</b> o con valore <b>zero</b>.
+<br><br>
+<b>Punteggio soglia per ritenere il test superato</b><br>
+Applicabile solo se il test � di tipo <b>Verifica</b>.<br>
+Il sistema elabora automaticamente il punteggio ottenuto dall'utente e lo riferisce al punteggio massimo ottenibile. Il valore qui indicato consente al sistema di stabilire se l'utente ha o meno superato il test. Quando un utente supera un test, in corrispondenza dalla sua compilazione appare l'icona di <b>pollice su</b> <img src="img/pollice_su.gif" width="15" height="15" alt="" border="0">, altrimenti appare quella di <b>pollice verso</b> <img src="img/pollice_giu.gif" width="15" height="15" alt="" border="0">.
+<br><br>
+<hr size=1>
+I test creati vengono elencati nella tabella come nell'esempio di immagine che segue:
+<br><br>
+<img src="img/gestione_test.jpg" width="768" height="87" alt="" border="0">
+<br><br>
+Cliccando su <b>[Modifica]</b> sotto l'identificativo del test � possibile modificare le impostazioni fornite nel modulo di creazione del test (titolo, tipo, numero domande random, etc.);<br>
+Cliccando sul <b>[Risultati]</b> � possibile vedere le statistiche sulle compilazioni al momento effettuate di quel test. Da qui, cliccando  sul <b>numero delle compilazioni</b> � possibile avere in dettaglio l'elenco delle compilazioni effettuate sino a vederle singolarmente. Le statistiche sulle risposte non vengono elaborate se il test � di tipo verifica e ha impostato un numero di domande random.
+<br>
+Cliccando su <b>[Edit]</b> � possibile definire <b>nuove domande</b> per il test o modificare quelle eventualmente esistenti;
+<br>
+Cliccando su <b>[Cancella]</b> si cancella l'intero test e tutte le sue compilazioni;
+<br>
+Cliccando su <b>[Duplica]</b> � possibile creare un nuovo test ricopiandone le stesse domande. Sar� poi possibile modificarle, aggiugerle, rimuoverle da <b>[Edit]</b> corrispondente al nuovo test che apparir� in elenco.
+<br><br>
+<hr size=1>
+Abbiamo visto che cliccando su <b>Edit</b> � possibile definire le domande del test.
+<br>
+Viene presentata una tabella contenente tutte le domande create per quel test come in questo esempio:
+<br><br>
+<img src="img/gestione_domande.jpg" width="477" height="279" alt="" border="0">
+<br><br>
+Per <b>creare una nuova domanda</b> si clicca su <b>[Aggiungi domanda]</b>.
+<br>
+Si deve indicare la <b>Posizione</b> in cui vogliamo far apparire la domanda nel test (non viene considerata in caso di test di verifica ad estrazione random delle domande) specificando il corrispondente numero.<br><br>
+Quindi si indica il contenuto della domanda avendo a disposizione lo stesso editor di pagine web trattato in <b>Gestione materiali web</b>. E' possibile quindi inserire nella domanda oltre a semplice testo anche immagini, suoni, animazioni Flash, filmati, link, tabelle, etc.
+<br><br>
+Per domande di tipo <b>Scelta multipla</b> si possono indicare fino ad un massimo di 8 opzioni. 
+<br>
+Se il test � di verifica, ad ogni risposta si pu� far corrispondere il relativo punteggio. <br>
+Indicando punteggi variabili da un minimo ad un massimo si fornisce un <b>peso</b> all'errore o alla correttezza delle risposte.<br>
+E' sulla base del punteggio fornito alle risposte che si consente l'elaborazione automatica del punteggio finale.
+<br><br>
+Per test di verifica � possibile specificare un testo a commento della domanda. Questo testo viene fornito come feedback all'utente in ogni caso (indipendentemente cio� dal punteggio ottenuto).
+<br><br>
+I test di sondaggio oltre a domande a scelta multipla � possibile definire domande a risposta aperta e "file allegato". Le domande di tipo "file allegato" consentono all'utente in fase di compilazione di allegare un file dal suo computer.
+<br><br>
+Per <b>modificare</b> una domanda si clicca sul corrispondente link <b>[Modifica]</b>.
+<br><br>
+Per <b>cancellare</b> una domanda si clicca sul corrispondente link <b>[Cancella]</b>.
+</span>
+</body>
+</html>

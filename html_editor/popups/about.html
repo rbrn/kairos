@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>Info sull'editor</title>
+  <script type="text/javascript" src="popup.js"></script>
+  <script type="text/javascript">
+  
+function onOK() {
+  self.close();
+  return false;
+};
+
+</script>
+
+<style type="text/css">
+html, body {
+  background: ButtonFace;
+  color: ButtonText;
+  font: 11px Tahoma,Verdana,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body { padding: 5px; }
+table {
+  font: 11px Tahoma,Verdana,sans-serif;
+}
+select, input, button { font: 11px Tahoma,Verdana,sans-serif; }
+button { width: 70px; }
+table .label { text-align: center; }
+
+.title { background: #ddf; color: #000; font-weight: bold; font-size: 120%; padding: 3px 10px; margin-bottom: 10px;
+border-bottom: 1px solid black; letter-spacing: 2px;
+}
+
+#buttons {
+      margin-top: 1em; border-top: 1px solid #999;
+      padding: 2px; text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+<div class="title">Info sull'editor visuale</div>
+
+<table border="0" style="width: 100%;">
+  <tr>
+    <td class="label" width="100%">L'editor visuale � basato su <b>HTMLArea 3.0</b><br>
+	Copyright (c) 2002-2004, interactivetools.com, inc.
+	<br>All rights reserved.</td>
+  </tr>
+
+</table>
+
+<div id="buttons">
+  <button type="button" name="ok" onclick="return onOK();">OK</button>
+</div>
+
+</body>
+</html>

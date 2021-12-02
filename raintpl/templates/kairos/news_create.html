@@ -1,0 +1,38 @@
+<div class="panel panel-primary" style="max-width: 50%; padding-top: 30px;">
+    <div class="panel-heading">
+        <h3 class="panel-title">{$stringa[nuova_news]}</h3>
+    </div>
+    <div class="panel-body">
+        <form class="form-horizontal" action=news_crea_go.php method=post name=modulo id=modulo>
+            <input type="hidden" name="tipo_news" value="{$tipo_news}">
+            <div class="control-group">
+                <label class="control-label" for="url_label">{$stringa[titolo]}</label>
+
+                <div class="controls">
+                    <input type="text" id="url_label" placeholder="{$stringa[titolo]}" name=url_label size=60>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="url">{$stringa[url]}</label>
+
+                <div class="controls">
+                    <input maxLength=200 name=url size=60 id="url" placeholder="{$stringa[url]}">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="testo">{$stringa[testo]}</label>
+
+                <div class="controls">
+                    <textarea name="testo" class="form-control" rows="3" id="testo" placeholder={$stringa[testo]}>
+
+                    </textarea>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn">{$stringa[ok]}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>manuale</title>
+	<link rel=stylesheet type="text/css" href="stile_sito.css">
+	<script language="JavaScript1.2" src="script_utili.js"></script>
+</head>
+
+<body bgcolor=white>
+
+<p span class=titolopagina>
+Gestione Corsi
+</p>
+<span class=testo>
+Questa funzione � accessibile solo agli utenti di admin.<br><br>
+Per consentire agli utenti di registrarsi e di iscriversi ad un corso � necessario che sia prima creato un corso e che di esso esista almeno un'edizione attiva.<br>
+<br>
+E' possibile infatti erogare diverse edizioni dello stesso corso le quali possono essere simultaneamente attive.
+<br><br>
+Per <b>creare</b> un corso si clicca su <b>[Nuovo corso]</b> e si attribuisce al corso un'identificativo e una descrizione.<br><br>
+Il corso appena creato viene mostrato in elenco. In corrispondenza di esso vengono resi disponibili i link <b>[Nuova Edizione]</b>, <b>[Modifica]</b> e <b>[Cancella]</b>.
+I link <b>Modifica</b> e <b>Cancella</b> rispettivamente consentono di modificare la descrizione del corso e di cancellarlo dall'elenco.<br>
+Il link <b>[Nuova Edizione]</b> invece consente di creare per quel corso una nuova edizione in modo da consentirne l'iscrizione.
+<br><br>
+<img src="img/nuova_edizione.jpg" width="260" height="138" alt="" border="0">
+<br><br>
+E' obbligatorio specificare l'<b>identificativo</b> dell'edizione (ad esempio: edizione_1, edizione_2, etc.) e il suo <b>stato</b>. Sono invece opzionali la data di inizio e la durata.<br>
+Affinch� gli utenti possano iscriversi ad un corso � necessario che vi sia per quel corso almeno un'edizione attiva. Gli utenti, infatti, si iscrivono a <i>quella</i> edizione di <i>quel</i> corso. L'identificativo dell'edizione viene mostrato tra parentesi nell'elenco dei corsi presentato in home page o nel modulo di registrazione.
+<br><br>
+<img src="img/gestione_corsi.jpg" width="766" height="149" alt="" border="0">
+<br><br>
+Le edizioni attive di ogni corso vengono elencate in tabella. All'inizio, il numero di iscritti per una nuova edizione sar� ovviamente zero. Cliccando sul <b>numero degli iscritti</b>, si ottiene una tabella che presenta in dettaglio i gruppi a cui gli utenti possono essere associati.
+<br><br>
+<img src="img/gestione_gruppi.jpg" width="389" height="114" alt="" border="0">
+<br><br>
+E' <b>obbligatorio creare almeno un gruppo</b> per ogni edizione del corso.<br>
+Per <b>creare un gruppo</b> si clicca su <b>[Nuovo gruppo]</b> e si assegna un <b>identificativo</b>, una <b>descrizione</b> e opzionalmente l'<b>identificativo del tutor</b> che deve seguire quel gruppo.
+<br><br>
+Dalla tabella che elenca i gruppi � possibile in qualunque momento <b>modificare</b> o <b>cancellare</b> un gruppo cliccando rispettivamente sul link <b>Modifica</b> e <b>Cancella</b> del gruppo interessato.
+<br><br>
+La <b>composizione del gruppo</b> la si definisce cliccando sul <b>numero</b> degli iscritti a quel gruppo (per un gruppo nuovo all'inizio il numero sar� 0).
+<br><br>
+Viene presentata una pagina con a sinistra gli utenti che non sono stati ancora assegnati ad alcun gruppo per quella edizione del corso, a destra gli utenti che invece fanno parte di quel gruppo.<br><br>
+Puoi selezionare i nomi cliccando su di essi. Tenendo premuto il tasto <cb>Ctrl</b> della tastiera puoi selezionare pi� nomi simultaneamente. 
+Per spostare i nomi selezionati da un elenco all'altro, clicca sul pulsante <b>[>>]</b> (gli utenti vengono assegnati al gruppo) o sul pulsante <b>[<<]</b> (gli utenti vengono rimossi dal gruppo). 
+
+</span>
+</body>
+</html>

@@ -1,0 +1,1655 @@
+<TABLE borderColor=#ccccff height=375 cellSpacing=1 width=550 border=1 bordercolorlight="#000080" bordercolordark="#FFFFFF" bgcolor="#6699FF">
+
+  <TBODY>
+
+  <TR>
+
+    <TD bgColor=#6699FF colSpan=2 height=30>
+
+      <DIV align=center><FONT face="Arial Black" color="#FFFFFF">Testo dell'intervento: </FONT></DIV></TD></TR>
+
+  <TR>
+
+    <TD colSpan=2 height=58>
+
+      <TABLE id=tblCoolbar cellSpacing=0 cellPadding=0 width="100%">
+
+        <TBODY>
+
+        <TR vAlign=center>
+
+          <TD colSpan=16><SELECT 
+
+            onchange="cmdExec('fontname',this[this.selectedIndex].value);" 
+
+            name=select2> <OPTION selected>Font</OPTION> <OPTION 
+
+              value=Arial>Arial</OPTION> <OPTION value="Arial Black">Arial 
+
+              Black</OPTION> <OPTION value="Arial Narrow">Arial Narrow</OPTION> 
+
+              <OPTION value="Comic Sans MS">Comic Sans MS</OPTION> <OPTION 
+
+              value="Courier New">Courier New</OPTION> <OPTION 
+
+              value=System>System</OPTION> <OPTION value=Tahoma>Tahoma</OPTION> 
+
+              <OPTION value="Times New Roman">Times New Roman</OPTION> <OPTION 
+
+              value=Verdana>Verdana</OPTION> <OPTION 
+
+              value=Wingdings>Wingdings</OPTION></SELECT> <SELECT 
+
+            onchange="cmdExec('fontsize',this[this.selectedIndex].value);" 
+
+            name=select2> <OPTION selected>Dim</OPTION> <OPTION 
+
+              value=1>1</OPTION> <OPTION value=2>2</OPTION> <OPTION 
+
+              value=3>3</OPTION> <OPTION value=4>4</OPTION> <OPTION 
+
+              value=5>5</OPTION> <OPTION value=6>6</OPTION> <OPTION 
+
+              value=7>7</OPTION> <OPTION value=8>8</OPTION> <OPTION 
+
+              value=10>10</OPTION> <OPTION value=12>12</OPTION> <OPTION 
+
+              value=14>14</OPTION></SELECT> 
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            
+
+            <input type=hidden id=contenutomio name=contenutomio value=0>
+
+         
+
+           <INPUT id=scambio style="FONT: 8pt verdana; WIDTH: 100px" onclick=cambiastato(); type=hidden value=Testo name=scambio> 
+
+          </TD></TR>
+
+        <TR>
+
+          <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('cut')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Taglia hspace=1 src="imgs/Cut.gif" align=absMiddle 
+
+            vspace=1 width="23" height="22"> </DIV></TD>
+
+          <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('copy')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Copia hspace=1 src="imgs/Copy.gif" align=absMiddle 
+
+            vspace=1 width="23" height="22"> </DIV></TD>
+
+          <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('paste')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Incolla hspace=1 src="imgs/Paste.gif" 
+
+            align=absMiddle vspace=1 width="23" height="22"> </DIV></TD>
+
+
+
+			 <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('undo')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Undo hspace=1 src="imgs/undo.gif" 
+
+            align=absMiddle vspace=1 width="21" height="21"> </DIV></TD>
+
+
+
+			 <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('redo')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Redo hspace=1 src="imgs/redo.gif" 
+
+            align=absMiddle vspace=1 width="21" height="21"> </DIV></TD>
+
+            
+
+            
+
+            <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('bold')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Grassetto hspace=1 src="imgs/Bold.gif" 
+
+            align=absMiddle vspace=1 width="23" height="22"> </DIV>
+
+            </TD>
+
+         
+
+            <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('underline')" onmouseout=button_out(this);>
+
+              <p align="center">
+
+              <IMG 
+
+            alt=Sottolineato hspace=1 src="imgs/underline.jpg" 
+
+            align=middle vspace=1 width="15" height="15"> </DIV>
+
+            </TD>
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('italic')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Italico hspace=1 src="imgs/Italic.gif" 
+
+            align=absMiddle vspace=1 width="23" height="22"> </DIV></TD>
+
+          <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('justifyleft')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt="Giustificato sx" hspace=1 src="imgs/Left.gif" 
+
+            align=absMiddle vspace=1 width="23" height="22"> </DIV></TD>
+
+          <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('justifycenter')" onmouseout=button_out(this);>
+
+              <IMG alt=Centrato hspace=1 src="imgs/Center.gif" align=absMiddle vspace=1 width="23" height="22"> </DIV></TD>
+
+          <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('justifyright')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt="Giustificato dx" hspace=1 src="imgs/Right.gif" 
+
+            align=absMiddle vspace=1 width="23" height="22"> </DIV></TD>
+
+
+
+
+
+
+
+
+
+            <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('InsertUnorderedList')" onmouseout=button_out(this);>
+
+              <p align="center">
+
+              <IMG 
+
+            alt=Elenco hspace=1 src="imgs/elenco.jpg" 
+
+            align=middle vspace=1 width="15" height="15"> </DIV>
+
+            </TD>
+
+
+
+	    <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('InsertOrderedList')" onmouseout=button_out(this);>
+
+              <p align="center">
+
+              <IMG 
+
+            alt="Elenco numerato" hspace=1 src="imgs/elenco_numerico.jpg" 
+
+            align=middle vspace=1 width="15" height="15"> </DIV>
+
+            </TD>
+
+
+
+            <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('InsertUnorderedList')" onmouseout=button_out(this);>
+
+              <p align="center">
+
+              <IMG 
+
+            alt=Outdent  hspace=1 src="imgs/outdent.jpg" 
+
+            align=middle vspace=1 width="15" height="15"> </DIV>
+
+            </TD>
+
+
+
+            <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('Indent')" onmouseout=button_out(this);>
+
+              <p align="center">
+
+              <IMG 
+
+            alt=Indent  hspace=1 src="imgs/indent.jpg" 
+
+            align=middle vspace=1 width="15" height="15"> </DIV>
+
+            </TD>
+
+
+
+          <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('createLink')" onmouseout=button_out(this);>
+
+              <IMG 
+
+            alt=Link hspace=2 src="imgs/Link.gif" align=absMiddle 
+
+            vspace=1 width="23" height="22"> </DIV></TD>
+
+		  
+
+		  <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('superscript')" onmouseout=button_out(this);>
+
+              
+
+              <IMG 
+
+            alt="Apice" hspace=2 src="imgs/superscript.gif" 
+
+            align=middle vspace=1 width="21" height="21"> </DIV>
+
+            </TD>
+
+			
+
+			<TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="cmdExec('subscript')" onmouseout=button_out(this);>
+
+              
+
+              <IMG 
+
+            alt="Pedice" hspace=2 src="imgs/subscript.gif" 
+
+            align=middle vspace=1 width="21" height="21"> </DIV>
+
+            </TD>
+
+		  <!--
+
+		  <TD width=25>
+
+            <DIV onmouseup=button_up(this); class=cbtn 
+
+            onmousedown=button_down(this); onmouseover=button_over(this); 
+
+            onclick="InserisciImmagine()" onmouseout=button_out(this);>
+
+              
+
+              <IMG 
+
+            alt="Pedice" hspace=2 src="imgs/subscript.gif" 
+
+            align=middle vspace=1 width="21" height="21"> </DIV>
+
+            </TD>
+
+		  -->
+
+		  
+
+		  
+
+		  
+
+          <TD></TD></TR></TBODY></TABLE></TD></TR>
+
+  <TR>
+
+  
+
+    <TD width="85%" height="291"><iframe id=idContent  width=600 
+
+      height=350 ></iframe>
+
+      <DIV align=left></DIV></TD>
+
+    <TD width="15%" rowspan="2" height="272">
+
+      <TABLE id=cpick cellSpacing=0 cellPadding=0 width=74 align=center 
+
+      bgColor=#000000 border=1>
+
+        <TBODY>
+
+        <TR>
+
+		
+
+          <TD>&nbsp;</TD></TR></TBODY></TABLE>
+
+      <DIV align=center><INPUT style="FONT: 8pt verdana; WIDTH: 74px" readOnly 
+
+      size=8 value=#000000 name=colourp> 
+
+      <TABLE cellSpacing=0 cellPadding=0 width=74 bgColor=#cccccc border=1>
+
+        <TBODY>
+
+        <TR>
+
+          <TD width=12 bgColor=#ffffff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffffff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffffcc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffffcc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffff99><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffff99')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffff66><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffff66')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffff33><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffff33')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffff00><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffff00')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#ccffff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ccffff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ccffcc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ccffcc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ccff99><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ccff99')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ccff66><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ccff66')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ccff33><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ccff33')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ccff00><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ccff00')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#99ffff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#99ffff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#99ffcc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#99ffcc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#99ff99><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#99ff99')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#99ff66><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#99ff66')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#99ff33><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#99ff33')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#99ff00><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#99ff00')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#00ffff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00ffff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00ffcc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00ffcc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00ff99><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00ff99')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00ff66><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00ff66')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00ff33><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00ff33')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00ff00><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00ff00')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#ffccff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffccff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffcccc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffcccc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffcc99><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffcc99')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffcc66><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffcc66')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffcc33><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffcc33')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ffcc00><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ffcc00')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#ccccff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ccccff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cccccc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cccccc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cccc99><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cccc99')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cccc66><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cccc66')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cccc33><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cccc33')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cccc00><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cccc00')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#00ccff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00ccff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00cccc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00cccc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00cc99><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00cc99')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00cc66><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00cc66')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00cc33><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00cc33')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#00cc00><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#00cc00')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#ff99ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff99ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff99cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff99cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff9999><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff9999')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff9966><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff9966')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff9933><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff9933')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff9900><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff9900')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#cc99ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc99ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc99cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc99cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc9999><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc9999')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc9966><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc9966')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc9933><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc9933')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc9900><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc9900')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#9999ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9999ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#9999cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9999cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#999999><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#999999')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#999966><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#999966')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#999933><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#999933')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#999900><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#999900')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#6699ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6699ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#6699cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6699cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#669999><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#669999')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#669966><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#669966')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#669933><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#669933')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#669900><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#669900')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#3399ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3399ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#3399cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3399cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#339999><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#339999')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#339966><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#339966')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#339933><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#339933')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#339900><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#339900')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#0099ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0099ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#0099cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0099cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#009999><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#009999')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#009966><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#009966')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#009933><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#009933')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#009900><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#009900')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#ff66ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff66ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff66cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff66cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff6699><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff6699')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff6666><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff6666')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff6633><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff6633')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff6600><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff6600')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#cc66ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc66ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc66cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc66cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc6699><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc6699')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc6666><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc6666')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc6633><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc6633')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc6600><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc6600')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#9966ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9966ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#9966cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9966cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#996699><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#996699')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#996666><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#996666')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#996633><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#996633')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#996600><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#996600')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#6666ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6666ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#6666cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6666cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#666699><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#666699')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#666666><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#666666')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#666633><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#666633')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#666600><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#666600')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#3366ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3366ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#3366cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3366cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#336699><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#336699')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#336666><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#336666')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#336633><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#336633')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#336600><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#336600')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#0066ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0066ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#0066cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0066cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#006699><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#006699')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#006666><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#006666')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#006633><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#006633')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#006600><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#006600')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#ff33ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff33ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff33cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff33cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff3399><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff3399')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff3366><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff3366')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff3333><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff3333')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff3300><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff3300')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#cc33ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc33ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc33cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc33cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc3399><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc3399')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc3366><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc3366')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc3333><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc3333')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc3300><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc3300')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#9933ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9933ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#9933cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9933cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#993399><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#993399')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#993366><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#993366')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#993333><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#993333')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#993300><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#993300')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#6633ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6633ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#6633cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6633cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#663399><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#663399')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#663366><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#663366')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#663333><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#663333')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#663300><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#663300')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#3333ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3333ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#3333cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3333cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#333399><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#333399')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#333366><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#333366')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#333333><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#333333')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#333300><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#333300')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#0033ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0033ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#0033cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0033cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#003399><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#003399')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#003366><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#003366')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#003333><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#003333')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#003300><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#003300')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#ff00ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff00ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff00cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff00cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff0099><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff0099')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff0066><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff0066')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff0033><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff0033')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#ff0000><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#ff0000')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#cc00ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc00ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc00cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc00cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc0099><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc0099')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc0066><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc0066')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc0033><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc0033')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#cc0000><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#cc0000')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#9900ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9900ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#9900cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#9900cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#990099><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#990099')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#990066><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#990066')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#990033><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#990033')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#990000><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#990000')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#6600ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6600ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#6600cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#6600cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#660099><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#660099')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#660066><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#660066')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#660033><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#660033')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#660000><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#660000')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#3300ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3300ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#3300cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#3300cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#330099><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#330099')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#330066><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#330066')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#330033><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#330033')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#330000><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#330000')" height=8 src="" width=10 
+
+            border=0></TD></TR>
+
+        <TR>
+
+          <TD width=12 bgColor=#0000ff><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0000ff')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#0000cc><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#0000cc')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#000099><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#000099')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#000066><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#000066')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#000033><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#000033')" height=8 src="" width=10 
+
+            border=0></TD>
+
+          <TD width=12 bgColor=#000000><IMG class=clsCursor 
+
+            onclick="ColorPalette_OnClick('#000000')" height=8 src="" width=10 
+
+            border=0></TD></TR></TBODY></TABLE></DIV></TD></TR>
+
+  <tr>
+
+    <TD width="85%" height="1">
+
+   
+
+    </TD>
+
+    </tr>
+
+  </TBODY>
+
+</TABLE>
+
+<SCRIPT language=JavaScript>
+
+ idContent.document.designMode="On";
+
+</SCRIPT>

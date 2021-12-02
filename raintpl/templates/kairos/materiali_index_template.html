@@ -1,0 +1,202 @@
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="panel panel-warning">
+<div class="panel-body">
+
+<table border=0 width=100% cellspacing=10 cellpadding=0>
+<tr>
+    <td valign=top width=100% class=titolodot>{$stringa[area_admin]}</td>
+</tr>
+
+<tr>
+    <td valign=top width=100%><span
+            class=testo><b>{$stringa[gestione_contenuti]}</b></span>
+    </td>
+</tr>
+
+<tr>
+    <td valign=top width=100%>
+        <a href="index.php?risorsa=admin_index"
+           onMouseOut="MM_swapImgRestore()"
+           onMouseOver="MM_swapImage('img_back','','img/ico_back_over.gif',1)"><img border="0"
+                                                                                    src="img/ico_back.gif"
+                                                                                    width="20"
+                                                                                    height="20"
+                                                                                    align="middle"
+                                                                                    alt="{$stringa[indietro]}"
+                                                                                    name="img_back"></a> <span
+            class=testopiccolo><a href="index.php?risorsa=admin_index"
+                                  onMouseOut="MM_swapImgRestore()"
+                                  onMouseOver="MM_swapImage('img_back','','img/ico_back_over.gif',1)">{$stringa[indietro]}</a></span>
+    </td>
+</tr>
+<tr>
+    <td>
+        {if="$id_cartella_sup"}
+        <a href=index.php?risorsa=materiali_index&id_cartella={$id_cartella_sup}
+           onMouseOut="MM_swapImgRestore()"
+           onMouseOver="MM_swapImage('img_cart_sup','','img/ico_cart_sup_over.gif',1)"><img
+                src="img/ico_cart_sup.gif" width="20" height="20" alt="{$stringa[dir_superiore]}"
+                border="0" name="img_cart_sup" align="middle"></a>&nbsp;<a
+            href=index.php?risorsa=materiali_index&id_cartella={$id_cartella_sup}
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('img_cart_sup','','img/ico_cart_sup_over.gif',1)"><span
+            class=testopiccolo>{$stringa[dir_superiore]}</span></a>&nbsp;&nbsp;&nbsp;
+        {/if}
+
+        {if="$editabile and $id_cartella_sup"}
+        <a href=materiali_risorsa_form_add.php?padre={$id_cartella}&tipo=0
+           onMouseOut="MM_swapImgRestore()"
+           onMouseOver="MM_swapImage('img_nuovo_web','','img/ico_nuovo_web_over.gif',1)"><img
+                src="img/ico_nuovo_web.gif" width="20" height="20" alt="{$stringa[nuova_pagina_web]}"
+                border="0" name="img_nuovo_web" align="middle"></a>&nbsp;<a
+            href=materiali_risorsa_form_add.php?padre={$id_cartella}&tipo=0
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('img_nuovo_web','','img/ico_nuovo_web_over.gif',1)"><span
+            class=testopiccolo>{$stringa[nuova_pagina_web]}</span></a>&nbsp;&nbsp;&nbsp;
+
+        <a href=materiali_risorsa_form_add.php?padre={$id_cartella}&tipo=1
+           onMouseOut="MM_swapImgRestore()"
+           onMouseOver="MM_swapImage('img_nuovo_file','','img/ico_nuovo_file_over.gif',1)"><img
+                src="img/ico_nuovo_file.gif" width="20" height="20" alt="{$stringa[nuovo_file]}"
+                border="0" name="img_nuovo_file" align="middle"></a>&nbsp;<a
+            href=materiali_risorsa_form_add.php?padre={$id_cartella}&tipo=1
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('img_nuovo_file','','img/ico_nuovo_file_over.gif',1)"><span
+            class=testopiccolo>{$stringa[nuovo_file]}</span></a>&nbsp;&nbsp;&nbsp;
+        {/if}
+
+        {if="$editabile"}
+        <a href=materiali_risorsa_form_add.php?padre={$id_cartella}&tipo=2
+           onMouseOut="MM_swapImgRestore()"
+           onMouseOver="MM_swapImage('img_nuovo_cart','','img/ico_nuovo_cart_over.gif',1)"><img
+                src="img/ico_nuovo_cart.gif" width="20" height="20" alt="{$stringa[nuova_cartella]}"
+                border="0" name="img_nuovo_cart" align="middle"></a>&nbsp;<a
+            href=materiali_risorsa_form_add.php?padre={$id_cartella}&tipo=2
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('img_nuovo_cart','','img/ico_nuovo_cart_over.gif',1)"><span
+            class=testopiccolo>{$stringa[nuova_cartella]}</span></a>&nbsp;
+        {/if}
+
+        {if="$id_cartella_sup"}
+        <br><br><span class=testo><b>{$stringa[contenuto_cartella]}: {$path_cartella}</b></a></span>
+        {/if}
+
+    </td>
+</tr>
+
+
+<tr>
+    <td valign=top>
+
+        <table border=0 width=100%>
+            <tr>
+                <td width=80% valign=top>
+
+                </td>
+                <td valign=top width="20%">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="1"
+                           bgcolor="{$colore_scuro_neutro}">
+
+                        <tr>
+                            <td width="100%" align="center" valign="middle">
+                                <img src="img/ico_forum_utils.gif" width="20" height="20" alt=""
+                                     border="0" align="middle"><span class=testo>&nbsp;<b>{$stringa[utilities]}</b></span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <table border=0 cellpadding=5 bgcolor="{$colore_sfondo_neutro}"
+                                       width="100%">
+
+                                    <tr>
+                                        <td><a href=index.php?risorsa=test_index
+                                               onMouseOut="MM_swapImgRestore()"
+                                               onMouseOver="MM_swapImage('img_test','','img/ico_test_over.gif',1)"><img
+                                                src="img/ico_test.gif" width="20" height="20"
+                                                alt="{$stringa[gestione_test]}" border="0"
+                                                name="img_test" align="middle"></a>
+                                                                    <span class=testo><a
+                                                                            href=index.php?risorsa=test_index
+                                                                            onMouseOut="MM_swapImgRestore()"
+                                                                            onMouseOver="MM_swapImage('img_test','','img/ico_test_over.gif',1)">{$stringa[gestione_test]}</a></span>
+                                        </td>
+                                    </tr>
+
+
+                                    {if="$ruolo=='admin'"}
+                                    <tr>
+                                        <td bgcolor="$colore_scuro_neutro" height="1"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <a href="index.php?risorsa=editor_gruppi"
+                                               onMouseOut="MM_swapImgRestore()"
+                                               onMouseOver="MM_swapImage('img_nuovogruppo','','img/ico_grupponuovo_over.gif',1)"><img
+                                                    border="0" src="img/ico_grupponuovo.gif"
+                                                    width="20" height="20" align="middle"
+                                                    alt="$stringa[editor_gruppi]"
+                                                    name="img_nuovogruppo"></a> <span
+                                                class=testopiccolo><a
+                                                href="index.php?risorsa=editor_gruppi"
+                                                onMouseOut="MM_swapImgRestore()"
+                                                onMouseOver="MM_swapImage('img_nuovogruppo','','img/ico_grupponuovo_over.gif',1)">{$stringa[editor_gruppi]}</a></span>
+                                        </td>
+                                    </tr>
+
+
+                                    {/if}
+
+                                </table>
+                            </td>
+                            </td></tr>
+                    </table>
+
+                    {if="$editor_lo"}
+                    <table width="100%" border="0" cellspacing="0" cellpadding="1"
+                           bgcolor="{$colore_scuro_neutro}">
+
+                        <tr>
+                            <td width="100%" align="center" valign="middle" class="testo"
+                                height="21">
+                                <img src="img/ico_materiali_int.gif" width="15" height="16"
+                                     alt="" border="0"><span
+                                    class=titolo>&nbsp;<b>{$stringa[gestione_repository]}</b></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <table border=0 cellpadding=5 bgcolor="{$colore_sfondo_neutro}"
+                                       width="100%">
+                                    <tr>
+                                        <td align=center>
+                                            <a href="index.php?risorsa=repository_index"
+                                               onMouseOut="MM_swapImgRestore()"
+                                               onMouseOver="MM_swapImage('img_apri_4','','img/ico_apri_over.gif',1)"><img
+                                                    src="img/ico_apri.gif" width="20"
+                                                    height="20" alt="{$stringa[apri]}" border="0"
+                                                    name="img_apri_5"
+                                                    align="middle"></a>&nbsp;<a
+                                                href="index.php?risorsa=repository_index"
+                                                onMouseOut="MM_swapImgRestore()"
+                                                onMouseOver="MM_swapImage('img_apri_5','','img/ico_apri_over.gif',1)"><span
+                                                class=testopiccolo>{$stringa[apri]}</span></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                {/if}
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+</table>
+
+

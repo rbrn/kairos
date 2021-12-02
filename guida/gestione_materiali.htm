@@ -1,0 +1,313 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>manuale</title>
+	<link rel=stylesheet type="text/css" href="stile_sito.css">
+	<script language="JavaScript1.2" src="script_utili.js"></script>
+</head>
+
+<body bgcolor=white>
+
+<p span class=titolopagina>
+Gestione Materiali Web e File
+</p>
+<span class=testo>
+Questa funzione � accessibile solo agli utenti di admin.
+<br><br>
+Kairos ha un semplice ma efficace editor di contenuti corsuali.<br>
+Il materiale utilizzabile nei corsi deve essere organizzato in cartelle.<br>
+Le cartelle create al livello principale (<b>root</b>) corrispondono a moduli ovvero, se preferisci, a singoli libri.
+All'interno di ciascuna cartella possono essere create gerarchicamente ulteriori sottocartelle ed infine le singole pagine di contenuto.<br><br>
+Le cartelle interne vengono considerate da Kairos come i capitoli di un libro, quelle ancora pi� interne come paragrafi e cos� via fino alle pagine.
+<br><br>
+I materiali che crei non sono al momento riferiti ad alcun corso.<br>
+Questi vengono considerati come in un unico generale contentiore chiamato <b>repository</b>. <br>
+Userai poi la funzione <b>[Assegnazione materiali del corso]</b> per decidere quali tra tutti i materiali disponibili devono essere pubblicati per uno specifico corso.<br>
+<br>
+Per materiali si intende genericamente sia pagine di contenuto corsuale sia test. Questi ultimi vengono trattati e definiti in <b>[Gestione test]</b> il cui link si trova nella stessa pagina di <b>[Gestione Materiali]</b>.
+<br><br>
+Per creare un nuovo modulo bisogna creare dal livello principale (<b>root</b>) una nuova cartella e quindi in essa definirne i contenuti (pagine, cartelle, file).
+<br><br>
+<img src="img/gestione_materiali.jpg" width="551" height="125" alt="" border="0">
+<br><br>
+La creazione di cartelle, la definizione di pagine web, il caricamento di file si eseguono cliccando sulle rispettive icone. Queste funzioni definiscono il nuovo contenuto all'interno della cartella in cui ci si trova. <br>
+Per entrare in una cartella basta cliccare sulla icona corrispondente o sulla sua descrizione. L� si ritrovano le stesse icone per la creazione di nuovi contenuti e un link <b>[Cartella superiore]</b> che consente il ritorno al livello superiore.
+<br><br>
+Nelle immagini di esempio vedi che � stato definito un modulo di nome "A08 Dal Problema al programma", all'interno del quale sono state creati sottocartelle, pagine web e file singoli:<br><br>
+<img src="img/capitolo_interno.jpg" width="575" height="178" alt="" border="0">
+<br><br>
+La <b>creazione</b> di questi contenuti � stata fatta usando le icone corrispondenti: 
+<br><br>
+<img src="img/new_page_mat.gif" width="25" height="24" alt="" border="0"><img src="img/new_file_mat.gif" width="25" height="24" alt="" border="0"><img src="img/new_folder_mat.gif" width="25" height="24" alt="" border="0">
+<br><br>
+Il modulo assegnato ad un corso viene reso visibile nell'area <b>Materiali & Test</b>.<br>
+L'utente clicca sull'icona della cartella e quindi fruisce dei contenuti del modulo.<br>
+Kairos costruisce automaticamente l'indice del modulo, facendo corrispondere alla strutture di cartelle i capitoli/paragrafi/sottoparagrafi/etc.. e alle pagine web le effettive pagine di contenuto. Oltre all'indice, Kairos, crea le funzioni di "sfoglia-pagina" e ritorno ipertestuale.
+<br><br>
+Gli eventuali file presenti in una cartella <b>non vengono visualizzati</b> nell'indice. <br>
+Sono semplicemente contenuti nella cartella. <br>
+Dovrai essere tu ad inserire in una pagina web un <b>link per il download del file</b>, cio� un link alla risorsa file del repository. Pi� avanti vedrai come si creano tali link interni, relativi cio� a risorse contenute nei materiali.
+<br><br>
+Ecco come il modulo di esempio precedente viene mostrato all'utente quando lo consulta dall'area <b>Materiali & Test</b>:
+<br><br>
+<img src="img/esempio_modulo.jpg" width="769" height="153" alt="" border="0">
+<br><br>
+Come vedi la <b>descrizione</b> della cartella principale viene usata come <b>Titolo del modulo</b>. La prima pagina, che � una pagina web, viene mostrata e per ogni cartella sono stati creati altrettanti capitoli. Le cartelle interne corrispondono a sottocapitoli mostrabili cliccando sulla icona: <img src="img/piu.gif" width="11" height="11" alt="" border="0">.
+<br><br>
+<b>Nota bene:</b> Le cartelle, le pagine web e i file vengono ordinati alfabeticamente secondo il loro <b>identificativo</b>. <br>
+Abbi quindi cura di attribuire l'identificativo alla risorsa in modo da poterla poi vedere nell'ordine che desideri.
+<br><br>
+<hr size=1>
+Per <b>modificare</b> un contenuto (sia esso pagina web, file o cartella) si clicca sulla corrispondente icona: <img src="img/modify.gif" width="25" height="24" alt="" border="0">
+<br><br>
+Verr� presentata la stessa maschera di creazione di quel contenuto ma con i campi preassegnati da modificare.
+<br><br>
+Per <b>cancellare</b> un contenuto (sia esso pagina web, file o cartella) si clicca sulla corrispondente icona: <img src="img/delete.gif" width="25" height="24" alt="" border="0">
+<br><br>
+<hr size=1>
+Per <b>caricare un file</b> si clicca sull'icona: <img src="img/new_file_mat.gif" width="25" height="24" alt="" border="0">
+<br><br>
+Viene presentata la seguente maschera:
+<br><br>
+<img src="img/crea_file.jpg" width="692" height="344" alt="" border="0">
+<br><br>
+Dove:<br><br>
+<b>Cartella</b><br>
+Indica la cartella in cui il file verr� caricato. <br>
+Viene preassegnato di default il nome della cartella in cui ti trovavi quando hai cliccato sull'icona "crea file". E' possibile comunque cambiarlo selezionando il nome di una delle cartelle presenti.<br><br>
+<b>ID file</b><br>
+E' il codice identificativo con cui la risorsa file deve essere etichettata e riconosciuta nel repository. <br>
+Non devi confonderlo con il nome del file. Puoi caricare un file che si chiama "modulo1.doc" e assegnargli come identificativo "modulo1_file".<br>
+Le regole di composizione di un identificativo sono le solite: niente spazi, niente caratteri "strani", solo lettere, numeri o il carattere "_".
+<br><br>
+<b>File da caricare</b><br>
+Cliccando sul pulsante <b>Sfoglia...</b> devi individuare (come se volessi aprirlo) il file sul tuo computer che dovr� essere caricato nella cartella dei materiali di Kairos.
+<br>Il file non pu� essere pi� grande di 5MByte.
+<br><br>
+I campi <b>Descrizione</b> e <b>Parole chiave</b> sono opzionali e servono per agevolare le funzioni di ricerca dei materiali.
+<br><br> 
+<hr size=1>
+Per <b>creare una cartella</b> si clicca sull'icona: <img src="img/new_folder_mat.gif" width="25" height="24" alt="" border="0"><br><br>
+Viene presentata la seguente maschera:
+<br><br>
+<img src="img/crea_cartella.jpg" width="259" height="98" alt="" border="0">
+<br><br>
+Dove:<br><br>
+<b>Cartella</b><br>
+Indica la cartella in cui questa cartella verr� creata. <br>
+Viene preassegnato di default il nome della cartella in cui ti trovavi quando hai cliccato sull'icona "crea cartella". E' possibile comunque cambiarlo selezionando il nome di una delle cartelle presenti.
+<br><br>
+<b>ID Cartella</b><br>
+E' il codice identificativo con cui la cartella deve essere etichettata e riconosciuta nel repository. <br>
+Le regole di composizione di un identificativo sono le solite: niente spazi, niente caratteri "strani", solo lettere, numeri o il carattere "_".
+<br><br>
+<b>Descrizione</b><br>
+Rappresenta il titolo del modulo se la cartella � creata al livello principale (root). <br>
+Viene invece considerato come il titolo dei capitoli, paragrafi, etc. se � attribuito ad una cartella interna. 
+<br><br>
+<hr size=1>
+Per <b>creare una pagina web</b>, ovvero l'effettivo contenuto del modulo, si clicca sull'icona: <img src="img/new_page_mat.gif" width="25" height="24" alt="" border="0"><br><br>
+Viene presentata la seguente maschera:
+<br><br>
+<img src="img/crea_pagina.jpg" width="710" height="518" alt="" border="0">
+<br><br>
+Dove:<br><br>
+<b>Cartella</b><br>
+Indica la cartella in cui questa pagina web verr� creata. <br>
+Viene preassegnato di default il nome della cartella in cui ti trovavi quando hai cliccato sull'icona "crea pagina web". E' possibile comunque cambiarlo selezionando il nome di una delle cartelle presenti.
+<br><br>
+<b>ID Pagina web</b><br>
+E' il codice identificativo con cui la pagina web deve essere etichettata e riconosciuta nel repository. <br>
+Le regole di composizione di un identificativo sono le solite: niente spazi, niente caratteri "strani", solo lettere, numeri o il carattere "_".
+<br><br>
+<b>Tipo</b><br>
+Clicca su <b>Normale</b> se stai definendo una effettiva pagina web che deve essere mostrata all'utente nell'indice del modulo; <br>
+Clicca su <b>Nota</b> se stai definendo il contenuto di una nota che dovr� apparire in una finestra di pop-up richiamata da un'altra pagina web. Le pagine di tipo <b>Nota</b> non vengono mostrate automaticamente nell'indice, dovr� essere tua cura linkarle dalle pagina web, come avviene anche per i file.
+<br><br>
+<b>Titolo</b><br>
+Indica il titolo della pagina web. Viene mostrato all'utente nell'indice del modulo. Non trascurare quindi di scriverlo in modo significativo.
+<br><br>
+I campi <b>Descrizione</b> e <b>Parole chiave</b> sono opzionali e servono per agevolare le funzioni di ricerca dei materiali.
+<br><br> 
+<b>Contenuto</b><br>
+Viene mostrato l'editor che ti consente di definire il contenuto vero e proprio della pagina web. <br>
+Molte funzioni sono simili all'editor usato per creare <b>nuovi interventi del forum</b> e nel <b>chat collaborativo</b>.<br>
+Qui sono per� presenti ulteriori funzioni per l'inserimento di suoni, animazioni Flash e video. Vi sono anche differenti modalit� di inserimento di immagini e link.<br>
+Vediamo in dettaglio ogni singola funzione:<br><br>
+</span>
+
+<table border=0>
+<tr>
+<td><img src="img/Cut.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Taglia il testo correntemente selezionato</span></td>
+</tr>
+<tr>
+<td><img src="img/Copy.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Copia il testo correntemente selezionato</span></td>
+</tr>
+<tr>
+<td><img src="img/Paste.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Incolla il testo copiato</span></td>
+</tr>
+<tr>
+<td><img src="img/undo.gif" width="21" height="21" alt="" border="0"></td>
+<td><span class=testo>Annulla l'ultima azione effettuata</span></td>
+</tr>
+<tr>
+<td><img src="img/redo.gif" width="21" height="21" alt="" border="0"></td>
+<td><span class=testo>Ripristina l'azione che era stata annullata</span></td>
+</tr>
+<tr>
+<td><img src="img/Bold.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Formatta il testo selezionato in <b>grassetto</b></span></td>
+</tr>
+<tr>
+<td><img src="img/underline.jpg" width="15" height="15" alt="" border="0"></td>
+<td><span class=testo>Formatta il testo selezionato <u>sottolineato</u></span></td>
+</tr>
+<tr>
+<td><img src="img/Italic.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Formatta il testo selezionato in <i>corsivo</i></span></td>
+</tr>
+<tr>
+<td><img src="img/Left.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Allinea il testo selezionato a sinistra</span></td>
+</tr>
+<tr>
+<td><img src="img/Center.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Allinea il testo selezionato al centro</span></td>
+</tr>
+<tr>
+<td><img src="img/Right.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Allinea il testo selezionato a destra</span></td>
+</tr>
+<tr>
+<td valign=top><img src="img/elenco.jpg" width="22" height="19" alt="" border="0"></td>
+<td><span class=testo>Trasforma il testo selezionato in un elenco puntato. <br>Ogni riga andata a capo viene preceduta da un pallino e allineata alle altre righe dell'elenco.</span></td>
+</tr>
+<tr>
+<td valign=top><img src="img/elenco_numerico.jpg" width="15" height="15" alt="" border="0"></td>
+<td><span class=testo>Trasforma il testo selezionato in un elenco numerato. <br>Ogni riga andata a capo viene preceduta da un numero corrispondente alla propria posizione rispetto alle altre righe dell'elenco a cui � allineata.</span></td>
+</tr>
+<tr>
+<td valign=top><img src="img/indent.jpg" width="21" height="19" alt="" border="0"></td>
+<td><span class=testo>Rientra il testo selezionato di una tabulazione</span></td>
+</tr>
+<tr>
+<td valign=top><img src="img/outdent.jpg" width="21" height="19" alt="" border="0"></td>
+<td><span class=testo>Annulla il rientro del testo selezionato di una tabulazione</span></td>
+</tr>
+<tr><td colspan=2><hr size=1></td></tr>
+<tr>
+<td valign=top><img src="img/Link.gif" width="23" height="22" alt="" border="0"></td>
+<td><span class=testo>Definisce sul testo selezionato un link. I parametri del link devono essere impostati da una seconda finestra che viene aperta: 
+<br>
+<img src="img/crea_link.jpg" width="505" height="244" alt="" border="0">
+<br><br>
+Dove:<br><br>
+<b>URL</b><br>
+� l'indirizzo, completo di "http://" della pagina web che si vuole linkare. Si deve specificare l'URL solo se la pagina linkata non � una risorsa definita in materiali. In quest'ultimo caso, invece, � da preferirsi la specifica del solo identificativo della risorsa (nel campo che segue).
+<br><br>
+<b>ID risorsa</b><br>
+in caso di link "interni", cio� a pagine web normali, pagine web di tipo nota o a file, � sufficiente lasciare in bianco il campo URL e specificare qui invece il solo identificativo attribuito alla risosa. La risorsa pu� anche essere un file. In questo caso l'utente che cliccher� sul link potr� scaricarsi il relativo file. Quando si crea un link verso un file � bene specificare accanto al link anche il tipo di file e la sua dimensione. Ad esempio: file zip - 4MByte.<br>
+In questo modo si informa l'utente che quel link fa scaricare un file e lui puo' se vale o meno la pena cliccare in quel momento sul link per avviare il download del file.
+<br><br>
+<b>Tipo</b><br>
+Indicare <b>Nota</b> se si sta linkando una pagina di tipo nota, la quale verr� mostrata su un'altra finestra senza strumenti di navigazione (finestra "pop-up"). Altrimenti lasciare "Normale".
+<br><br>
+<b>Larghezza finestra</b><br>
+Si applica solo se si � scelto link di tipo "<b>Nota</b>". Indica la larghezza della finestra di "pop-up" in cui verr� visualizzata la pagina.
+<br><br>
+<b>Altezza finestra</b><br>
+Si applica solo se si � scelto link di tipo "<b>Nota</b>". Indica l'altezza della finestra di "pop-up" in cui verr� visualizzata la pagina.
+<br><br>
+<b>Apro il link</b><br>
+Si applica solo se si � scelto link di tipo "<b>Normale</b>". Selezionare "in un'altra finestra" se si vuole che la pagina linkata venga mostrata in un'altra finestra del browser (utile nel caso si sta linkando una risorsa esterna al sito).
+<br><br>
+Il testo trasformato in link viene mostrato di colore blu e sottolineato. Per provare il link � necessario inviare l'intervento e quindi leggerlo. Non � possibile modificare un link, ma � possibile cancellarlo come si fa normalmente con qualunque testo: si seleziona e si preme il tasto di cancellazione sulla tastiera.</span></td>
+</tr>
+<tr><td colspan=2><hr size=1></td></tr>
+<tr>
+<td valign=top><img src="img/Img.gif" width="21" height="21" alt="" border="0"></td>
+<td><span class=testo>Inserisce nella posizione in cui si trova il cursore un'<b>immagine</b>. <br>Appare la seguente finestra:<br>
+<img src="img/inserisci_immagine.jpg" width="360" height="408" alt="" border="0">
+<br><br>
+E' necessario scrivere nel campo l'indirizzo (completo di http://) di un'immagine presente sul web. E' possibile <b>caricare una nuova immagine sul server</b> cliccando su <b>[Elenco immagini caricate]</b>
+<br>Viene mostrata un'altra finestra in cui sono elencate le immagini eventualmente gi� presenti e da cui � possibile caricare una nuova immagine.<br>
+<img src="img/seleziona_immagine.jpg" width="389" height="286" alt="" border="0">
+<br><br>
+Per <b>caricare una nuova immagine</b> si deve cliccare sul pulsante <img src="img/new_file_mat.gif" width="25" height="24" alt="" border="0"> e quindi selezionare il file dell'immagine che si trova sul proprio computer. Si conferma il caricamento cliccando sul pulsante <b>Carica</b>. <br>
+Se tutto � andato bene l'immagine viene elencata insieme alle altre. 
+<br>
+E' possibile organizzare le immagini in cartelle.<br>
+Per <b>creare una nuova cartella</b> si clicca sul pulsante <img src="img/new_folder_mat.gif" width="25" height="24" alt="" border="0">.<br><br>
+Per <b>cancellare</b> immagini o cartelle, si selezionano gli elementi e si clicca sul pulsante <b>Cancella elementi selezionati</b>.
+<br><br>
+Per <b>inserire un'immagine presente in elenco</b>, si deve cliccare sul link <b>[Inserisci]</b> corrispondente all'immagine. Questo dovrebbe chiudere la finestra che elenca le immagini e dovreste trovare nella finestra di inserimento delle immagini l'indirizzo precompilato. A questo punto si deve premere il pulsante <b>Inserisci</b> per trovare l'immagine inserita nell'editor. <br><br>
+In alcuni browser il link <b>[Inserisci]</b> non funziona come descritto. In questo caso si deve cliccare sul link <b>[Copia indirizzo]</b>, quindi cliccare sul campo di inserimento immagine e sul pulsante <b>Incolla</b>. A questo punto si pu� premere sul pulsante <b>Inserisci</b> per vedere l'immagine inserita nell'intervento.
+</span></td>
+</tr>
+<tr><td colspan=2><hr size=1></td></tr>
+<tr>
+<td valign=top><img src="img/suono.gif" width="19" height="18" alt="" border="0"></td>
+<td><span class=testo>Inserisce nella posizione in cui si trova il cursore il <b>link ad un suono</b>. <br>Appare la seguente finestra:<br>
+<img src="img/inserisci_suono.jpg" width="479" height="173" alt="" border="0">
+<br><br>
+E' necessario scrivere nel campo l'indirizzo (completo di http://) di un file sonoror presente sul web. E' possibile <b>caricare un nuovo file sul server</b> cliccando su <b>[Elenco suoni caricati]</b>
+<br>Viene mostrata un'altra finestra in cui sono elencati i file eventualmente gi� presenti e da cui � possibile caricarne uno nuovo.<br>
+Il funzionamento di caricamento dei file e la loro organizzazione in cartella � identico a quanto descritto per le immagini.
+</span></td>
+</tr>
+<tr><td colspan=2><hr size=1></td></tr>
+<tr>
+<td valign=top><img src="img/flash.gif" width="25" height="25" alt="" border="0"></td>
+<td><span class=testo>Inserisce nella posizione in cui si trova il cursore un'<b>animazione Flash</b>. <br>Appare la seguente finestra:<br>
+<img src="img/inserisci_flash.jpg" width="484" height="217" alt="" border="0">
+<br><br>
+E' necessario scrivere nel campo l'indirizzo (completo di http://) di un file flash presente sul web. 
+<br><br>
+<b>Larghezza</b> e <b>Altezza</b> devono essere rispettivamente la larghezza e l'altezza del riquadro in cui deve verr� visualizzata l'animazione Flash. 
+<br><br>
+E' possibile <b>caricare un nuovo file sul server</b> cliccando su <b>[Elenco file flash caricati]</b>
+<br>Viene mostrata un'altra finestra in cui sono elencati i file eventualmente gi� presenti e da cui � possibile caricarne uno nuovo.<br>
+Il funzionamento di caricamento dei file e la loro organizzazione in cartella � identico a quanto descritto per le immagini.
+</span></td>
+</tr>
+<tr><td colspan=2><hr size=1></td></tr>
+<tr>
+<td valign=top><img src="img/video.gif" width="26" height="22" alt="" border="0"></td>
+<td><span class=testo>Inserisce nella posizione in cui si trova il cursore un <b>filmato</b>. <br>Appare la seguente finestra:<br>
+<img src="img/inserisci_video.jpg" width="478" height="221" alt="" border="0">
+<br><br>
+E' necessario scrivere nel campo l'indirizzo (completo di http://) di un file video presente sul web. 
+<br><br>
+<b>Larghezza</b> e <b>Altezza</b> devono essere rispettivamente la larghezza e l'altezza del riquadro in cui deve verr� visualizzato il filmato. 
+<br><br>
+E' possibile <b>caricare un nuovo file sul server</b> cliccando su <b>[Elenco file video caricati]</b>
+<br>Viene mostrata un'altra finestra in cui sono elencati i file eventualmente gi� presenti e da cui � possibile caricarne uno nuovo.<br>
+Il funzionamento di caricamento dei file e la loro organizzazione in cartella � identico a quanto descritto per le immagini.
+</span></td>
+</tr>
+<tr><td colspan=2><hr size=1></td></tr>
+<tr>
+<td valign=top><img src="img/tabella.gif" width="18" height="15" alt="" border="0"></td>
+<td><span class=testo>Inserisce nella posizione in cui si trova il cursore una tabella. <br>Appare la seguente finestra:<br>
+<img src="img/inserisci_tabella.jpg" width="510" height="529" alt="" border="0">
+<br><br>
+Impostando i rispettivi parametri della tabella � possibile scegliere il numero di righe, di colonne, il colore di sfondo, etc. <br><br>
+Per confermare l'inserimento della tabella si clicca sul pulsante <b>Inserisci tabella</b>. <br><br>
+Il contenuto della tabella inserita nel testo dell'intervento � modificabile cliccando all'interno delle celle.
+</span></td>
+</tr>
+</table>
+<br><br>
+<span class=testo>
+La <b>Tavolozza dei colori</b> consente di assegnare il colore al testo o allo sfondo della porzione selezionata, rispettivamente se il pallino si trova sul primo rettangolo o sul secondo:<br>
+<img src="img/tavolozza.jpg" width="131" height="105" alt="" border="0">
+<br><br>
+<b>Nota bene:</b> gli strumenti di editing del contenuto sono disponibili solo se si sta usando <b>Microsoft Internet Explorer</b>. Con altri browser si ottiene solo un semplice campo in cui poter scrivere il testo. In questo caso � comunque possibile inserire il testo in codice HTML per ottenere lo stesso risultato. 
+</span>
+
+</body>
+</html>

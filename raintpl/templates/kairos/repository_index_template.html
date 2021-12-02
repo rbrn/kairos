@@ -1,0 +1,127 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-12">
+
+            <h4>{$stringa[gestione_repository]}</h4>
+
+            <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+                <div class="btn-group">
+                    <a href="javascript:history.back()">
+                        <span class="icon-stack">
+                           <i class="icon-circle icon-stack-base"></i>
+                            <i class="icon-arrow-left icon-light"></i>
+                        </span>
+                        {$stringa[indietro]}
+                    </a>
+                    {if="$id_cartella_sup"}
+                    <a href=index.php?risorsa=repository_index&id_cartella={$id_cartella_sup}>
+                        <span class="icon-stack">
+                          <i class="icon-circle icon-stack-base"></i>
+                          <i class="icon-folder-close icon-light"></i>
+                        </span>
+                        {$stringa[dir_superiore]}
+                    </a>
+                    {/if}
+
+
+
+                        <a href=index.php?risorsa=lo_cerca>
+                            <span class="icon-stack">
+                              <i class="icon-circle icon-stack-base"></i>
+                              <i class="icon-search icon-light"></i>
+                            </span>
+                           {$stringa[cerca_materiali]}
+                        </a>
+
+                        {if="$editabile"}
+                        {if="!$id_cartella_sup"}
+                        <a href=repository_risorsa_form_add.php?padre={$id_cartella}&tipo=20>
+                            <span class="icon-stack">
+                              <i class="icon-circle icon-stack-base"></i>
+                              <i class="icon-folder-close icon-light"></i>
+                            </span>
+                            {$stringa[nuovo_lo]}
+                        </a>
+
+                        <a href=index.php?risorsa=lo_sco_importa&padre={$id_cartella}>
+                            <span class="icon-stack">
+                              <i class="icon-circle icon-stack-base"></i>
+                              <i class="glyphicon-import icon-light"></i>
+                            </span>
+                            {$stringa[importa_lo]}
+                        </a>
+
+                        {else}
+                        <a href=repository_risorsa_form_add.php?padre={$id_cartella}&tipo=20>
+                            <span class="icon-stack">
+                              <i class="icon-circle icon-stack-base"></i>
+                              <i class="icon-folder-open icon-light"></i>
+                            </span>{$stringa[nuova_cartella]}
+
+                        </a>
+                        {/if}
+                        {/if}
+
+
+                    {if="$editabile && $id_cartella_sup"}
+                    <a href=repository_risorsa_form_add.php?padre={$id_cartella}&tipo=200>
+                        <span class="icon-stack">
+                          <i class="icon-circle icon-stack-base"></i>
+                          <i class="icon-book  icon-light"></i>
+                        </span>
+                        {$stringa[nuova_pagina_web]}
+                    </a>
+                    <a href=repository_risorsa_form_add.php?padre={$id_cartella}&tipo=201>
+                        <span class="icon-stack">
+                          <i class="icon-circle icon-stack-base"></i>
+                          <i class="icon-check icon-light"></i>
+                        </span>
+                        {$stringa[nuovo_quiz]}
+                    </a>
+                    {/if}
+
+                    {if="$kairos_cookie_copia_item and $editabile and $id_cartella_sup"}
+                            <span class="testopiccolo">Incolla qui la domanda: [<a
+                                    href="lo_test_item_incolla.php?id_item={$kairos_cookie_copia_item}&id_cartella={$id_cartella}&op=ok">OK</a>] [<a
+                                    href="lo_test_item_incolla.php?id_item={$kairos_cookie_copia_item}&id_cartella={$id_cartella}&op=annulla">Annulla</a>]
+                                </span>
+                    {/if}
+                </div>
+                <!-- button group -->
+
+
+                <div class="btn-group dropdown pull-right">
+                    <button class="btn dropdown-toggle" data-toggle="dropdown" style="margin-bottom:5px">
+                        <i class="icon-cog"></i>
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            {if="$ruolo=='admin'"}
+                            <a href="javascript:;"
+                               title="edit metadata application profile"
+                               onclick="javascript:apri_scheda('lom/editorprofile/index.php',
+                                       'myRemoteUtente',
+                                       'height=550,width=700,alwaysLowered=0,alwaysRaised=0,channelmode=0,dependent=0,directories=0,fullscreen=0,hotkeys=1,location=0,menubar=0,resizable=1,scrollbars=1,status=0,titlebar=1,toolbar=0,z-lock=0','myWindowUtente');"
+                                    >LOM PROFILE</a>
+                        </li>
+                        {/if}
+
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="panel panel-warning">
+
+
+                <div class="panel-body">
+
+
+
+
+
+

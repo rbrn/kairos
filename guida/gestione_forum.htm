@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>manuale</title>
+	<link rel=stylesheet type="text/css" href="stile_sito.css">
+	<script language="JavaScript1.2" src="script_utili.js"></script>
+</head>
+
+<body bgcolor=white>
+
+<p span class=titolopagina>
+Gestione Forum
+</p>
+<span class=testo>
+Questa funzione � accessibile solo agli utenti di staff e admin.<br><br>
+
+Viene presentato l'elenco dei forum esistenti, sia quelli generali che quelli dell'eventuale corso che � stato selezionato dalla home page.<br>
+Se non � impostato il contesto di alcun corso, vengono mostrati solo i forum generali.<br><br> 
+In corrispondenza di ogni forum � disponibile il link <b>Modifica</b> che consente di <b>modificarne</b> le propriet�.<br>
+Se il forum non ha interventi allora ne � anche consentita la <b>cancellazione</b> con il link <b>Cancella</b>.<br>
+Se il forum ha interventi e lo si vuole cancellare, � necessario prima cancellare i singoli interventi (lo si pu� fare dall'ambiente consueto di consultazione degli interventi dei forum).
+<br><br>
+Per creare un nuovo forum basta cliccare su <b>[Nuovo Forum]</b>.
+<br><br>
+Per ogni forum � necessario specificare le seguenti propriet� (che si compilano dalla scheda di creazione/modifica):<br><br>
+
+<b>Identificativo</b><br>
+� un codice univoco interno di riconoscimento del forum. Non � 
+generalmente noto all'utente e non lo si deve confondere con la 
+descrizione.<br>  
+Gli identificativi non devono contenere spazi o caratteri diversi da lettere 
+e numeri.<br>
+L'identificativo non deve iniziare con un numero.<br>
+E' consigliabile inoltre i usare sempre lettere minuscole.<br>
+<br>
+Esempi di identificativi validi:<br>
+generale<br>
+generale_corso<br>
+modulo01<br>
+modulo02<br>
+<br><br>
+Esempi di identificativi non validi:<br>
+Forum Generale<br>
+Modulo 01<br>
+1Modulo<br>
+<br><br>
+<b>Posizione:</b><br>
+� un numero che indica l'ordine in cui deve apparire il forum nell'elenco 
+del riquadro dei forum dello stesso tipo.<br>
+Indicando 0 (zero), il forum apparir� in testa all'elenco, indicando 1 (uno) apparir� in seconda posizione, etc. <br>
+Se ci sono due forum con lo stesso numero di posizione, viene applicato l'ordine alfabetico sull'identificativo. <br>
+Se ad esempio ci sono due forum con posizione 0, e con identificativo rispettivamente "intervallo" e "generale", viene mostrato prima il forum "generale" e poi "intervallo".
+<br><br>
+<b>Descrizione:</b>
+<br>� l'etichetta del forum, quella che appare all'utente nel riquadro 
+dell'ambiente Forum.<br>
+Pu� contenere un qualunque testo, anche su pi� righe senza alcuna limitazione di caratteri.
+<br><br>
+<b>Tipo:</b>
+Indica il tipo di forum e quindi il riquadro in cui quel forum verr� reso 
+disponibile e la sua politica di accesso. <br>
+</span>
+<ul>			
+<li><span class=testo><b>Generale</b><br>
+il forum � accessibile da tutti gli utenti registrati alla piattaforma indipendentemente dal corso selezionato e ai corsi a cui sono iscritti.</span></li>
+<li><span class=testo><b>Corso</b><br>	
+il forum � accessibile solo agli iscritti al corso attualmente selezionato (la selezione del corso � indicata in alto sotto la barra del men� e la si effettua dalla home page)</span></li>
+<li><span class=testo><b>Laboratorio</b><br>	
+il forum non � visibile nell'ambiente <b>Forum</b> ma in 
+<b>Laboratori</b> ed accessibile solo agli iscritti al corso attualmente selezionato
+</span></li>
+<li><span class=testo><b>Staff</b><br>
+il forum � visibile solo agli utenti staff/admin dell'area, indipendentemente dal corso selezionato</span></li>
+</ul>
+<br>
+<span class=testo>
+<b>Gruppo</b><br>
+se si � indicato come tipo di forum: "Corso" o "laboratorio" � possibile specificare anche l'eventuale gruppo a cui quel forum deve essere dedicato. Lasciando "qualunque", il forum � accessibile a tutti gli iscritti al corso. Selezionando invece un gruppo, il forum sar� accessibile solo agli utenti iscritti al corso e assegnati a quel gruppo.
+<br><br>
+<b>File allegati:</b><br>
+Cliccare su <b>S�</b> se si vuole consentire l'aggiunta di allegati agli interventi nel forum, <b>No</b> altrimenti.
+<br><br>
+Un forum creato � possibile modificarlo in tutte le sue propriet� (tranne l'identificativo) in qualsiasi momento, anche se contiene interventi. 
+</span>
+</body>
+</html>

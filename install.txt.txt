@@ -1,0 +1,18 @@
+
+
+Requisiti Installazione
+
+   - LAMP Apache Server
+     - PHP 4+
+     - MYSQL 5
+     - APACHE
+
+Installazione   
+
+ -  creare database kairos_demo
+ -  creare utente mysql "demo_user" con password "demo_user"  
+ -  import sql batch dump da install/kairos_demo.sql
+ -  copiare la cartella kairos nella root del server (/var/www/html/)
+	alternativa editare include/init_sito.inc con il percorso dell'installazione nelle variabili KAIROS_PATH e KAIROS_PATH_ARCHIVI
+ -  lanciare browser http://localhost/kairos 
+ -  login usando utente: demo, password: demo

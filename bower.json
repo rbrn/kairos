@@ -1,0 +1,15 @@
+{
+  "name": "kairos",
+  "version": "1.0.0",
+  "description": "elearning framework",
+  "main": "index.php",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-3C807D89-A54E-0ECA-BD2B-684E3078FE1C" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG_lo_46112d71be430">
+    <organization identifier="ORG_lo_46112d71be430" structure="hierarchical">
+      <title>Indice corso</title>
+      <item identifier="ITEM_lo_46112d71be430" isvisible="true" identifierref="RES_lo_46112d71be430">
+        <title>Che cos'è una relazione</title>
+      </item>
+	  <metadata>
+         <schema>ADL SCORM</schema>
+         <schemaversion>1.2</schemaversion>
+         <adlcp:location>lom.xml</adlcp:location>
+      </metadata>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES_lo_46112d71be430" type="webcontent" adlcp:scormtype="asset" href="start.htm">
+      <file href="start.htm" />
+    </resource>
+  </resources>
+</manifest>
+

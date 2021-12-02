@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+	<title>Crea Link</title>
+
+</head>
+
+
+
+<body>
+
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+<B>Crea Link</B></font><BR>
+
+<FORM NAME="form1">
+
+  <TABLE>
+
+    <TR> 
+
+      <TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">URL:</font></TD>
+
+      <TD> 
+
+        <INPUT TYPE="text" NAME="url" VALUE="http://" SIZE="50">
+
+      </TD>
+
+    </TR>
+
+	<TR> 
+
+      <TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">ID Risorsa:</font></TD>
+
+      <TD> 
+
+        <INPUT TYPE="text" NAME="risorsa" VALUE="" SIZE="50">
+
+      </TD>
+
+    </TR>
+
+    <TR> 
+
+      <TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Tipo:</font></TD>
+
+      <TD> 
+
+        <INPUT TYPE="radio" NAME="tipo" VALUE="normale" checked>normale
+
+		<INPUT TYPE="radio" NAME="tipo" VALUE="popup">popup
+
+      </TD>
+
+    </TR>
+
+	
+
+    <TR> 
+
+      <TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Larghezza finestra:</font></TD>
+
+      <TD> 
+
+       <INPUT TYPE="text" NAME="x" VALUE="500" SIZE="20">
+
+      </TD>
+
+    </TR>
+
+	
+
+	<TR> 
+
+      <TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Altezza finestra:</font></TD>
+
+      <TD> 
+
+       <INPUT TYPE="text" NAME="y" VALUE="500" SIZE="20">
+
+      </TD>
+
+    </TR>
+
+	
+
+    <TR> 
+
+      <TD ALIGN="RIGHT" VALIGN="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Apro il link:</font></TD>
+
+      <TD> 
+
+	  <INPUT TYPE="radio" NAME="mio_target" VALUE="_top" checked>nella stessa finestra<br>
+
+        <INPUT TYPE="radio" NAME="mio_target" VALUE="_blank">in un'altra finestra<br>
+
+     </TD>
+
+    </TR>
+
+    
+
+  </TABLE>
+
+
+
+<BR>
+
+<CENTER>
+
+<INPUT TYPE="submit" NAME="submit" VALUE="Crea Link" 
+
+	onclick="window.opener.InsertLink(form1.url.value,form1.risorsa.value, form1.tipo[0].checked,form1.tipo[1].checked, form1.x.value, form1.y.value, form1.mio_target[0].checked,form1.mio_target[1].checked); window.close();  window.opener.idContent.focus(); ">
+
+<INPUT TYPE="button" NAME="cancel" VALUE="Annulla" onclick="window.close()">
+
+</center></FORM>
+
+
+
+
+
+</body>
+
+</html>
+

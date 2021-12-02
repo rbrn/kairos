@@ -1,0 +1,2892 @@
+<?xml version="1.0"?>
+<manifest identifier="master_el_2004_01_Manifest" version="1.0"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+   
+   <metadata/>
+
+<!-- ***************************** -->
+<!-- STRUTTURA DEL LEARNING OBJECT -->
+<!-- ***************************** -->
+<organizations default="master_el_2004_01_1">
+	<organization identifier="master_el_2004_01_1">
+		<title>Master  E-Learning</title>
+<item identifier="master_el_mod0" identifierref="sco_master_el_mod0" isvisible="true">
+            <title>Didattica, scuola e formazione in rete</title> 
+	 		</item>
+		<item identifier="materiali_master_el_mod1" identifierref="sco_materiali_master_el_mod1" isvisible="true">
+            <title>Tecnologie della formazione in rete</title> 
+	 		</item>
+		<item identifier="materiali_master_el_mod2" identifierref="sco_materiali_master_el_mod2" isvisible="true">
+            <title>Progettazione di un corso di formazione in rete</title> 
+	 		</item>
+		<item identifier="materiali_master_el_mod3" identifierref="sco_materiali_master_el_mod3" isvisible="true">
+            <title>Principi di comunicazione online</title> 
+	 		</item>
+		<item identifier="materiali_master_el_mod4" identifierref="sco_materiali_master_el_mod4" isvisible="true">
+            <title>Metodologie di didattica in rete</title> 
+	 		</item>
+		<item identifier="materiali_master_el_mod5" identifierref="sco_materiali_master_el_mod5" isvisible="true">
+            <title>Sviluppo di contenuti</title> 
+	 		</item>
+		<item identifier="materiali_master_el_mod7" identifierref="sco_materiali_master_el_mod7" isvisible="true">
+            <title>Comunita' di pratiche e Knowledge Management</title> 
+	 		</item>
+		<item identifier="falby" identifierref="sco_falby" isvisible="true">
+            <title>Guest Speaker: Francesca Alby</title> 
+	 		</item>
+		<item identifier="mr_001" identifierref="sco_mr_001" isvisible="true">
+            <title>Guest Speaker: Mario Rotta</title> 
+	 		</item>
+		<item identifier="vdeplano" identifierref="sco_vdeplano" isvisible="true">
+            <title>Guest Speaker: Vindice Deplano</title> 
+	 		</item>
+		
+	</organization>
+</organizations>
+
+<!-- ********************* -->
+<!-- DEFINIZIONE DEGLI SCO -->	
+<!-- ********************* -->
+<resources>
+	
+	<resource identifier="sco_master_el_mod0" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_master_el_mod0.htm">
+	
+		<file href="risorse/sco_master_el_mod0.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+				
+		<dependency identifierref="master_el_mod0_u1_p1" />
+					
+
+		<dependency identifierref="master_el_mod0_u1_p2" />
+					
+
+		<dependency identifierref="master_el_mod0_u1_p3" />
+					
+
+		<dependency identifierref="master_mod00_pdf" />
+			
+		
+		<dependency identifierref="master_el_mod0_u2_p1" />
+					
+
+		<dependency identifierref="master_el_mod_u2_p2" />
+					
+
+		<dependency identifierref="master_el_mod0_u2_p3" />
+					
+
+		<dependency identifierref="master_el_mod0_u2_p4" />
+					
+
+		
+		<dependency identifierref="master_el_mod0_u3_p1" />
+					
+
+		<dependency identifierref="master_el_mod0_u3_p2" />
+					
+
+		<dependency identifierref="master_el_mod0_u3_p3" />
+					
+
+		<dependency identifierref="master_el_mod0_u3_p4" />
+					
+
+		
+		<dependency identifierref="master_el_mod0_u4_p1" />
+					
+
+		<dependency identifierref="master_el_mod0_u4_p2" />
+					
+
+		<dependency identifierref="master_el_mod0_u4_p3" />
+					
+
+		<dependency identifierref="master_el_mod0_u4_p4" />
+					
+
+		
+		<dependency identifierref="master_el_mod0_u5_p1" />
+					
+
+		<dependency identifierref="master_el_mod0_u5_p2" />
+					
+
+		<dependency identifierref="master_el_mod0_u5_p3" />
+					
+
+		
+		<dependency identifierref="master_el_mod0_u7_p1" />
+					
+
+		<dependency identifierref="master_el_mod0_u7_p2" />
+					
+
+		
+		<dependency identifierref="master_el_mod0_u8_p1" />
+					
+
+		<dependency identifierref="master_el_mod0_u8_p2" />
+					
+
+		<dependency identifierref="master_el_mod0_u8_p3" />
+					
+
+
+	</resource>
+		
+	<resource identifier="sco_materiali_master_el_mod1" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_materiali_master_el_mod1.htm">
+	
+		<file href="risorse/sco_materiali_master_el_mod1.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+				
+		<dependency identifierref="materiali_master_el_mod1_u1_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u1_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u1_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u1_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u1_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod_u1_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u1_p7" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u1_p8" />
+					
+
+		<dependency identifierref="master_mod01" />
+			
+		
+		<dependency identifierref="materiali_master_el_mod1_u2_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u2_analisi_comparativa" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u2_p3" />
+					
+
+		<dependency identifierref="griglia_valutazione_piattaforme" />
+			
+		<dependency identifierref="griglia_kairos" />
+			
+		<dependency identifierref="eifel_pdf" />
+			
+		<dependency identifierref="kairos_demoflash_1" />
+					
+		<dependency identifierref="kairos_swf" />
+			
+
+		<dependency identifierref="kairos_demoflash2" />
+					
+		<dependency identifierref="kairos2_swf" />
+			
+
+		
+		<dependency identifierref="materiali_master_el_mod1_u3_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u3_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u3_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u3_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u3_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u3_p6" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod1_u4_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod1_u4_p2" />
+					
+
+
+	</resource>
+		
+	<resource identifier="sco_materiali_master_el_mod2" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_materiali_master_el_mod2.htm">
+	
+		<file href="risorse/sco_materiali_master_el_mod2.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+				
+		<dependency identifierref="materiali_master_el_mod2_u1_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u1_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u1_p2" />
+					
+		<dependency identifierref="id_merrill_2_swf" />
+			
+
+		<dependency identifierref="materiali_master_el_mod2_u1_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u1_p4" />
+					
+		<dependency identifierref="id_merrill_1_swf" />
+			
+
+		<dependency identifierref="piaget_nota" />
+					
+		<dependency identifierref="piaget_gif" />
+			
+
+		<dependency identifierref="master_mod02_pdf" />
+			
+		
+		<dependency identifierref="materiali_master_el_mod2_u2_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u2_p2" />
+					
+		<dependency identifierref="el_trentin_1_swf" />
+			
+
+		<dependency identifierref="materiali_master_el_mod2_u2_p3" />
+					
+		<dependency identifierref="comunit_wmt_48_swf" />
+			
+
+		
+		<dependency identifierref="materiali_master_el_mod2_u3_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u3_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u3_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u3_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u3_p6" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod2_u4_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u4_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u4_p3" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod2_u5_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u5_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u5_p3" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod2_u6_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u6_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u6_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u6_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u6_p4" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod2_u7_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u7_p2" />
+					
+
+		<dependency identifierref="materiale_master_el_mod2_u7_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod2_u7_p4" />
+					
+
+		<dependency identifierref="mentor_nota" />
+					
+
+
+	</resource>
+		
+	<resource identifier="sco_materiali_master_el_mod3" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_materiali_master_el_mod3.htm">
+	
+		<file href="risorse/sco_materiali_master_el_mod3.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+				
+		<dependency identifierref="materiali_master_el_mod3_u1_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p7" />
+					
+		<dependency identifierref="marshall-mcluhan_jpg" />
+			
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p8" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p9" />
+					
+		<dependency identifierref="pierre_levy_jpg" />
+			
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p10" />
+					
+		<dependency identifierref="jakobson_jpg" />
+			
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p11" />
+					
+		<dependency identifierref="derrick_jpg" />
+			
+
+		<dependency identifierref="materiali_master_el_mod3_u1_p12" />
+					
+
+		<dependency identifierref="master_mod03_pdf" />
+			
+		
+		<dependency identifierref="materiali_master_el_mod3_u2_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u2_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u2_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u2_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u2_p4" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod_u3_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u3_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u3_p3" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod3_u4_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u4_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u4_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u4_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod3_u4_p5" />
+					
+		<dependency identifierref="approvo_gif" />
+			
+		<dependency identifierref="arrabbiato_gif" />
+			
+		<dependency identifierref="confuso_gif" />
+			
+		<dependency identifierref="contento_gif" />
+			
+		<dependency identifierref="disapprovo_gif" />
+			
+		<dependency identifierref="domanda_gif" />
+			
+		<dependency identifierref="fico_gif" />
+			
+		<dependency identifierref="idea_gif" />
+			
+		<dependency identifierref="importante_gif" />
+			
+		<dependency identifierref="messaggio_gif" />
+			
+		<dependency identifierref="moltoarrabbiato_gif" />
+			
+		<dependency identifierref="scherzo_gif" />
+			
+
+		<dependency identifierref="materiali_master_el_mod_u4_p6" />
+					
+
+
+	</resource>
+		
+	<resource identifier="sco_materiali_master_el_mod4" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_materiali_master_el_mod4.htm">
+	
+		<file href="risorse/sco_materiali_master_el_mod4.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+				
+		<dependency identifierref="materiali_master_el_mod4_u1_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u1_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u1_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u1_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u1_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u1_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u1_p7" />
+					
+
+		<dependency identifierref="master_el_mod4_pdf" />
+			
+		
+		<dependency identifierref="materiali_master_el_mod4_u2_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u2_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u2_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u2_p4" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod4_u3_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u3_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u3_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u3_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u3_p7" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u3_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u3_p8" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u3_p6" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod4_u4_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u4_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u4_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u4_p3" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod4_u5_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u5_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u5_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u5_p4" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod4_u6_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u6_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u6_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u6_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u6_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod4_u6_p6" />
+					
+
+
+	</resource>
+		
+	<resource identifier="sco_materiali_master_el_mod5" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_materiali_master_el_mod5.htm">
+	
+		<file href="risorse/sco_materiali_master_el_mod5.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+				
+		<dependency identifierref="master_el_mod5_u1_1" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c2" />
+					
+		<dependency identifierref="sarchiapone_gif" />
+			
+
+		<dependency identifierref="master_el_mod5_u1_c2_n1" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3" />
+					
+
+		<dependency identifierref="master_el_mod5_c3_n1" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3_n2" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3_n3" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3_n4" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3_n6" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3_n7" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c4" />
+					
+		<dependency identifierref="lo_gif" />
+			
+
+		<dependency identifierref="master_el_mod5_u1_c5" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c6" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3_u7" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c3_n8" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c8_n1" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c9" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c10" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c11" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c12" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c13" />
+					
+		<dependency identifierref="mappa_lo_gif" />
+			
+		<dependency identifierref="mappa_dettaglio_lo_gif" />
+			
+
+		<dependency identifierref="master_el_mod5_u1_c14" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c15" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c16" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c13_n1" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c17" />
+					
+		<dependency identifierref="ld_gif" />
+			
+
+		<dependency identifierref="master_el_mod5_u1_n17_n1" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c17_n2" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c17_n3" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c17_n4" />
+					
+
+		<dependency identifierref="master_el_mod5_u8_n1" />
+					
+
+		<dependency identifierref="Master_mod05" />
+			
+		<dependency identifierref="master_el_mod5_u1_c12_n1" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c18" />
+					
+		<dependency identifierref="reload_swf" />
+			
+
+		<dependency identifierref="master_el_mod5_u1_reload_md_nota" />
+					
+
+		<dependency identifierref="master_el_mod5_u1_c19" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod5_u2_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p7" />
+					
+
+		<dependency identifierref="materili_master_el_mod5_u2_p8" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p10" />
+					
+		<dependency identifierref="map_ada01p1_jpg" />
+			
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p11" />
+					
+		<dependency identifierref="map_adb01p1_jpg" />
+			
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p12" />
+					
+		<dependency identifierref="mm_cd01_jpg" />
+			
+
+		<dependency identifierref="materiali_master_el_mod5_u2_p13" />
+					
+		<dependency identifierref="mm_ce01_jpg" />
+			
+
+		
+		<dependency identifierref="master_el_mod5_u3_c1" />
+					
+
+		<dependency identifierref="master_el_mod5_u3_c2" />
+					
+
+		<dependency identifierref="master_el_mod5_u3_c3" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod5_u4_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u4_f1" />
+			
+		<dependency identifierref="materiai_mod_el_mod5_u4_p8" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p9" />
+					
+		<dependency identifierref="strutt_ger_gif" />
+			
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p10" />
+					
+		<dependency identifierref="strutt_rete_gif" />
+			
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p11" />
+					
+		<dependency identifierref="strutt_seq_gif" />
+			
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p12" />
+					
+		<dependency identifierref="strutt_matr_gif" />
+			
+
+		<dependency identifierref="materiali_master_el_mod5_u4_p15" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod5_u5_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u5_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u5_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u5_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u5_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u5_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod5_u5_p7" />
+					
+
+
+	</resource>
+		
+	<resource identifier="sco_materiali_master_el_mod7" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_materiali_master_el_mod7.htm">
+	
+		<file href="risorse/sco_materiali_master_el_mod7.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+				
+		<dependency identifierref="materiali_master_el_mod7_u1_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p7" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p10" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p9" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p11" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p6a" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u1_p8" />
+					
+
+		<dependency identifierref="mast_mod06_pdf" />
+			
+		
+		<dependency identifierref="materiali_master_el_mod7_u2_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p6" />
+					
+		<dependency identifierref="piramide_conoscenza_gif" />
+			
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p13" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p8" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p10" />
+					
+		<dependency identifierref="capitale-intellettuale_gif" />
+			
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p9" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p7" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p15" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p11" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u2_p12" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod7_u3_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p7" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p8" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u3_p9" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod7_u4_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u4_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u4_p4" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u4_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u4_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u4_p1" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod7_u5_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u5_p5" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u5_p9" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u5_p6" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u5_p7" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u5_p8" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u5_p4" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod7_u6_p1" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u6_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u6_p3" />
+					
+
+		
+		<dependency identifierref="materiali_master_el_mod7_u7_p3" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u7_p2" />
+					
+
+		<dependency identifierref="materiali_master_el_mod7_u7_p1" />
+					
+
+
+	</resource>
+		
+	<resource identifier="sco_falby" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_falby.htm">
+	
+		<file href="risorse/sco_falby.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+		
+		<dependency identifierref="falby1" />
+			
+		<dependency identifierref="falby_nodo1" />
+					
+		<dependency identifierref="la_scomparsa_dell_interfaccia_swf" />
+			
+
+		<dependency identifierref="falby_nodo2" />
+					
+		<dependency identifierref="scheda_comunita_in_rete_swf" />
+			
+
+		<dependency identifierref="falby2" />
+			
+		<dependency identifierref="griglia_progetto_elearning_pdf" />
+			
+		<dependency identifierref="falby_griglia" />
+					
+		<dependency identifierref="griglia_progetto_elearning_swf" />
+			
+
+	</resource>
+		
+	<resource identifier="sco_mr_001" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_mr_001.htm">
+	
+		<file href="risorse/sco_mr_001.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+		
+		<dependency identifierref="mr_fattore_umano_c1" />
+					
+		
+		<dependency identifierref="mr_intervista_elearning" />
+					
+		<dependency identifierref="intervista_elearning_swf" />
+			
+
+		<dependency identifierref="mr_intervista_el_pdf" />
+			
+
+		<dependency identifierref="mr_first_principle" />
+					
+
+		<dependency identifierref="mr_community_e_supporto_c1" />
+					
+
+	</resource>
+		
+	<resource identifier="sco_vdeplano" type="webcontent"
+          adlcp:scormtype="sco" href="risorse/sco_vdeplano.htm">
+	
+		<file href="risorse/sco_vdeplano.htm" />
+		
+		<dependency identifierref="SCOnav_js" />
+		<dependency identifierref="SCOAPI_js" />
+		
+		<dependency identifierref="vdeplano_zip" />
+			
+		<dependency identifierref="formatsequenziale_zip" />
+			
+		<dependency identifierref="deplano_01" />
+					
+		<dependency identifierref="deplanoprogettareuncorsoonline_swf" />
+			
+
+		<dependency identifierref="deplano_02" />
+					
+		<dependency identifierref="deplanoperchisuonalae-campana_swf" />
+			
+
+		<dependency identifierref="deplano_03" />
+					
+		<dependency identifierref="deplanoefficaciadellafad_swf" />
+			
+
+		<dependency identifierref="deplano_04" />
+					
+		<dependency identifierref="deplanocriteridivalutazionepw_swf" />
+			
+
+		<dependency identifierref="deplano_05" />
+					
+		<dependency identifierref="deplanoformatsequenziale_swf" />
+			
+
+		<dependency identifierref="deplano1" />
+			
+		<dependency identifierref="vdeplano2" />
+			
+		<dependency identifierref="vdeplano3" />
+			
+		<dependency identifierref="vdeplano_mat1" />
+					
+		<dependency identifierref="2004_" />
+			
+
+		<dependency identifierref="vdeplano_mat2" />
+					
+		<dependency identifierref="2003_erroreeconoscenza_swf" />
+			
+
+		<dependency identifierref="vdeplano_mat3" />
+					
+		<dependency identifierref="1997_sapereepiacere_swf" />
+			
+
+		<dependency identifierref="vdeplano_mappa_oggetti_leagami" />
+			
+		<dependency identifierref="vdeplano_mappa_oggetti_legami" />
+					
+		<dependency identifierref="2000_mappa_oggetti_legami_swf" />
+			
+
+	</resource>
+		 
+<!-- ******************** -->
+<!-- DETTAGLI DEGLI ASSET -->
+<!-- ******************** -->
+
+		<resource identifier="master_el_mod0_u1_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u1_p1.htm">
+		  <file href="risorse/master_el_mod0_u1_p1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u1_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u1_p2.htm">
+		  <file href="risorse/master_el_mod0_u1_p2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u1_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u1_p3.htm">
+		  <file href="risorse/master_el_mod0_u1_p3.htm" />
+		</resource>
+		
+		<resource identifier="master_mod00_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/master_mod00.zip">
+		  <file href="risorse/media/master_mod00.zip" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u2_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u2_p1.htm">
+		  <file href="risorse/master_el_mod0_u2_p1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod_u2_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod_u2_p2.htm">
+		  <file href="risorse/master_el_mod_u2_p2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u2_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u2_p3.htm">
+		  <file href="risorse/master_el_mod0_u2_p3.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u2_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u2_p4.htm">
+		  <file href="risorse/master_el_mod0_u2_p4.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u3_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u3_p1.htm">
+		  <file href="risorse/master_el_mod0_u3_p1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u3_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u3_p2.htm">
+		  <file href="risorse/master_el_mod0_u3_p2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u3_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u3_p3.htm">
+		  <file href="risorse/master_el_mod0_u3_p3.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u3_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u3_p4.htm">
+		  <file href="risorse/master_el_mod0_u3_p4.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u4_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u4_p1.htm">
+		  <file href="risorse/master_el_mod0_u4_p1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u4_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u4_p2.htm">
+		  <file href="risorse/master_el_mod0_u4_p2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u4_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u4_p3.htm">
+		  <file href="risorse/master_el_mod0_u4_p3.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u4_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u4_p4.htm">
+		  <file href="risorse/master_el_mod0_u4_p4.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u5_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u5_p1.htm">
+		  <file href="risorse/master_el_mod0_u5_p1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u5_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u5_p2.htm">
+		  <file href="risorse/master_el_mod0_u5_p2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u5_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u5_p3.htm">
+		  <file href="risorse/master_el_mod0_u5_p3.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u7_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u7_p1.htm">
+		  <file href="risorse/master_el_mod0_u7_p1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u7_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u7_p2.htm">
+		  <file href="risorse/master_el_mod0_u7_p2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u8_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u8_p1.htm">
+		  <file href="risorse/master_el_mod0_u8_p1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u8_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u8_p2.htm">
+		  <file href="risorse/master_el_mod0_u8_p2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod0_u8_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod0_u8_p3.htm">
+		  <file href="risorse/master_el_mod0_u8_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u1_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u1_p1.htm">
+		  <file href="risorse/materiali_master_el_mod1_u1_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u1_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u1_p2.htm">
+		  <file href="risorse/materiali_master_el_mod1_u1_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u1_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u1_p3.htm">
+		  <file href="risorse/materiali_master_el_mod1_u1_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u1_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u1_p4.htm">
+		  <file href="risorse/materiali_master_el_mod1_u1_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u1_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u1_p5.htm">
+		  <file href="risorse/materiali_master_el_mod1_u1_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod_u1_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod_u1_p6.htm">
+		  <file href="risorse/materiali_master_el_mod_u1_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u1_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u1_p7.htm">
+		  <file href="risorse/materiali_master_el_mod1_u1_p7.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u1_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u1_p8.htm">
+		  <file href="risorse/materiali_master_el_mod1_u1_p8.htm" />
+		</resource>
+		
+		<resource identifier="master_mod01" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/master_mod01.zip">
+		  <file href="risorse/media/master_mod01.zip" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u2_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u2_p1.htm">
+		  <file href="risorse/materiali_master_el_mod1_u2_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u2_analisi_comparativa" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u2_analisi_comparativa.htm">
+		  <file href="risorse/materiali_master_el_mod1_u2_analisi_comparativa.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u2_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u2_p3.htm">
+		  <file href="risorse/materiali_master_el_mod1_u2_p3.htm" />
+		</resource>
+		
+		<resource identifier="griglia_valutazione_piattaforme" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/griglia_valutazione_piattaforme.zip">
+		  <file href="risorse/media/griglia_valutazione_piattaforme.zip" />
+		</resource>
+		
+		<resource identifier="griglia_kairos" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/griglia_valutazione_piattaforme_kairos.zip">
+		  <file href="risorse/media/griglia_valutazione_piattaforme_kairos.zip" />
+		</resource>
+		
+		<resource identifier="eifel_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/eifelsolutionsvers_1_1e.zip">
+		  <file href="risorse/media/eifelsolutionsvers_1_1e.zip" />
+		</resource>
+		
+		<resource identifier="kairos_demoflash_1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/kairos_demoflash_1.htm">
+		  <file href="risorse/kairos_demoflash_1.htm" />
+		</resource>
+		
+		<resource identifier="kairos_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/kairos.swf">
+		  <file href="risorse/media/kairos.swf" />
+		</resource>
+		
+		<resource identifier="kairos_demoflash2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/kairos_demoflash2.htm">
+		  <file href="risorse/kairos_demoflash2.htm" />
+		</resource>
+		
+		<resource identifier="kairos2_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/kairos2.swf">
+		  <file href="risorse/media/kairos2.swf" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u3_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u3_p1.htm">
+		  <file href="risorse/materiali_master_el_mod1_u3_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u3_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u3_p2.htm">
+		  <file href="risorse/materiali_master_el_mod1_u3_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u3_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u3_p3.htm">
+		  <file href="risorse/materiali_master_el_mod1_u3_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u3_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u3_p4.htm">
+		  <file href="risorse/materiali_master_el_mod1_u3_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u3_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u3_p5.htm">
+		  <file href="risorse/materiali_master_el_mod1_u3_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u3_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u3_p6.htm">
+		  <file href="risorse/materiali_master_el_mod1_u3_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u4_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u4_p1.htm">
+		  <file href="risorse/materiali_master_el_mod1_u4_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod1_u4_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod1_u4_p2.htm">
+		  <file href="risorse/materiali_master_el_mod1_u4_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u1_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u1_p5.htm">
+		  <file href="risorse/materiali_master_el_mod2_u1_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u1_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u1_p1.htm">
+		  <file href="risorse/materiali_master_el_mod2_u1_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u1_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u1_p2.htm">
+		  <file href="risorse/materiali_master_el_mod2_u1_p2.htm" />
+		</resource>
+		
+		<resource identifier="id_merrill_2_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/id_merrill_2.swf">
+		  <file href="risorse/media/id_merrill_2.swf" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u1_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u1_p3.htm">
+		  <file href="risorse/materiali_master_el_mod2_u1_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u1_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u1_p4.htm">
+		  <file href="risorse/materiali_master_el_mod2_u1_p4.htm" />
+		</resource>
+		
+		<resource identifier="id_merrill_1_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/id_merrill_1.swf">
+		  <file href="risorse/media/id_merrill_1.swf" />
+		</resource>
+		
+		<resource identifier="piaget_nota" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/piaget_nota.htm">
+		  <file href="risorse/piaget_nota.htm" />
+		</resource>
+		
+		<resource identifier="piaget_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/piaget.gif">
+		  <file href="risorse/media/piaget.gif" />
+		</resource>
+		
+		<resource identifier="master_mod02_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/master_mod02.zip">
+		  <file href="risorse/media/master_mod02.zip" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u2_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u2_p1.htm">
+		  <file href="risorse/materiali_master_el_mod2_u2_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u2_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u2_p2.htm">
+		  <file href="risorse/materiali_master_el_mod2_u2_p2.htm" />
+		</resource>
+		
+		<resource identifier="el_trentin_1_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/el_trentin_1.swf">
+		  <file href="risorse/media/el_trentin_1.swf" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u2_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u2_p3.htm">
+		  <file href="risorse/materiali_master_el_mod2_u2_p3.htm" />
+		</resource>
+		
+		<resource identifier="comunit_wmt_48_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/comunit_wmt_48.swf">
+		  <file href="risorse/media/comunit_wmt_48.swf" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u3_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u3_p5.htm">
+		  <file href="risorse/materiali_master_el_mod2_u3_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u3_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u3_p1.htm">
+		  <file href="risorse/materiali_master_el_mod2_u3_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u3_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u3_p3.htm">
+		  <file href="risorse/materiali_master_el_mod2_u3_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u3_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u3_p2.htm">
+		  <file href="risorse/materiali_master_el_mod2_u3_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u3_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u3_p6.htm">
+		  <file href="risorse/materiali_master_el_mod2_u3_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u4_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u4_p1.htm">
+		  <file href="risorse/materiali_master_el_mod2_u4_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u4_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u4_p2.htm">
+		  <file href="risorse/materiali_master_el_mod2_u4_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u4_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u4_p3.htm">
+		  <file href="risorse/materiali_master_el_mod2_u4_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u5_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u5_p1.htm">
+		  <file href="risorse/materiali_master_el_mod2_u5_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u5_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u5_p2.htm">
+		  <file href="risorse/materiali_master_el_mod2_u5_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u5_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u5_p3.htm">
+		  <file href="risorse/materiali_master_el_mod2_u5_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u6_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u6_p1.htm">
+		  <file href="risorse/materiali_master_el_mod2_u6_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u6_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u6_p2.htm">
+		  <file href="risorse/materiali_master_el_mod2_u6_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u6_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u6_p3.htm">
+		  <file href="risorse/materiali_master_el_mod2_u6_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u6_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u6_p5.htm">
+		  <file href="risorse/materiali_master_el_mod2_u6_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u6_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u6_p4.htm">
+		  <file href="risorse/materiali_master_el_mod2_u6_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u7_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u7_p1.htm">
+		  <file href="risorse/materiali_master_el_mod2_u7_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u7_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u7_p2.htm">
+		  <file href="risorse/materiali_master_el_mod2_u7_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiale_master_el_mod2_u7_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiale_master_el_mod2_u7_p3.htm">
+		  <file href="risorse/materiale_master_el_mod2_u7_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod2_u7_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod2_u7_p4.htm">
+		  <file href="risorse/materiali_master_el_mod2_u7_p4.htm" />
+		</resource>
+		
+		<resource identifier="mentor_nota" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/mentor_nota.htm">
+		  <file href="risorse/mentor_nota.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p1.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p2.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p3.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p4.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p5.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p6.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p7.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p7.htm" />
+		</resource>
+		
+		<resource identifier="marshall-mcluhan_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/marshall-mcluhan.jpg">
+		  <file href="risorse/media/marshall-mcluhan.jpg" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p8.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p8.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p9" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p9.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p9.htm" />
+		</resource>
+		
+		<resource identifier="pierre_levy_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/pierre_levy.jpg">
+		  <file href="risorse/media/pierre_levy.jpg" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p10" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p10.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p10.htm" />
+		</resource>
+		
+		<resource identifier="jakobson_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/jakobson.jpg">
+		  <file href="risorse/media/jakobson.jpg" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p11" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p11.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p11.htm" />
+		</resource>
+		
+		<resource identifier="derrick_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/derrick.jpg">
+		  <file href="risorse/media/derrick.jpg" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u1_p12" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u1_p12.htm">
+		  <file href="risorse/materiali_master_el_mod3_u1_p12.htm" />
+		</resource>
+		
+		<resource identifier="master_mod03_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/master_mod03.zip">
+		  <file href="risorse/media/master_mod03.zip" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u2_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u2_p1.htm">
+		  <file href="risorse/materiali_master_el_mod3_u2_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u2_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u2_p2.htm">
+		  <file href="risorse/materiali_master_el_mod3_u2_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u2_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u2_p3.htm">
+		  <file href="risorse/materiali_master_el_mod3_u2_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u2_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u2_p5.htm">
+		  <file href="risorse/materiali_master_el_mod3_u2_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u2_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u2_p4.htm">
+		  <file href="risorse/materiali_master_el_mod3_u2_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod_u3_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod_u3_p1.htm">
+		  <file href="risorse/materiali_master_el_mod_u3_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u3_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u3_p2.htm">
+		  <file href="risorse/materiali_master_el_mod3_u3_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u3_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u3_p3.htm">
+		  <file href="risorse/materiali_master_el_mod3_u3_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u4_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u4_p1.htm">
+		  <file href="risorse/materiali_master_el_mod3_u4_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u4_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u4_p2.htm">
+		  <file href="risorse/materiali_master_el_mod3_u4_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u4_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u4_p3.htm">
+		  <file href="risorse/materiali_master_el_mod3_u4_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u4_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u4_p4.htm">
+		  <file href="risorse/materiali_master_el_mod3_u4_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod3_u4_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod3_u4_p5.htm">
+		  <file href="risorse/materiali_master_el_mod3_u4_p5.htm" />
+		</resource>
+		
+		<resource identifier="approvo_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/approvo.gif">
+		  <file href="risorse/media/approvo.gif" />
+		</resource>
+		
+		<resource identifier="arrabbiato_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/arrabbiato.gif">
+		  <file href="risorse/media/arrabbiato.gif" />
+		</resource>
+		
+		<resource identifier="confuso_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/confuso.gif">
+		  <file href="risorse/media/confuso.gif" />
+		</resource>
+		
+		<resource identifier="contento_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/contento.gif">
+		  <file href="risorse/media/contento.gif" />
+		</resource>
+		
+		<resource identifier="disapprovo_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/disapprovo.gif">
+		  <file href="risorse/media/disapprovo.gif" />
+		</resource>
+		
+		<resource identifier="domanda_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/domanda.gif">
+		  <file href="risorse/media/domanda.gif" />
+		</resource>
+		
+		<resource identifier="fico_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/fico.gif">
+		  <file href="risorse/media/fico.gif" />
+		</resource>
+		
+		<resource identifier="idea_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/idea.gif">
+		  <file href="risorse/media/idea.gif" />
+		</resource>
+		
+		<resource identifier="importante_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/importante.gif">
+		  <file href="risorse/media/importante.gif" />
+		</resource>
+		
+		<resource identifier="messaggio_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/messaggio.gif">
+		  <file href="risorse/media/messaggio.gif" />
+		</resource>
+		
+		<resource identifier="moltoarrabbiato_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/moltoarrabbiato.gif">
+		  <file href="risorse/media/moltoarrabbiato.gif" />
+		</resource>
+		
+		<resource identifier="scherzo_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/scherzo.gif">
+		  <file href="risorse/media/scherzo.gif" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod_u4_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod_u4_p6.htm">
+		  <file href="risorse/materiali_master_el_mod_u4_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u1_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u1_p1.htm">
+		  <file href="risorse/materiali_master_el_mod4_u1_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u1_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u1_p2.htm">
+		  <file href="risorse/materiali_master_el_mod4_u1_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u1_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u1_p3.htm">
+		  <file href="risorse/materiali_master_el_mod4_u1_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u1_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u1_p4.htm">
+		  <file href="risorse/materiali_master_el_mod4_u1_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u1_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u1_p5.htm">
+		  <file href="risorse/materiali_master_el_mod4_u1_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u1_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u1_p6.htm">
+		  <file href="risorse/materiali_master_el_mod4_u1_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u1_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u1_p7.htm">
+		  <file href="risorse/materiali_master_el_mod4_u1_p7.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod4_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/master_mod04.zip">
+		  <file href="risorse/media/master_mod04.zip" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u2_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u2_p1.htm">
+		  <file href="risorse/materiali_master_el_mod4_u2_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u2_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u2_p2.htm">
+		  <file href="risorse/materiali_master_el_mod4_u2_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u2_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u2_p3.htm">
+		  <file href="risorse/materiali_master_el_mod4_u2_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u2_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u2_p4.htm">
+		  <file href="risorse/materiali_master_el_mod4_u2_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p1.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p3.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p2.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p4.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p7.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p7.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p5.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p8.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p8.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u3_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u3_p6.htm">
+		  <file href="risorse/materiali_master_el_mod4_u3_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u4_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u4_p1.htm">
+		  <file href="risorse/materiali_master_el_mod4_u4_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u4_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u4_p2.htm">
+		  <file href="risorse/materiali_master_el_mod4_u4_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u4_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u4_p4.htm">
+		  <file href="risorse/materiali_master_el_mod4_u4_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u4_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u4_p3.htm">
+		  <file href="risorse/materiali_master_el_mod4_u4_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u5_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u5_p1.htm">
+		  <file href="risorse/materiali_master_el_mod4_u5_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u5_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u5_p2.htm">
+		  <file href="risorse/materiali_master_el_mod4_u5_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u5_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u5_p3.htm">
+		  <file href="risorse/materiali_master_el_mod4_u5_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u5_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u5_p4.htm">
+		  <file href="risorse/materiali_master_el_mod4_u5_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u6_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u6_p1.htm">
+		  <file href="risorse/materiali_master_el_mod4_u6_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u6_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u6_p2.htm">
+		  <file href="risorse/materiali_master_el_mod4_u6_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u6_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u6_p3.htm">
+		  <file href="risorse/materiali_master_el_mod4_u6_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u6_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u6_p4.htm">
+		  <file href="risorse/materiali_master_el_mod4_u6_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u6_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u6_p5.htm">
+		  <file href="risorse/materiali_master_el_mod4_u6_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod4_u6_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod4_u6_p6.htm">
+		  <file href="risorse/materiali_master_el_mod4_u6_p6.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_1.htm">
+		  <file href="risorse/master_el_mod5_u1_1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c2.htm">
+		  <file href="risorse/master_el_mod5_u1_c2.htm" />
+		</resource>
+		
+		<resource identifier="sarchiapone_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/sarchiapone.gif">
+		  <file href="risorse/media/sarchiapone.gif" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c2_n1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c2_n1.htm">
+		  <file href="risorse/master_el_mod5_u1_c2_n1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3.htm">
+		  <file href="risorse/master_el_mod5_u1_c3.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_c3_n1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_c3_n1.htm">
+		  <file href="risorse/master_el_mod5_c3_n1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3_n2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3_n2.htm">
+		  <file href="risorse/master_el_mod5_u1_c3_n2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3_n3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3_n3.htm">
+		  <file href="risorse/master_el_mod5_u1_c3_n3.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3_n4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3_n4.htm">
+		  <file href="risorse/master_el_mod5_u1_c3_n4.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3_n6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3_n6.htm">
+		  <file href="risorse/master_el_mod5_u1_c3_n6.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3_n7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3_n7.htm">
+		  <file href="risorse/master_el_mod5_u1_c3_n7.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c4.htm">
+		  <file href="risorse/master_el_mod5_u1_c4.htm" />
+		</resource>
+		
+		<resource identifier="lo_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/lo.gif">
+		  <file href="risorse/media/lo.gif" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c5.htm">
+		  <file href="risorse/master_el_mod5_u1_c5.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c6.htm">
+		  <file href="risorse/master_el_mod5_u1_c6.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3_u7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3_u7.htm">
+		  <file href="risorse/master_el_mod5_u1_c3_u7.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c3_n8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c3_n8.htm">
+		  <file href="risorse/master_el_mod5_u1_c3_n8.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c8_n1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c8_n1.htm">
+		  <file href="risorse/master_el_mod5_u1_c8_n1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c9" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c9.htm">
+		  <file href="risorse/master_el_mod5_u1_c9.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c10" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c10.htm">
+		  <file href="risorse/master_el_mod5_u1_c10.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c11" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c11.htm">
+		  <file href="risorse/master_el_mod5_u1_c11.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c12" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c12.htm">
+		  <file href="risorse/master_el_mod5_u1_c12.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c13" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c13.htm">
+		  <file href="risorse/master_el_mod5_u1_c13.htm" />
+		</resource>
+		
+		<resource identifier="mappa_lo_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/mappa_lo.gif">
+		  <file href="risorse/media/mappa_lo.gif" />
+		</resource>
+		
+		<resource identifier="mappa_dettaglio_lo_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/mappa_dettaglio_lo.gif">
+		  <file href="risorse/media/mappa_dettaglio_lo.gif" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c14" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c14.htm">
+		  <file href="risorse/master_el_mod5_u1_c14.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c15" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c15.htm">
+		  <file href="risorse/master_el_mod5_u1_c15.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c16" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c16.htm">
+		  <file href="risorse/master_el_mod5_u1_c16.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c13_n1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c13_n1.htm">
+		  <file href="risorse/master_el_mod5_u1_c13_n1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c17" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c17.htm">
+		  <file href="risorse/master_el_mod5_u1_c17.htm" />
+		</resource>
+		
+		<resource identifier="ld_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/ld.gif">
+		  <file href="risorse/media/ld.gif" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_n17_n1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_n17_n1.htm">
+		  <file href="risorse/master_el_mod5_u1_n17_n1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c17_n2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c17_n2.htm">
+		  <file href="risorse/master_el_mod5_u1_c17_n2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c17_n3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c17_n3.htm">
+		  <file href="risorse/master_el_mod5_u1_c17_n3.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c17_n4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c17_n4.htm">
+		  <file href="risorse/master_el_mod5_u1_c17_n4.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u8_n1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u8_n1.htm">
+		  <file href="risorse/master_el_mod5_u8_n1.htm" />
+		</resource>
+		
+		<resource identifier="Master_mod05" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/master_mod05.zip">
+		  <file href="risorse/media/master_mod05.zip" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c12_n1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c12_n1.htm">
+		  <file href="risorse/master_el_mod5_u1_c12_n1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c18" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c18.htm">
+		  <file href="risorse/master_el_mod5_u1_c18.htm" />
+		</resource>
+		
+		<resource identifier="reload_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/reload.swf">
+		  <file href="risorse/media/reload.swf" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_reload_md_nota" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_reload_md_nota.htm">
+		  <file href="risorse/master_el_mod5_u1_reload_md_nota.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u1_c19" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u1_c19.htm">
+		  <file href="risorse/master_el_mod5_u1_c19.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p1.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p2.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p3.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p7.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p7.htm" />
+		</resource>
+		
+		<resource identifier="materili_master_el_mod5_u2_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materili_master_el_mod5_u2_p8.htm">
+		  <file href="risorse/materili_master_el_mod5_u2_p8.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p4.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p5.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p6.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p10" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p10.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p10.htm" />
+		</resource>
+		
+		<resource identifier="map_ada01p1_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/map_ada01p1.jpg">
+		  <file href="risorse/media/map_ada01p1.jpg" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p11" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p11.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p11.htm" />
+		</resource>
+		
+		<resource identifier="map_adb01p1_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/map_adb01p1.jpg">
+		  <file href="risorse/media/map_adb01p1.jpg" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p12" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p12.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p12.htm" />
+		</resource>
+		
+		<resource identifier="mm_cd01_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/mm_cd01.jpg">
+		  <file href="risorse/media/mm_cd01.jpg" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u2_p13" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u2_p13.htm">
+		  <file href="risorse/materiali_master_el_mod5_u2_p13.htm" />
+		</resource>
+		
+		<resource identifier="mm_ce01_jpg" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/mm_ce01.jpg">
+		  <file href="risorse/media/mm_ce01.jpg" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u3_c1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u3_c1.htm">
+		  <file href="risorse/master_el_mod5_u3_c1.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u3_c2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u3_c2.htm">
+		  <file href="risorse/master_el_mod5_u3_c2.htm" />
+		</resource>
+		
+		<resource identifier="master_el_mod5_u3_c3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/master_el_mod5_u3_c3.htm">
+		  <file href="risorse/master_el_mod5_u3_c3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p1.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p2.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p3.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p4.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p6.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p5.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_f1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/contributo_cangi�.zip">
+		  <file href="risorse/media/contributo_cangi�.zip" />
+		</resource>
+		
+		<resource identifier="materiai_mod_el_mod5_u4_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiai_mod_el_mod5_u4_p8.htm">
+		  <file href="risorse/materiai_mod_el_mod5_u4_p8.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p9" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p9.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p9.htm" />
+		</resource>
+		
+		<resource identifier="strutt_ger_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/strutt_ger.gif">
+		  <file href="risorse/media/strutt_ger.gif" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p10" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p10.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p10.htm" />
+		</resource>
+		
+		<resource identifier="strutt_rete_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/strutt_rete.gif">
+		  <file href="risorse/media/strutt_rete.gif" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p11" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p11.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p11.htm" />
+		</resource>
+		
+		<resource identifier="strutt_seq_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/strutt_seq.gif">
+		  <file href="risorse/media/strutt_seq.gif" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p12" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p12.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p12.htm" />
+		</resource>
+		
+		<resource identifier="strutt_matr_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/strutt_matr.gif">
+		  <file href="risorse/media/strutt_matr.gif" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u4_p15" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u4_p15.htm">
+		  <file href="risorse/materiali_master_el_mod5_u4_p15.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u5_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u5_p1.htm">
+		  <file href="risorse/materiali_master_el_mod5_u5_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u5_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u5_p2.htm">
+		  <file href="risorse/materiali_master_el_mod5_u5_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u5_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u5_p3.htm">
+		  <file href="risorse/materiali_master_el_mod5_u5_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u5_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u5_p4.htm">
+		  <file href="risorse/materiali_master_el_mod5_u5_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u5_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u5_p6.htm">
+		  <file href="risorse/materiali_master_el_mod5_u5_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u5_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u5_p5.htm">
+		  <file href="risorse/materiali_master_el_mod5_u5_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod5_u5_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod5_u5_p7.htm">
+		  <file href="risorse/materiali_master_el_mod5_u5_p7.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p1.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p7.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p7.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p10" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p10.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p10.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p2.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p3.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p9" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p9.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p9.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p4.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p11" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p11.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p11.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p5.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p6a" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p6a.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p6a.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u1_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u1_p8.htm">
+		  <file href="risorse/materiali_master_el_mod7_u1_p8.htm" />
+		</resource>
+		
+		<resource identifier="mast_mod06_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/master_mod06.zip">
+		  <file href="risorse/media/master_mod06.zip" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p2.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p4.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p6.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p6.htm" />
+		</resource>
+		
+		<resource identifier="piramide_conoscenza_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/piramide_conoscenza.gif">
+		  <file href="risorse/media/piramide_conoscenza.gif" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p3.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p13" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p13.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p13.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p5.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p8.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p8.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p10" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p10.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p10.htm" />
+		</resource>
+		
+		<resource identifier="capitale-intellettuale_gif" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/capitale-intellettuale.gif">
+		  <file href="risorse/media/capitale-intellettuale.gif" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p9" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p9.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p9.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p1.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p7.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p7.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p15" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p15.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p15.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p11" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p11.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p11.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u2_p12" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u2_p12.htm">
+		  <file href="risorse/materiali_master_el_mod7_u2_p12.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p1.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p5.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p2.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p3.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p4.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p6.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p7.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p7.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p8.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p8.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u3_p9" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u3_p9.htm">
+		  <file href="risorse/materiali_master_el_mod7_u3_p9.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u4_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u4_p2.htm">
+		  <file href="risorse/materiali_master_el_mod7_u4_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u4_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u4_p3.htm">
+		  <file href="risorse/materiali_master_el_mod7_u4_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u4_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u4_p4.htm">
+		  <file href="risorse/materiali_master_el_mod7_u4_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u4_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u4_p5.htm">
+		  <file href="risorse/materiali_master_el_mod7_u4_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u4_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u4_p6.htm">
+		  <file href="risorse/materiali_master_el_mod7_u4_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u4_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u4_p1.htm">
+		  <file href="risorse/materiali_master_el_mod7_u4_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u5_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u5_p1.htm">
+		  <file href="risorse/materiali_master_el_mod7_u5_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u5_p5" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u5_p5.htm">
+		  <file href="risorse/materiali_master_el_mod7_u5_p5.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u5_p9" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u5_p9.htm">
+		  <file href="risorse/materiali_master_el_mod7_u5_p9.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u5_p6" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u5_p6.htm">
+		  <file href="risorse/materiali_master_el_mod7_u5_p6.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u5_p7" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u5_p7.htm">
+		  <file href="risorse/materiali_master_el_mod7_u5_p7.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u5_p8" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u5_p8.htm">
+		  <file href="risorse/materiali_master_el_mod7_u5_p8.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u5_p4" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u5_p4.htm">
+		  <file href="risorse/materiali_master_el_mod7_u5_p4.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u6_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u6_p1.htm">
+		  <file href="risorse/materiali_master_el_mod7_u6_p1.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u6_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u6_p2.htm">
+		  <file href="risorse/materiali_master_el_mod7_u6_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u6_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u6_p3.htm">
+		  <file href="risorse/materiali_master_el_mod7_u6_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u7_p3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u7_p3.htm">
+		  <file href="risorse/materiali_master_el_mod7_u7_p3.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u7_p2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u7_p2.htm">
+		  <file href="risorse/materiali_master_el_mod7_u7_p2.htm" />
+		</resource>
+		
+		<resource identifier="materiali_master_el_mod7_u7_p1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/materiali_master_el_mod7_u7_p1.htm">
+		  <file href="risorse/materiali_master_el_mod7_u7_p1.htm" />
+		</resource>
+		
+		<resource identifier="falby1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/la_scomparsa_dell_interfaccia.zip">
+		  <file href="risorse/media/la_scomparsa_dell_interfaccia.zip" />
+		</resource>
+		
+		<resource identifier="falby_nodo1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/falby_nodo1.htm">
+		  <file href="risorse/falby_nodo1.htm" />
+		</resource>
+		
+		<resource identifier="la_scomparsa_dell_interfaccia_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/la_scomparsa_dell_interfaccia.swf">
+		  <file href="risorse/media/la_scomparsa_dell_interfaccia.swf" />
+		</resource>
+		
+		<resource identifier="falby_nodo2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/falby_nodo2.htm">
+		  <file href="risorse/falby_nodo2.htm" />
+		</resource>
+		
+		<resource identifier="scheda_comunita_in_rete_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/scheda_comunita_in_rete.swf">
+		  <file href="risorse/media/scheda_comunita_in_rete.swf" />
+		</resource>
+		
+		<resource identifier="falby2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/scheda_comunita_in_rete.zip">
+		  <file href="risorse/media/scheda_comunita_in_rete.zip" />
+		</resource>
+		
+		<resource identifier="griglia_progetto_elearning_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/griglia_progetto_elearning.zip">
+		  <file href="risorse/media/griglia_progetto_elearning.zip" />
+		</resource>
+		
+		<resource identifier="falby_griglia" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/falby_griglia.htm">
+		  <file href="risorse/falby_griglia.htm" />
+		</resource>
+		
+		<resource identifier="griglia_progetto_elearning_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/griglia_progetto_elearning.swf">
+		  <file href="risorse/media/griglia_progetto_elearning.swf" />
+		</resource>
+		
+		<resource identifier="mr_fattore_umano_c1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/mr_fattore_umano_c1.htm">
+		  <file href="risorse/mr_fattore_umano_c1.htm" />
+		</resource>
+		
+		<resource identifier="mr_intervista_elearning" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/mr_intervista_elearning.htm">
+		  <file href="risorse/mr_intervista_elearning.htm" />
+		</resource>
+		
+		<resource identifier="intervista_elearning_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/intervista_elearning.swf">
+		  <file href="risorse/media/intervista_elearning.swf" />
+		</resource>
+		
+		<resource identifier="mr_intervista_el_pdf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/intervista_elearning.zip">
+		  <file href="risorse/media/intervista_elearning.zip" />
+		</resource>
+		
+		<resource identifier="mr_first_principle" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/mr_first_principle.htm">
+		  <file href="risorse/mr_first_principle.htm" />
+		</resource>
+		
+		<resource identifier="mr_community_e_supporto_c1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/mr_community_e_supporto_c1.htm">
+		  <file href="risorse/mr_community_e_supporto_c1.htm" />
+		</resource>
+		
+		<resource identifier="vdeplano_zip" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/vdeplano.zip">
+		  <file href="risorse/media/vdeplano.zip" />
+		</resource>
+		
+		<resource identifier="formatsequenziale_zip" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/vdeplano_formatsequenziale(schema).zip">
+		  <file href="risorse/media/vdeplano_formatsequenziale(schema).zip" />
+		</resource>
+		
+		<resource identifier="deplano_01" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/deplano_01.htm">
+		  <file href="risorse/deplano_01.htm" />
+		</resource>
+		
+		<resource identifier="deplanoprogettareuncorsoonline_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/deplanoprogettareuncorsoonline.swf">
+		  <file href="risorse/media/deplanoprogettareuncorsoonline.swf" />
+		</resource>
+		
+		<resource identifier="deplano_02" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/deplano_02.htm">
+		  <file href="risorse/deplano_02.htm" />
+		</resource>
+		
+		<resource identifier="deplanoperchisuonalae-campana_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/deplanoperchisuonalae-campana.swf">
+		  <file href="risorse/media/deplanoperchisuonalae-campana.swf" />
+		</resource>
+		
+		<resource identifier="deplano_03" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/deplano_03.htm">
+		  <file href="risorse/deplano_03.htm" />
+		</resource>
+		
+		<resource identifier="deplanoefficaciadellafad_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/deplanoefficaciadellafad.swf">
+		  <file href="risorse/media/deplanoefficaciadellafad.swf" />
+		</resource>
+		
+		<resource identifier="deplano_04" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/deplano_04.htm">
+		  <file href="risorse/deplano_04.htm" />
+		</resource>
+		
+		<resource identifier="deplanocriteridivalutazionepw_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/deplanocriteridivalutazionepw.swf">
+		  <file href="risorse/media/deplanocriteridivalutazionepw.swf" />
+		</resource>
+		
+		<resource identifier="deplano_05" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/deplano_05.htm">
+		  <file href="risorse/deplano_05.htm" />
+		</resource>
+		
+		<resource identifier="deplanoformatsequenziale_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/deplanoformatsequenziale.swf">
+		  <file href="risorse/media/deplanoformatsequenziale.swf" />
+		</resource>
+		
+		<resource identifier="deplano1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/2004_formatest.zip">
+		  <file href="risorse/media/2004_formatest.zip" />
+		</resource>
+		
+		<resource identifier="vdeplano2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/2003_erroreeconoscenza.zip">
+		  <file href="risorse/media/2003_erroreeconoscenza.zip" />
+		</resource>
+		
+		<resource identifier="vdeplano3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/1997_sapereepiacere.zip">
+		  <file href="risorse/media/1997_sapereepiacere.zip" />
+		</resource>
+		
+		<resource identifier="vdeplano_mat1" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/vdeplano_mat1.htm">
+		  <file href="risorse/vdeplano_mat1.htm" />
+		</resource>
+		
+		<resource identifier="2004_" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/2004_">
+		  <file href="risorse/media/2004_" />
+		</resource>
+		
+		<resource identifier="vdeplano_mat2" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/vdeplano_mat2.htm">
+		  <file href="risorse/vdeplano_mat2.htm" />
+		</resource>
+		
+		<resource identifier="2003_erroreeconoscenza_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/2003_erroreeconoscenza.swf">
+		  <file href="risorse/media/2003_erroreeconoscenza.swf" />
+		</resource>
+		
+		<resource identifier="vdeplano_mat3" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/vdeplano_mat3.htm">
+		  <file href="risorse/vdeplano_mat3.htm" />
+		</resource>
+		
+		<resource identifier="1997_sapereepiacere_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/1997_sapereepiacere.swf">
+		  <file href="risorse/media/1997_sapereepiacere.swf" />
+		</resource>
+		
+		<resource identifier="vdeplano_mappa_oggetti_leagami" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/2000_mappaoggettilegami.zip">
+		  <file href="risorse/media/2000_mappaoggettilegami.zip" />
+		</resource>
+		
+		<resource identifier="vdeplano_mappa_oggetti_legami" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/vdeplano_mappa_oggetti_legami.htm">
+		  <file href="risorse/vdeplano_mappa_oggetti_legami.htm" />
+		</resource>
+		
+		<resource identifier="2000_mappa_oggetti_legami_swf" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/media/2000_mappa_oggetti_legami.swf">
+		  <file href="risorse/media/2000_mappa_oggetti_legami.swf" />
+		</resource>
+		
+		<resource identifier="SCOnav_js" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/SCOnav.js">
+		  <file href="risorse/SCOnav.js" />
+		</resource>
+		<resource identifier="SCOAPI_js" type="webcontent"
+          adlcp:scormtype="asset" href="risorse/SCOAPI.js">
+		  <file href="risorse/SCOAPI.js" />
+		</resource>
+		
+</resources>
+	
+</manifest>

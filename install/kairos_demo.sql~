@@ -1,0 +1,1525 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : old_server
+Source Server Version : 40016
+Source Host           : 82.119.197.43:3306
+Source Database       : kairos_demo
+
+Target Server Type    : MYSQL
+Target Server Version : 40016
+File Encoding         : 65001
+
+Date: 2011-07-12 23:45:43
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+-- ----------------------------
+-- Table structure for `appunti`
+-- ----------------------------
+DROP TABLE IF EXISTS `appunti`;
+CREATE TABLE `appunti` (
+  `id_utente` varchar(200) NOT NULL default '',
+  `testo` text,
+  PRIMARY KEY  (`id_utente`)
+);
+
+-- ----------------------------
+-- Records of appunti
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `articolo`
+-- ----------------------------
+DROP TABLE IF EXISTS `articolo`;
+CREATE TABLE `articolo` (
+  `id_articolo` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(200) default NULL,
+  `titolo` varchar(200) default NULL,
+  `sommario` text,
+  `id_rubrica` varchar(200) default NULL,
+  `testo` text,
+  `area_link` text,
+  `area_label` text,
+  `data_articolo` datetime default NULL,
+  `stato` varchar(200) default NULL,
+  `parole_chiave` varchar(200) default NULL,
+  PRIMARY KEY  (`id_articolo`)
+);
+
+-- ----------------------------
+-- Records of articolo
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `c_messages`
+-- ----------------------------
+DROP TABLE IF EXISTS `c_messages`;
+CREATE TABLE `c_messages` (
+  `type` tinyint(1) NOT NULL default '0',
+  `room` varchar(30) NOT NULL default '',
+  `username` varchar(30) NOT NULL default '',
+  `latin1` tinyint(1) NOT NULL default '0',
+  `m_time` int(11) NOT NULL default '0',
+  `address` varchar(30) NOT NULL default '',
+  `message` text NOT NULL
+);
+
+-- ----------------------------
+-- Records of c_messages
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `c_messages_archive`
+-- ----------------------------
+DROP TABLE IF EXISTS `c_messages_archive`;
+CREATE TABLE `c_messages_archive` (
+  `type` tinyint(1) NOT NULL default '0',
+  `room` varchar(30) NOT NULL default '',
+  `username` varchar(30) NOT NULL default '',
+  `latin1` tinyint(1) NOT NULL default '0',
+  `m_time` int(11) NOT NULL default '0',
+  `address` varchar(30) NOT NULL default '',
+  `message` text NOT NULL
+);
+
+-- ----------------------------
+-- Records of c_messages_archive
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `c_moderazione`
+-- ----------------------------
+DROP TABLE IF EXISTS `c_moderazione`;
+CREATE TABLE `c_moderazione` (
+  `id_stanza` varchar(30) NOT NULL default '',
+  `id_moderatore` varchar(30) default NULL,
+  `id_utente_abilitato` varchar(30) default NULL,
+  `time_out` int(11) default NULL,
+  `si` int(11) default NULL,
+  `no` int(11) default NULL,
+  PRIMARY KEY  (`id_stanza`)
+);
+
+-- ----------------------------
+-- Records of c_moderazione
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `c_reg_users`
+-- ----------------------------
+DROP TABLE IF EXISTS `c_reg_users`;
+CREATE TABLE `c_reg_users` (
+  `username` varchar(30) NOT NULL default '',
+  `latin1` tinyint(1) NOT NULL default '0',
+  `password` varchar(32) NOT NULL default '',
+  `firstname` varchar(64) NOT NULL default '',
+  `lastname` varchar(64) NOT NULL default '',
+  `country` varchar(64) NOT NULL default '',
+  `website` varchar(64) NOT NULL default '',
+  `email` varchar(64) NOT NULL default '',
+  `showemail` tinyint(1) NOT NULL default '0',
+  `perms` varchar(9) NOT NULL default '',
+  `rooms` varchar(128) NOT NULL default '',
+  `reg_time` int(11) NOT NULL default '0'
+);
+
+-- ----------------------------
+-- Records of c_reg_users
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `c_users`
+-- ----------------------------
+DROP TABLE IF EXISTS `c_users`;
+CREATE TABLE `c_users` (
+  `room` varchar(30) NOT NULL default '',
+  `username` varchar(30) NOT NULL default '',
+  `latin1` tinyint(1) NOT NULL default '0',
+  `u_time` int(11) NOT NULL default '0',
+  `status` char(1) NOT NULL default ''
+);
+
+-- ----------------------------
+-- Records of c_users
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `calendario`
+-- ----------------------------
+DROP TABLE IF EXISTS `calendario`;
+CREATE TABLE `calendario` (
+  `id_cal` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(100) default NULL,
+  `data` datetime default NULL,
+  `oggetto` varchar(100) default NULL,
+  `descrizione` varchar(100) default NULL,
+  `classe` varchar(100) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_cal`)
+);
+
+-- ----------------------------
+-- Records of calendario
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `commento`
+-- ----------------------------
+DROP TABLE IF EXISTS `commento`;
+CREATE TABLE `commento` (
+  `id_commento` int(11) NOT NULL default '0',
+  `id_articolo` varchar(200) NOT NULL default '',
+  `nome_lettore` varchar(200) default NULL,
+  `email_lettore` varchar(200) default NULL,
+  `testo` text,
+  `data_commento` timestamp(14) NOT NULL,
+  PRIMARY KEY  (`id_commento`)
+);
+
+-- ----------------------------
+-- Records of commento
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `commento_lab_materiali`
+-- ----------------------------
+DROP TABLE IF EXISTS `commento_lab_materiali`;
+CREATE TABLE `commento_lab_materiali` (
+  `id_commento` bigint(20) NOT NULL default '0',
+  `id_risorsa` bigint(20) default NULL,
+  `id_utente` varchar(200) NOT NULL default '',
+  `data_commento` datetime default NULL,
+  `commento` text,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_commento`)
+);
+
+-- ----------------------------
+-- Records of commento_lab_materiali
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `contesto`
+-- ----------------------------
+DROP TABLE IF EXISTS `contesto`;
+CREATE TABLE `contesto` (
+  `id_utente` varchar(200) NOT NULL default '',
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  PRIMARY KEY  (`id_utente`)
+);
+
+-- ----------------------------
+-- Records of contesto
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `contesto_cartella`
+-- ----------------------------
+DROP TABLE IF EXISTS `contesto_cartella`;
+CREATE TABLE `contesto_cartella` (
+  `id_utente` varchar(50) NOT NULL default '',
+  `id_cartella` varchar(50) NOT NULL default '',
+  `pagina` int(11) default NULL,
+  `stato` varchar(200) default NULL
+);
+
+-- ----------------------------
+-- Records of contesto_cartella
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `contesto_cartella_gruppo`
+-- ----------------------------
+DROP TABLE IF EXISTS `contesto_cartella_gruppo`;
+CREATE TABLE `contesto_cartella_gruppo` (
+  `id_utente` varchar(200) NOT NULL default '',
+  `id_cartella` varchar(200) NOT NULL default '',
+  `pagina` int(11) default NULL,
+  `stato` varchar(200) default NULL
+);
+
+-- ----------------------------
+-- Records of contesto_cartella_gruppo
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `corso`
+-- ----------------------------
+DROP TABLE IF EXISTS `corso`;
+CREATE TABLE `corso` (
+  `id_corso` varchar(100) NOT NULL default '',
+  `descrizione` varchar(200) NOT NULL default '',
+  `testo` text NOT NULL,
+  `colore` smallint(6) default NULL,
+  PRIMARY KEY  (`id_corso`)
+);
+
+-- ----------------------------
+-- Records of corso
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `editor_gruppo`
+-- ----------------------------
+DROP TABLE IF EXISTS `editor_gruppo`;
+CREATE TABLE `editor_gruppo` (
+  `id_editor_gruppo` bigint(20) NOT NULL default '0',
+  `descrizione` varchar(200) NOT NULL default '',
+  PRIMARY KEY  (`id_editor_gruppo`)
+);
+
+-- ----------------------------
+-- Records of editor_gruppo
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `editor_gruppo_utenti`
+-- ----------------------------
+DROP TABLE IF EXISTS `editor_gruppo_utenti`;
+CREATE TABLE `editor_gruppo_utenti` (
+  `id_editor_gruppo` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(100) default NULL
+);
+
+-- ----------------------------
+-- Records of editor_gruppo_utenti
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `edizioni`
+-- ----------------------------
+DROP TABLE IF EXISTS `edizioni`;
+CREATE TABLE `edizioni` (
+  `id_edizioni` bigint(20) NOT NULL default '0',
+  `id_corso` varchar(100) NOT NULL default '',
+  `id_edizione` varchar(100) NOT NULL default '',
+  `descrizione` varchar(200) default NULL,
+  `data_edizione` date default NULL,
+  `durata` int(11) default NULL,
+  `un_mis` varchar(100) default NULL,
+  `stato` varchar(100) default NULL,
+  `autoiscrizione` char(2) default NULL,
+  PRIMARY KEY  (`id_edizioni`)
+);
+
+-- ----------------------------
+-- Records of edizioni
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `ex_post`
+-- ----------------------------
+DROP TABLE IF EXISTS `ex_post`;
+CREATE TABLE `ex_post` (
+  `ex_id_post` bigint(20) NOT NULL default '0',
+  `id_post` bigint(20) NOT NULL default '0'
+);
+
+-- ----------------------------
+-- Records of ex_post
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `faq`
+-- ----------------------------
+DROP TABLE IF EXISTS `faq`;
+CREATE TABLE `faq` (
+  `id_faq` bigint(20) NOT NULL default '0',
+  `id_corso` varchar(100) default NULL,
+  `ordine` int(11) default NULL,
+  `titolo` varchar(200) default NULL,
+  `domanda` text,
+  `risposta` text,
+  PRIMARY KEY  (`id_faq`)
+);
+
+-- ----------------------------
+-- Records of faq
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum`;
+CREATE TABLE `forum` (
+  `id_forum` varchar(100) NOT NULL default '',
+  `tipo` int(11) default NULL,
+  `ordine` int(11) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `descrizione` tinytext,
+  `data_forum` datetime default NULL,
+  `file_allegati` int(11) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `archiviato` smallint(6) default NULL,
+  PRIMARY KEY  (`id_forum`)
+);
+
+-- ----------------------------
+-- Records of forum
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_archivio`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_archivio`;
+CREATE TABLE `forum_archivio` (
+  `id_forum_archivio` bigint(20) NOT NULL default '0',
+  `id_forum` varchar(100) NOT NULL default '',
+  `id_corso` varchar(100) NOT NULL default '',
+  `id_edizione` varchar(100) NOT NULL default '',
+  `tipo` int(11) default NULL,
+  `ordine` int(11) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `descrizione` tinytext,
+  `data_forum` datetime default NULL,
+  `file_allegati` int(11) default NULL,
+  PRIMARY KEY  (`id_forum_archivio`)
+);
+
+-- ----------------------------
+-- Records of forum_archivio
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_audio`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_audio`;
+CREATE TABLE `forum_audio` (
+  `id_post` bigint(20) NOT NULL default '0',
+  `id_forum` varchar(100) NOT NULL default '',
+  `mid` varchar(100) NOT NULL default '',
+  PRIMARY KEY  (`id_post`)
+);
+
+-- ----------------------------
+-- Records of forum_audio
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_mail`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_mail`;
+CREATE TABLE `forum_mail` (
+  `id_utente` varchar(100) NOT NULL default '',
+  `id_forum` varchar(100) NOT NULL default ''
+);
+
+-- ----------------------------
+-- Records of forum_mail
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_mark`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_mark`;
+CREATE TABLE `forum_mark` (
+  `id_mark` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(100) NOT NULL default '',
+  `id_post` bigint(20) NOT NULL default '0',
+  `id_forum` varchar(100) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_mark`)
+);
+
+-- ----------------------------
+-- Records of forum_mark
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_posts`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_posts`;
+CREATE TABLE `forum_posts` (
+  `id_post` bigint(20) NOT NULL default '0',
+  `id_forum` varchar(100) NOT NULL default '',
+  `id_post_padre` bigint(20) default NULL,
+  `data_post` datetime default NULL,
+  `id_autore` varchar(100) default NULL,
+  `oggetto` varchar(150) default NULL,
+  `testo` text,
+  `nome_file` varchar(100) default NULL,
+  `file_size` int(11) default NULL,
+  `file_type` varchar(60) default NULL,
+  `data_last_mod` datetime default NULL,
+  `repemail` char(2) default NULL,
+  `icona_post` varchar(20) default NULL,
+  `tipo_post` int(11) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `attinenza` bigint(20) default NULL,
+  `n_attinenze` bigint(20) default NULL,
+  PRIMARY KEY  (`id_post`)
+);
+
+-- ----------------------------
+-- Records of forum_posts
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_posts_archivio`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_posts_archivio`;
+CREATE TABLE `forum_posts_archivio` (
+  `id_post_archivio` bigint(20) NOT NULL default '0',
+  `id_post` bigint(20) NOT NULL default '0',
+  `id_forum` varchar(100) NOT NULL default '',
+  `id_corso` varchar(100) NOT NULL default '',
+  `id_edizione` varchar(100) NOT NULL default '',
+  `id_post_padre` bigint(20) default NULL,
+  `data_post` datetime default NULL,
+  `id_autore` varchar(100) default NULL,
+  `oggetto` varchar(150) default NULL,
+  `testo` text,
+  `nome_file` varchar(100) default NULL,
+  `file_size` int(11) default NULL,
+  `file_type` varchar(60) default NULL,
+  `data_last_mod` timestamp(14) NOT NULL,
+  `repemail` char(2) default NULL,
+  `icona_post` varchar(20) default NULL,
+  PRIMARY KEY  (`id_post_archivio`)
+);
+
+-- ----------------------------
+-- Records of forum_posts_archivio
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_posts_attinenze`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_posts_attinenze`;
+CREATE TABLE `forum_posts_attinenze` (
+  `id_post` bigint(20) NOT NULL default '0',
+  `id_forum` varchar(100) NOT NULL default '',
+  `id_utente` varchar(100) NOT NULL default '',
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `valore` int(11) default NULL
+);
+
+-- ----------------------------
+-- Records of forum_posts_attinenze
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `forum_read`
+-- ----------------------------
+DROP TABLE IF EXISTS `forum_read`;
+CREATE TABLE `forum_read` (
+  `id_read` bigint(20) NOT NULL default '0',
+  `id_post` bigint(20) NOT NULL default '0',
+  `id_forum` varchar(100) NOT NULL default '',
+  `id_utente` varchar(100) NOT NULL default '',
+  `data_read` datetime default NULL,
+  `azione` varchar(20) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_read`)
+);
+
+-- ----------------------------
+-- Records of forum_read
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `gruppo_utenti`
+-- ----------------------------
+DROP TABLE IF EXISTS `gruppo_utenti`;
+CREATE TABLE `gruppo_utenti` (
+  `id_gruppo_utenti` bigint(20) NOT NULL default '0',
+  `id_gruppo` varchar(200) NOT NULL default '',
+  `id_corso` varchar(100) NOT NULL default '',
+  `id_edizione` varchar(100) NOT NULL default '',
+  `descrizione` varchar(200) default NULL,
+  `id_tutor` varchar(200) default NULL,
+  `tipo_gruppo` int(11) default NULL,
+  PRIMARY KEY  (`id_gruppo_utenti`)
+);
+
+-- ----------------------------
+-- Records of gruppo_utenti
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `hp_news`
+-- ----------------------------
+DROP TABLE IF EXISTS `hp_news`;
+CREATE TABLE `hp_news` (
+  `id_news` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(100) default NULL,
+  `tipo` char(2) NOT NULL default '',
+  `data_news` timestamp(14) NOT NULL,
+  `url_label` varchar(100) default NULL,
+  `url` varchar(200) default NULL,
+  `testo` text,
+  `posizione` char(3) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_news`)
+);
+
+-- ----------------------------
+-- Records of hp_news
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `inlinea`
+-- ----------------------------
+DROP TABLE IF EXISTS `inlinea`;
+CREATE TABLE `inlinea` (
+  `id_utente` varchar(100) NOT NULL default '',
+  `data_conn` datetime default NULL,
+  PRIMARY KEY  (`id_utente`)
+);
+
+-- ----------------------------
+-- Records of inlinea
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `invito_chat`
+-- ----------------------------
+DROP TABLE IF EXISTS `invito_chat`;
+CREATE TABLE `invito_chat` (
+  `id_invito` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(100) NOT NULL default '',
+  `id_invitato` varchar(100) NOT NULL default '',
+  `data_invito` timestamp(14) NOT NULL,
+  `stanza` varchar(200) default NULL,
+  PRIMARY KEY  (`id_invito`)
+);
+
+-- ----------------------------
+-- Records of invito_chat
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `iscrizioni_corso`
+-- ----------------------------
+DROP TABLE IF EXISTS `iscrizioni_corso`;
+CREATE TABLE `iscrizioni_corso` (
+  `id_iscrizione` bigint(20) NOT NULL default '0',
+  `id_corso` varchar(100) NOT NULL default '',
+  `id_edizione` varchar(100) NOT NULL default '',
+  `id_utente` varchar(100) default NULL,
+  `id_gruppo` varchar(200) NOT NULL default '',
+  `data_iscrizione` datetime default NULL,
+  `livello` smallint(6) default NULL,
+  `superato` char(2) default NULL,
+  `note` text,
+  PRIMARY KEY  (`id_iscrizione`)
+);
+
+-- ----------------------------
+-- Records of iscrizioni_corso
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `iscrizioni_gruppo_pw`
+-- ----------------------------
+DROP TABLE IF EXISTS `iscrizioni_gruppo_pw`;
+CREATE TABLE `iscrizioni_gruppo_pw` (
+  `id_corso` varchar(100) NOT NULL default '',
+  `id_edizione` varchar(100) NOT NULL default '',
+  `id_utente` varchar(100) NOT NULL default '',
+  `id_gruppo` varchar(100) NOT NULL default ''
+);
+
+-- ----------------------------
+-- Records of iscrizioni_gruppo_pw
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `item_test`
+-- ----------------------------
+DROP TABLE IF EXISTS `item_test`;
+CREATE TABLE `item_test` (
+  `id_item_test` bigint(20) NOT NULL default '0',
+  `id_test` varchar(200) NOT NULL default '',
+  `num_item` int(11) NOT NULL default '0',
+  `tipo_item` int(11) default NULL,
+  `domanda` text,
+  `peso` int(11) default NULL,
+  `risp1` varchar(200) default NULL,
+  `risp2` varchar(200) default NULL,
+  `risp3` varchar(200) default NULL,
+  `risp4` varchar(200) default NULL,
+  `risp5` varchar(200) default NULL,
+  `risp6` varchar(200) default NULL,
+  `risp7` varchar(200) default NULL,
+  `risp8` varchar(200) default NULL,
+  `risp_altro` char(2) default NULL,
+  `tot_risp1` bigint(20) default NULL,
+  `tot_risp2` bigint(20) default NULL,
+  `tot_risp3` bigint(20) default NULL,
+  `tot_risp4` bigint(20) default NULL,
+  `tot_risp5` bigint(20) default NULL,
+  `tot_risp6` bigint(20) default NULL,
+  `tot_risp7` bigint(20) default NULL,
+  `tot_risp8` bigint(20) default NULL,
+  `tot_risp_a` bigint(20) default NULL,
+  `tot_no_risp` bigint(20) default NULL,
+  `punt_risp1` int(11) default NULL,
+  `punt_risp2` int(11) default NULL,
+  `punt_risp3` int(11) default NULL,
+  `punt_risp4` int(11) default NULL,
+  `punt_risp5` int(11) default NULL,
+  `punt_risp6` int(11) default NULL,
+  `punt_risp7` int(11) default NULL,
+  `punt_risp8` int(11) default NULL,
+  `note` text,
+  PRIMARY KEY  (`id_item_test`)
+);
+
+-- ----------------------------
+-- Records of item_test
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `item_test_compilato`
+-- ----------------------------
+DROP TABLE IF EXISTS `item_test_compilato`;
+CREATE TABLE `item_test_compilato` (
+  `id_item_test_compilato` bigint(20) NOT NULL default '0',
+  `id_test_compilato` bigint(20) NOT NULL default '0',
+  `id_test` varchar(200) NOT NULL default '',
+  `id_item_test` bigint(20) NOT NULL default '0',
+  `risposta_aperta` text,
+  `risp_chiusa` char(1) default NULL,
+  `risp_box1` char(1) default NULL,
+  `risp_box2` char(1) default NULL,
+  `risp_box3` char(1) default NULL,
+  `risp_box4` char(1) default NULL,
+  `risp_box5` char(1) default NULL,
+  `risp_box6` char(1) default NULL,
+  `risp_box7` char(1) default NULL,
+  `risp_box8` char(1) default NULL,
+  `risp_altro` varchar(200) default NULL,
+  `nome_file` varchar(100) default NULL,
+  `file_size` int(11) default NULL,
+  `file_type` varchar(200) default NULL,
+  PRIMARY KEY  (`id_item_test_compilato`)
+);
+
+-- ----------------------------
+-- Records of item_test_compilato
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lab_materiali`
+-- ----------------------------
+DROP TABLE IF EXISTS `lab_materiali`;
+CREATE TABLE `lab_materiali` (
+  `id_risorsa` bigint(20) NOT NULL default '0',
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `tipo` int(11) default NULL,
+  `risorsa_padre` bigint(20) default NULL,
+  `url` varchar(200) default NULL,
+  `titolo` varchar(200) default NULL,
+  `descrizione` text,
+  `parole_chiave` tinytext,
+  `id_autore` varchar(200) default NULL,
+  `data_crea` datetime default NULL,
+  `data_mod` timestamp(14) NOT NULL,
+  `file_size` int(11) default NULL,
+  PRIMARY KEY  (`id_risorsa`)
+);
+
+-- ----------------------------
+-- Records of lab_materiali
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo`;
+CREATE TABLE `lo` (
+  `id_lo` varchar(50) NOT NULL default '',
+  `id_profile` varchar(50) NOT NULL default '',
+  `stato` smallint(6) default NULL,
+  `lo_tipo` tinyint(2) NOT NULL default '1',
+  `lo_tipo_lom` varchar(50) default NULL,
+  `lo_url` varchar(200) default NULL,
+  `lo_skin` varchar(50) NOT NULL default '',
+  `width` int(10) unsigned NOT NULL default '800',
+  `height` int(10) unsigned NOT NULL default '600',
+  `scorm_version` varchar(9) NOT NULL default '',
+  `materia` varchar(200) NOT NULL default '',
+  `obiettivi` text,
+  `argomenti` text,
+  `fruitore` text,
+  `profilo_ingresso` text,
+  `file_audio` varchar(200) default NULL,
+  `lo_modocontinua` tinyint(4) default '0',
+  `lo_bloccoavanzamento` tinyint(4) default '0',
+  `lo_licenza` text,
+  PRIMARY KEY  (`id_lo`)
+);
+
+-- ----------------------------
+-- Records of lo
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_metadata`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_metadata`;
+CREATE TABLE `lo_metadata` (
+  `id_rep` bigint(20) NOT NULL default '0',
+  `id_lo` varchar(50) NOT NULL default '',
+  `id_rep_sup` bigint(20) default NULL,
+  `id_lom` varchar(50) default NULL,
+  `id_profile` varchar(50) NOT NULL default '',
+  `lang` varchar(10) default NULL,
+  `valore` text,
+  PRIMARY KEY  (`id_rep`)
+);
+
+-- ----------------------------
+-- Records of lo_metadata
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_metadata_valore`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_metadata_valore`;
+CREATE TABLE `lo_metadata_valore` (
+  `id_rep` bigint(20) NOT NULL default '0',
+  `n` smallint(6) default NULL,
+  `valore` text,
+  `lang` varchar(10) default NULL
+);
+
+-- ----------------------------
+-- Records of lo_metadata_valore
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_pagina`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_pagina`;
+CREATE TABLE `lo_pagina` (
+  `id_pagina` mediumint(8) unsigned NOT NULL default '0',
+  `tipo_pagina` tinyint(4) unsigned NOT NULL default '1',
+  `titolo` varchar(200) NOT NULL default 'senza titolo',
+  `approfondimento` char(2) NOT NULL default '',
+  `id_editor` varchar(100) NOT NULL default '',
+  `riepilogo` char(2) default NULL,
+  `id_alternativo` varchar(100) default NULL,
+  `alternativo_di` varchar(100) default NULL,
+  `glossario` char(2) default NULL,
+  PRIMARY KEY  (`id_pagina`)
+);
+
+-- ----------------------------
+-- Records of lo_pagina
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_pagina_asset`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_pagina_asset`;
+CREATE TABLE `lo_pagina_asset` (
+  `id_pagina_asset` mediumint(8) unsigned NOT NULL default '0',
+  `id_pagina` mediumint(8) unsigned default NULL,
+  `tipo_asset` tinyint(4) unsigned default NULL,
+  `file_asset` varchar(200) default NULL,
+  `alt_text` varchar(200) default NULL,
+  `alt_img` varchar(200) default NULL,
+  `posizione` mediumint(8) unsigned NOT NULL default '1',
+  `posizione_int` mediumint(8) unsigned NOT NULL default '1',
+  `width` int(10) unsigned NOT NULL default '320',
+  `height` int(10) unsigned NOT NULL default '240',
+  `id_editor` varchar(100) NOT NULL default '',
+  `soluzione` text,
+  PRIMARY KEY  (`id_pagina_asset`)
+);
+
+-- ----------------------------
+-- Records of lo_pagina_asset
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_schema`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_schema`;
+CREATE TABLE `lo_schema` (
+  `id_lom` varchar(50) NOT NULL default '',
+  `id_profile` varchar(50) NOT NULL default '',
+  `id_lom_sup` varchar(50) default NULL,
+  `nome` varchar(50) default NULL,
+  `size` smallint(6) default NULL,
+  `valuespace` text,
+  `langstring` smallint(6) NOT NULL default '0',
+  `tipocampo` varchar(20) default NULL,
+  `datetype` varchar(20) default NULL,
+  `val_default` varchar(100) default NULL,
+  `obbligatorio` tinyint(4) default NULL,
+  `commento` text,
+  `source` varchar(100) default 'LOMv1.0',
+  PRIMARY KEY  (`id_lom`,`id_profile`)
+);
+
+-- ----------------------------
+-- Records of lo_schema
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_test_commento`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_test_commento`;
+CREATE TABLE `lo_test_commento` (
+  `id_commento` mediumint(8) unsigned NOT NULL default '0',
+  `id_item` mediumint(8) unsigned default NULL,
+  `id_lo` varchar(200) default NULL,
+  `tipo_elemento` varchar(200) default NULL,
+  `lim_inf` decimal(6,2) default NULL,
+  `lim_sup` decimal(6,2) default NULL,
+  `commento` text,
+  `id_editor` varchar(100) NOT NULL default '',
+  PRIMARY KEY  (`id_commento`)
+);
+
+-- ----------------------------
+-- Records of lo_test_commento
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_test_compilato`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_test_compilato`;
+CREATE TABLE `lo_test_compilato` (
+  `id_compilazione` mediumint(8) unsigned NOT NULL default '0',
+  `id_item` mediumint(8) unsigned default NULL,
+  `id_lo` varchar(200) default NULL,
+  `id_utente` varchar(100) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `punteggio` decimal(6,2) default NULL,
+  `punteggio_max` decimal(6,2) default NULL,
+  `data_compilazione` datetime default NULL,
+  `report` text,
+  PRIMARY KEY  (`id_compilazione`)
+);
+
+-- ----------------------------
+-- Records of lo_test_compilato
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_test_dragdrop`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_test_dragdrop`;
+CREATE TABLE `lo_test_dragdrop` (
+  `id_item_opzione` mediumint(8) unsigned default NULL,
+  `id_item` mediumint(8) unsigned default NULL,
+  `tipo_opzione` int(11) default NULL,
+  `x_p` int(11) default NULL,
+  `y_p` int(11) default NULL,
+  `immagine` varchar(200) default NULL,
+  `messaggio` text
+);
+
+-- ----------------------------
+-- Records of lo_test_dragdrop
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_test_item`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_test_item`;
+CREATE TABLE `lo_test_item` (
+  `id_item` mediumint(8) unsigned NOT NULL default '0',
+  `tipo_item` tinyint(4) unsigned NOT NULL default '1',
+  `alternativo` char(2) default NULL,
+  `max_risposte` smallint(5) unsigned default NULL,
+  `titolo` varchar(200) NOT NULL default 'senza titolo',
+  `mostra_titolo` char(2) default NULL,
+  `domanda` text,
+  `peso` smallint(5) unsigned default NULL,
+  `altro` char(2) default NULL,
+  `id_editor` varchar(100) NOT NULL default '',
+  `msg_ok` varchar(200) default NULL,
+  `msg_ko` varchar(200) default NULL,
+  `link_tutoriale` varchar(100) default NULL,
+  `link_tutoriale_post` varchar(100) default NULL,
+  `id_alternativo` varchar(100) default NULL,
+  `link_tutoriale_ref` varchar(100) default NULL,
+  `alternativo_di` varchar(100) default NULL,
+  `legend` varchar(200) NOT NULL default '',
+  PRIMARY KEY  (`id_item`)
+);
+
+-- ----------------------------
+-- Records of lo_test_item
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_test_item_cruciverba`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_test_item_cruciverba`;
+CREATE TABLE `lo_test_item_cruciverba` (
+  `id_item` mediumint(8) NOT NULL default '0',
+  `larghezza` smallint(6) default NULL,
+  `altezza` smallint(6) NOT NULL default '0',
+  PRIMARY KEY  (`id_item`)
+);
+
+-- ----------------------------
+-- Records of lo_test_item_cruciverba
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_test_item_opzioni`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_test_item_opzioni`;
+CREATE TABLE `lo_test_item_opzioni` (
+  `id_item_opzione` mediumint(8) unsigned NOT NULL default '0',
+  `id_item` mediumint(8) unsigned default NULL,
+  `posizione` mediumint(8) unsigned NOT NULL default '1',
+  `risposta_opzione` varchar(200) default NULL,
+  `tipo_opzione` tinyint(4) unsigned default NULL,
+  `punteggio` decimal(6,2) default NULL,
+  `risposta_giusta` varchar(200) default NULL,
+  `risposte_lista` text,
+  `pull_down` smallint(5) default '0',
+  `limite_caratteri` mediumint(8) default NULL,
+  `id_item_esatto` mediumint(8) unsigned default NULL,
+  `case_sensitive` char(2) default NULL,
+  `id_editor` varchar(100) NOT NULL default '',
+  PRIMARY KEY  (`id_item_opzione`)
+);
+
+-- ----------------------------
+-- Records of lo_test_item_opzioni
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_test_item_opzioni_cruciverba`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_test_item_opzioni_cruciverba`;
+CREATE TABLE `lo_test_item_opzioni_cruciverba` (
+  `id_item_opzione` bigint(20) NOT NULL default '0',
+  `id_item` mediumint(8) NOT NULL default '0',
+  `posizione` mediumint(8) NOT NULL default '0',
+  `etichetta` smallint(6) default NULL,
+  `verso` char(1) NOT NULL default '',
+  `definizione` varchar(200) default NULL,
+  `risposta_giusta` varchar(200) default NULL,
+  `msg_ko` varchar(200) default NULL,
+  PRIMARY KEY  (`id_item_opzione`)
+);
+
+-- ----------------------------
+-- Records of lo_test_item_opzioni_cruciverba
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lo_tracking`
+-- ----------------------------
+DROP TABLE IF EXISTS `lo_tracking`;
+CREATE TABLE `lo_tracking` (
+  `id_utente` varchar(100) NOT NULL default '',
+  `azione` varchar(20) NOT NULL default '',
+  `data_sessione` datetime NOT NULL default '0000-00-00 00:00:00',
+  `id_lo` varchar(50) NOT NULL default '',
+  `stato_sessione` varchar(50) NOT NULL default '',
+  `durata_sessione` time default NULL,
+  `commenti_utente` text,
+  `punteggio` smallint(6) default NULL,
+  `punteggio_max` smallint(6) default NULL,
+  `test_report` text
+);
+
+-- ----------------------------
+-- Records of lo_tracking
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `log_lab_materiali`
+-- ----------------------------
+DROP TABLE IF EXISTS `log_lab_materiali`;
+CREATE TABLE `log_lab_materiali` (
+  `id_log` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(200) NOT NULL default '',
+  `data_log` datetime default NULL,
+  `id_risorsa` bigint(20) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_log`)
+);
+
+-- ----------------------------
+-- Records of log_lab_materiali
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `log_materiali`
+-- ----------------------------
+DROP TABLE IF EXISTS `log_materiali`;
+CREATE TABLE `log_materiali` (
+  `id_log` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(100) NOT NULL default '',
+  `data_log` datetime default NULL,
+  `dettagli` varchar(200) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_log`)
+);
+
+-- ----------------------------
+-- Records of log_materiali
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `log_sito`
+-- ----------------------------
+DROP TABLE IF EXISTS `log_sito`;
+CREATE TABLE `log_sito` (
+  `id_log` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(100) NOT NULL default '',
+  `data_log` datetime default NULL,
+  `dettagli` varchar(200) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  PRIMARY KEY  (`id_log`)
+);
+
+-- ----------------------------
+-- Records of log_sito
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `materiale_gruppo_storia`
+-- ----------------------------
+DROP TABLE IF EXISTS `materiale_gruppo_storia`;
+CREATE TABLE `materiale_gruppo_storia` (
+  `id_risorsa` bigint(20) NOT NULL default '0',
+  `data_evento` datetime default NULL,
+  `id_utente` varchar(100) default NULL,
+  `evento` varchar(100) default NULL
+);
+
+-- ----------------------------
+-- Records of materiale_gruppo_storia
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `materiale_storia`
+-- ----------------------------
+DROP TABLE IF EXISTS `materiale_storia`;
+CREATE TABLE `materiale_storia` (
+  `id_risorsa` varchar(200) NOT NULL default '',
+  `data_evento` datetime default NULL,
+  `id_utente` varchar(100) default NULL,
+  `evento` varchar(100) default NULL
+);
+
+-- ----------------------------
+-- Records of materiale_storia
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `materiali_gruppo`
+-- ----------------------------
+DROP TABLE IF EXISTS `materiali_gruppo`;
+CREATE TABLE `materiali_gruppo` (
+  `id_risorsa` bigint(20) NOT NULL default '0',
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `tipo` int(11) default NULL,
+  `risorsa_padre` varchar(200) default NULL,
+  `sezione` int(11) default NULL,
+  `posizione` int(11) default NULL,
+  `url` varchar(200) default NULL,
+  `titolo` varchar(200) default NULL,
+  `descrizione` text,
+  `parole_chiave` tinytext,
+  `id_autore` varchar(200) default NULL,
+  `id_editor` varchar(200) default NULL,
+  `data_crea` datetime default NULL,
+  `data_mod` timestamp(14) NOT NULL,
+  `livello` int(11) default NULL,
+  `file_size` int(11) default NULL,
+  PRIMARY KEY  (`id_risorsa`)
+);
+
+-- ----------------------------
+-- Records of materiali_gruppo
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `materiali_sequenza`
+-- ----------------------------
+DROP TABLE IF EXISTS `materiali_sequenza`;
+CREATE TABLE `materiali_sequenza` (
+  `id_materiali_sequenza` bigint(20) NOT NULL default '0',
+  `id_risorsa` varchar(200) default NULL,
+  `tipo_risorsa` int(11) default NULL,
+  `ordine` int(11) default NULL,
+  `data_rilascio` date default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `id_utente` varchar(100) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  PRIMARY KEY  (`id_materiali_sequenza`)
+);
+
+-- ----------------------------
+-- Records of materiali_sequenza
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `messaggi`
+-- ----------------------------
+DROP TABLE IF EXISTS `messaggi`;
+CREATE TABLE `messaggi` (
+  `id_messaggio` int(11) NOT NULL default '0',
+  `id_mittente` varchar(100) NOT NULL default '',
+  `id_destinatario` varchar(100) NOT NULL default '',
+  `data_invio` datetime default NULL,
+  `data_lettura` datetime default NULL,
+  `oggetto` varchar(200) default NULL,
+  `testo` text,
+  `stato` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`id_messaggio`)
+);
+
+-- ----------------------------
+-- Records of messaggi
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `postit`
+-- ----------------------------
+DROP TABLE IF EXISTS `postit`;
+CREATE TABLE `postit` (
+  `id_postit` bigint(20) NOT NULL default '0',
+  `id_utente` varchar(200) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_pagina` varchar(100) NOT NULL default '',
+  `data_postit` datetime default NULL,
+  `tipo` int(11) default NULL,
+  `x_p` int(11) default NULL,
+  `y_p` int(11) default NULL,
+  `colore` varchar(100) default NULL,
+  `larghezza` int(11) default NULL,
+  `altezza` int(11) default NULL,
+  `messaggio` text,
+  PRIMARY KEY  (`id_postit`)
+);
+
+-- ----------------------------
+-- Records of postit
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `profile`
+-- ----------------------------
+DROP TABLE IF EXISTS `profile`;
+CREATE TABLE `profile` (
+  `id_profile` varchar(50) NOT NULL default '',
+  `descrizione` varchar(200) default NULL,
+  PRIMARY KEY  (`id_profile`)
+);
+
+-- ----------------------------
+-- Records of profile
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `risorse`
+-- ----------------------------
+DROP TABLE IF EXISTS `risorse`;
+CREATE TABLE `risorse` (
+  `id_risorsa` varchar(200) NOT NULL default '',
+  `tipo` int(11) default NULL,
+  `risorsa_padre` varchar(200) default NULL,
+  `sezione` int(11) default NULL,
+  `posizione` int(11) default NULL,
+  `url` varchar(200) default NULL,
+  `titolo` varchar(200) default NULL,
+  `descrizione` text,
+  `parole_chiave` tinytext,
+  `id_autore` varchar(200) default NULL,
+  `data_crea` datetime default NULL,
+  `data_mod` timestamp(14) NOT NULL,
+  `livello` int(11) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `file_size` int(11) default NULL,
+  PRIMARY KEY  (`id_risorsa`)
+);
+
+-- ----------------------------
+-- Records of risorse
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `risorse_materiali`
+-- ----------------------------
+DROP TABLE IF EXISTS `risorse_materiali`;
+CREATE TABLE `risorse_materiali` (
+  `id_risorsa` varchar(200) NOT NULL default '',
+  `tipo` int(11) default NULL,
+  `risorsa_padre` varchar(200) default NULL,
+  `sezione` int(11) default NULL,
+  `posizione` int(11) default NULL,
+  `url` varchar(200) default NULL,
+  `titolo` varchar(200) default NULL,
+  `descrizione` text,
+  `parole_chiave` tinytext,
+  `id_autore` varchar(200) default NULL,
+  `data_crea` datetime default NULL,
+  `data_mod` timestamp(14) NOT NULL,
+  `livello` int(11) default NULL,
+  `id_gruppo` varchar(200) default NULL,
+  `file_size` int(11) default NULL,
+  `id_editor` varchar(200) default NULL,
+  `id_editor_gruppo` bigint(20) default NULL,
+  PRIMARY KEY  (`id_risorsa`)
+);
+
+-- ----------------------------
+-- Records of risorse_materiali
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `risorse_materiali_commenti`
+-- ----------------------------
+DROP TABLE IF EXISTS `risorse_materiali_commenti`;
+CREATE TABLE `risorse_materiali_commenti` (
+  `id_commento` bigint(20) NOT NULL default '0',
+  `id_risorsa` varchar(100) default NULL,
+  `id_utente` varchar(100) default NULL,
+  `data_commento` datetime default NULL,
+  `testo` text,
+  PRIMARY KEY  (`id_commento`)
+);
+
+-- ----------------------------
+-- Records of risorse_materiali_commenti
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `rubrica`
+-- ----------------------------
+DROP TABLE IF EXISTS `rubrica`;
+CREATE TABLE `rubrica` (
+  `id_rubrica` varchar(200) NOT NULL default '',
+  `titolo` varchar(200) default NULL,
+  `posizione` int(11) default NULL,
+  PRIMARY KEY  (`id_rubrica`)
+);
+
+-- ----------------------------
+-- Records of rubrica
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `ruolo_utenti`
+-- ----------------------------
+DROP TABLE IF EXISTS `ruolo_utenti`;
+CREATE TABLE `ruolo_utenti` (
+  `id_utente` varchar(100) NOT NULL default '',
+  `ruolo` varchar(100) NOT NULL default '',
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `id_gruppo` varchar(200) default NULL
+);
+
+-- ----------------------------
+-- Records of ruolo_utenti
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `scorm`
+-- ----------------------------
+DROP TABLE IF EXISTS `scorm`;
+CREATE TABLE `scorm` (
+  `id` int(10) unsigned NOT NULL default '0',
+  `course` int(10) unsigned NOT NULL default '0',
+  `name` varchar(255) NOT NULL default '',
+  `reference` varchar(255) NOT NULL default '',
+  `version` varchar(9) NOT NULL default '',
+  `maxgrade` float NOT NULL default '0',
+  `grademethod` tinyint(2) NOT NULL default '0',
+  `launch` int(10) unsigned NOT NULL default '0',
+  `summary` text NOT NULL,
+  `browsemode` tinyint(2) NOT NULL default '0',
+  `auto` tinyint(1) unsigned NOT NULL default '0',
+  `width` int(10) unsigned NOT NULL default '800',
+  `height` int(10) unsigned NOT NULL default '600',
+  `timemodified` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+);
+
+-- ----------------------------
+-- Records of scorm
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `scorm_scoes`
+-- ----------------------------
+DROP TABLE IF EXISTS `scorm_scoes`;
+CREATE TABLE `scorm_scoes` (
+  `id` varchar(50) NOT NULL default '',
+  `scorm` int(10) unsigned NOT NULL default '0',
+  `manifest` varchar(255) NOT NULL default '',
+  `organization` varchar(255) NOT NULL default '',
+  `parent` varchar(255) NOT NULL default '',
+  `identifier` varchar(255) NOT NULL default '',
+  `launch` varchar(255) NOT NULL default '',
+  `parameters` varchar(255) NOT NULL default '',
+  `scormtype` varchar(5) NOT NULL default '',
+  `title` varchar(255) NOT NULL default '',
+  `prerequisites` varchar(200) NOT NULL default '',
+  `maxtimeallowed` varchar(19) NOT NULL default '',
+  `timelimitaction` varchar(19) NOT NULL default '',
+  `datafromlms` varchar(255) NOT NULL default '',
+  `masteryscore` varchar(200) NOT NULL default '',
+  `next` tinyint(1) unsigned NOT NULL default '0',
+  `previous` tinyint(1) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`id`)
+);
+
+-- ----------------------------
+-- Records of scorm_scoes
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `scorm_scoes_track`
+-- ----------------------------
+DROP TABLE IF EXISTS `scorm_scoes_track`;
+CREATE TABLE `scorm_scoes_track` (
+  `id` int(10) unsigned NOT NULL default '0',
+  `userid` varchar(100) NOT NULL default '',
+  `scormid` int(10) NOT NULL default '0',
+  `scoid` varchar(50) NOT NULL default '0',
+  `element` varchar(255) NOT NULL default '',
+  `value` longtext NOT NULL,
+  `timemodified` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+);
+
+-- ----------------------------
+-- Records of scorm_scoes_track
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `teleskill_room`
+-- ----------------------------
+DROP TABLE IF EXISTS `teleskill_room`;
+CREATE TABLE `teleskill_room` (
+  `roomid` bigint(20) NOT NULL default '0',
+  `id_corso` varchar(30) default NULL,
+  `id_edizione` varchar(30) default NULL,
+  `userid` varchar(200) default NULL,
+  `start_date` datetime default NULL,
+  `end_date` datetime default NULL,
+  `title` varchar(255) default NULL,
+  PRIMARY KEY  (`roomid`)
+);
+
+-- ----------------------------
+-- Records of teleskill_room
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `test`
+-- ----------------------------
+DROP TABLE IF EXISTS `test`;
+CREATE TABLE `test` (
+  `id_test` varchar(200) NOT NULL default '',
+  `id_gruppo` varchar(200) NOT NULL default '',
+  `titolo` varchar(200) default NULL,
+  `tipo_test` int(11) default NULL,
+  `data_prima` datetime default NULL,
+  `data_ultima` datetime default NULL,
+  `tot_prog` bigint(20) default NULL,
+  `num_domande` int(11) default NULL,
+  `punteggio_soglia` int(11) default NULL,
+  `id_editor` varchar(200) default NULL,
+  PRIMARY KEY  (`id_test`)
+);
+
+-- ----------------------------
+-- Records of test
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `test_compilato`
+-- ----------------------------
+DROP TABLE IF EXISTS `test_compilato`;
+CREATE TABLE `test_compilato` (
+  `id_test_compilato` bigint(20) NOT NULL default '0',
+  `id_test` varchar(200) NOT NULL default '',
+  `id_gruppo` varchar(200) NOT NULL default '',
+  `id_utente` varchar(100) NOT NULL default '',
+  `data_compilazione` datetime default NULL,
+  `punteggio` int(11) default NULL,
+  `punteggio_max` int(11) default NULL,
+  `id_corso` varchar(200) default NULL,
+  `id_edizione` varchar(200) default NULL,
+  `sequenza_domande` varchar(200) default NULL,
+  PRIMARY KEY  (`id_test_compilato`)
+);
+
+-- ----------------------------
+-- Records of test_compilato
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `utenti`
+-- ----------------------------
+DROP TABLE IF EXISTS `utenti`;
+CREATE TABLE `utenti` (
+  `id_utente` varchar(100) NOT NULL default '',
+  `pwd_utente` varchar(100) NOT NULL default '',
+  `data_reg` datetime default NULL,
+  `nome` varchar(100) NOT NULL default '',
+  `cognome` varchar(100) NOT NULL default '',
+  `indirizzo` varchar(100) default NULL,
+  `cap` varchar(5) default NULL,
+  `citta` varchar(100) default NULL,
+  `prov` char(2) default NULL,
+  `telefono` varchar(100) default NULL,
+  `email` varchar(100) NOT NULL default '',
+  `sitoweb` varchar(100) default NULL,
+  `sesso` char(1) NOT NULL default '',
+  `eta` varchar(100) default NULL,
+  `professione` varchar(200) default NULL,
+  `interesse` varchar(200) default NULL,
+  `newsletter` char(2) default NULL,
+  `privacy` varchar(200) default NULL,
+  `showme` char(2) default NULL,
+  `biografia` text,
+  `convenzione` char(2) default NULL,
+  `scuola` varchar(200) default NULL,
+  `stato` int(11) default NULL,
+  `ruolo_scuola` varchar(200) default NULL,
+  `materia` varchar(200) default NULL,
+  PRIMARY KEY  (`id_utente`)
+);
+
+-- ----------------------------
+-- Records of utenti
+-- ----------------------------

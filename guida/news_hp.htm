@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>manuale</title>
+	<link rel=stylesheet type="text/css" href="stile_sito.css">
+	<script language="JavaScript1.2" src="script_utili.js"></script>
+</head>
+
+<body bgcolor=white>
+
+<p span class=titolopagina>
+News di home page
+</p>
+<span class=testo>
+In home page sono riconoscibili le <b>news dalla direzione</b> e le <b>news dagli iscritti</b>.<br>
+L'utente con ruolo di <b>staff</b> o di <b>admin</b> pu� modificare/creare/cancellare sia le news di direzione che quelle degli iscritti. Gli utenti semplici possono modificare/creare/cancellare solo le news degli iscritti.<br><br>
+Le news vengono mostrate nel <b>contesto del corso</b> in cui sono state create. 
+<br><br>
+Quindi se volete definire una <b>news che possano vedere tutti</b> indipendentemente dal corso, <b>createla fuori dal contesto di un corso</b>: dopo il login non selezionate alcun corso e quindi create la news.<br>
+Se invece volete definire una <b>news visibile solo agli iscritti</b> di un particolare corso, selezionate prima il corso e quindi create la news.<br>
+<br>
+Questo meccanismo vale sia per le news di direzione che per quelle degli iscritti.
+<br><br>
+Per creare una <b>news dalla direzione</b> si clicca su <b>[Nuova news]</b> (<i>funzione visibile solo agli utenti di staff o admin</i>) e si compila il modulo seguente. Analogamente per crare una <b>news dagli iscritti</b> si clicca sul link <b>Modifica</b> che si trova in basso a destra nella home page. In entrambi i casi si deve compilare il modulo che richiede i seguenti dati: <br><br>
+<b>Tipo</b>:(<i>non � presente per le news dagli iscritti</i>)<br>
+definisce la posizione in cui verr� mostrata la news. Se indicate <b>Primo piano</b> la news verr� mostrata in testa all'elenco, se invece indicate <b>News</b> questa verr� mostrata subito dopo le news di "primo piano" seguendo un ordine cronologico decrescente (dalla pi� recente alla pi� vecchia).<br>
+<br>
+<b>Titolo</b>:<br>
+definisce il titolo della news, apparir� in grassetto in testa al contenuto della news.
+<br><br>
+<b>URL</b>:<br>
+� un campo opzionale in cui � possibile riportare un indirizzo web (completo di http://). 
+Se presente il precedente campo <b>Titolo</b> verr� reso cliccabile e il relativo link punter� all'<b>URL</b> che scriverete.<br>
+<br>
+<b>Testo</b>:<br>
+� il testo vero e proprio della news. Pu� contenere anche degli indirizzi web (completi di http://) o di email. Questi verranno automaticamente tradotti in corrispondenti link. 
+<br><br>
+<b>Nota bene:</b> solo le ultime <b>cinque news</b> (sia di staff che degli iscritti) vengono mostrate in home page.<br><br>
+Per <b>modificare</b> una news basta cliccare sul corrispondente link <b>[Modifica]</b>, il quale presenter� lo stesso modulo con i campi da modificare. <br>
+Per <b>cancellare</b> una news si deve cliccare sul corrispondente link <b>[Cancella]</b>. La cancellazione � immediata, non viene richiesta conferma.<br><br>
+Per le news dagli iscritti la modifica e la cancellazione sono disponibili solo all'utente autore della corrispondente news o da un utente di staff/admin. <br><br>
+Le news dalla direzione, invece, sono modificabili e cancellabili da qualunque utente di staff o admin, anche se non ne � l'autore.
+</span>
+</body>
+</html>

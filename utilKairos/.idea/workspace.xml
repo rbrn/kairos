@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="041506d6-aebd-4e31-b4e4-2378d50781f6" name="Default" comment="" />
+    <ignored path="utilKairos.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/HelloWorld.scala" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382796166526" ignored="false" />
+    <file path="/KairosSource.scala" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820298353" ignored="false" />
+    <file path="/myfile.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382805915266" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/msg.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/newsletter.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/testata.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/new_lo_viwer/funzioni_lo_viewer_ex.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/new_lo_viwer/funzioni_lo_viewer_new.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_materiali_base.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/translation/stringhe_ro.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/translation/stringhe_it.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382815303508" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/properties.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/translation/stringhe_us.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/profiles/development.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382815346448" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_viewer_new.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/profiles/production.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382815346448" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_repository.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_testata.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/atlante_editor.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/shell_old_ex/script/jfunzioni.js.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_esporta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_testata.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_viewer.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/shell/script/lo.js.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_sito.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_pagina_asset_edit.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagina.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/index.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/ftp_comune/init_sito.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/cerca_articoli.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/ftp_comune/apri_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/ftp/init_sito.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_browse.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/scorm/init_esporta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382815303508" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_browse.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/scorm/scorm_esporta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/init_sito.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_viewer_ex.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/editorlom/config.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382815303508" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_materiali_gruppo.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820553714" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_lab_materiali.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820507227" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_forum.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/function_mappa.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/function_admin.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_stats.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/scorm/scorm_api.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382815993699" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_lo_viewer.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_lo_esporta.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/scorm/funzioni_esporta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="/funzioni_esporta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382817295114" ignored="false" />
+    <file path="/lo_viewer.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818399253" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_edizione_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_iscrizioni_gruppo_pw_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/faq_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_report.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_file_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_pezzo_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/report_corso_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/addforum.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/chat_entra.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_web_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_gruppo_modifica_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_sequenza_edit_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_storia.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_mail.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_scorm_importa.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_pezzo_modifica.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_web_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_tutti_letti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/file_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_pagina_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/esporta_iscritti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/invia_pwd.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_ordini_attesa_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/contatti_lista.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_folder_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/collegamento_risorse.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_elimina.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_sposta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/appunti_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/news_mod_go.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/registra_studente.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_folder_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_cruciverba_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_del_post.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_del_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_commento_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/chat_entra2.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/rubrica_mod.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/invita_chat.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/cerca_pagina_popup_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/scheda_utente.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/postit_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_file_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_sposta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/registra_manuale.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/risorsa_del_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_view.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/folder_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_web_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/editor_nuovogruppo_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_repository_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_letti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_pezzo.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/catalogo_corsi_iscrizione.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/repository_del_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_copia.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_indice.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513273" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_cruciverba_elimina.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/risorse_materiali_commento_del.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/cerca_utenti_result.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/editor_gruppo_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_update_post.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_file_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_marca_post.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_nuovo_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_storia_msg.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/progetti_approva.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/faq_edit_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/messaggi_chat2.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/repository_sposta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/progetti_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/faq_new_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_commento_add_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_pdf.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_web_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/progetti_file_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_commento_del.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/rubrica_del.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/contatti_view.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_store_post.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_web_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_folder_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_web_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_chi.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lista_riferimenti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/cancella_messaggi.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_file_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/newsletter_unione.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/file_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_scarica.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_match_elimina.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_fruizione_utente.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/editor_iscrizioni_gruppo_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/modforum.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/gruppo_pw_iscritti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/news_noprimopiano.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/registra.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_nuovogruppo_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/messaggio_scrivi.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_edizione_nuova_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/codice.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_spazi_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_cruciverba_add_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/messaggio_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_add_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/registra_studente_form.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_ascoltaescrivi_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/login_esterno.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_esporta_iscritti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/configura_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_storia.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_cruciverba_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_match_sposta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_folder_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/messaggio_leggi.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_sequenza_gruppo_edit_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/set_corso.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_del_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_edizione_cancella.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_view.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_sposta.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/risorse_materiali_commento_nuovo.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_match_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/hp_cal.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_folder_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_copia.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_gestione_iscrizioni_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_aperta_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_folder_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/editor_chat.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/non_iscritti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/corsi_cancella_iscrizione.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_del_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_asset_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/set_classe.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_folder_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_archivio.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/rubrica_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/pmessaggi_chat.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/gruppo_pw_iscrizione.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/modifica_utente.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_folder_add.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_incolla.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/editor_materiali.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/login.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/logout.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_materiali.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_attinenza_post.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_file_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/postit.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/progetti_scarica.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_file_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/messaggi_chat.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_view_tracking.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/editor_gruppo_modifica_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/gruppo_iscritti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/forum_post.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/check_invito.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/logout_chat.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513274" ignored="false" />
+    <file path="C:/wamp/www/kairos/iscritti.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_fill.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_errori_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_commento_elimina.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/chat_loader.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_sco_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_match_add_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_opzione_mod_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/provateleskill.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/scorm/esporta_corso.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/chat_moderazione.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/ajax_forum/ajax_forum.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_test_item_modifica_campo.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/materiali_gruppo_indice.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/lab_materiali_commento_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/progetti_file_mod_ok.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/lo_assegna_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/input_op.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382818513275" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/corsi_gestione_iscrizioni_form.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/corsi_iscrizioni_gruppo.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/articolo_mod_form.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/modify.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_view.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/forum_indice.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/ftp_comune/function_admin.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/html_editor_lo/htmlarea.js.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/materiali_index.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_folder_form_add.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/editor_iscrizioni_gruppo.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_ordina_conferma.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/utenti_lista.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/repository_index.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/materiali_sequenza_gruppo_edit.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_file_form_mod.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/rubrica_view.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/corsi_gestione_iscrizioni_lista.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/materiali_sequenza_edit.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/report_corso_form.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/stats_corso.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/admin_index_old.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820591265" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/calendario.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_folder_form_mod.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/materiali_index_bis.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/materiali_gruppo_index.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_repository_importa.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_ordina.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_commento_form.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/forum_indice_old.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/funzioni_materiali_bis.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/operate.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/layout_pagina.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_assegna.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/cerca_utenti.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939384" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/forum_mostra_post.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/corsi_gestione_iscrizioni_form_old.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/include/mysql.class.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/editforum.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/registra_iscritti.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/materiali_index_base.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/stats_corso_form.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_pagina_add.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_index.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/newsletter_globale.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_ordini_attesa.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/newsletter_corsi.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/utenti_iscrizione_lista.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_web_form_mod.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lo_repository.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/editorlom/editorprofile/index.php" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/corsi_iscrizioni_gruppo_pw.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/newsletter_form.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_web_form_add.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/creaforum.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/lab_materiali_file_form_add.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382819939385" ignored="false" />
+    <file path="C:/wamp/www/kairos/pagine/kairos_demo/display.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820383124" ignored="false" />
+    <file path="/a.dummy" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820473513" ignored="false" />
+    <file path="/Dummy.txt" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820449867" ignored="false" />
+    <file path="/funzioni_lab_materiali.inc" changelist="041506d6-aebd-4e31-b4e4-2378d50781f6" time="1382820507227" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/utilKairos$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1382793996533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="utilKairos" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="KairosSource.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kairos/KairosSource.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="63" selection-start="834" selection-end="834" vertical-scroll-proportion="0.12230216">
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2187" column="53" selection-start="86463" selection-end="86471" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/io/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="331" column="11" selection-start="14067" selection-end="14067" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html_editor_lo_conf.js.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/wamp/www/kairos/script/html_editor_lo_conf.js.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prova.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/wamp/www/kairos/shell/prova.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputStream.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/io/FileInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="26" selection-start="2668" selection-end="2683" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferedSource.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/scala/src/scala-library-src.jar!/scala/io/BufferedSource.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="30" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/kairos/HelloWorld.scala" />
+        <option value="$PROJECT_DIR$/myfile.inc" />
+        <option value="C:/wamp/www/kairos/shell/prova.php" />
+        <option value="C:/wamp/www/kairos/script/html_editor_lo.js.php" />
+        <option value="$PROJECT_DIR$/src/com/kairos/KairosSource.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="748" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="All" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilKairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilKairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="utilKairos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="utilKairos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/kairos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilKairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilKairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilKairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilKairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilKairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kairos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="utilKairos" />
+      <envs />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="041506d6-aebd-4e31-b4e4-2378d50781f6" name="Default" comment="" />
+      <created>1382793948860</created>
+      <updated>1382793948860</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4950166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24943139" sideWeight="0.5631229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6013289" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/wamp/www/kairos/shell/prova.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="26" selection-start="2668" selection-end="2683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/scala/src/scala-library-src.jar!/scala/io/BufferedSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="30" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kairos/KairosSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kairos/KairosSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/scala/src/scala-library-src.jar!/scala/collection/Iterator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="19" selection-start="9888" selection-end="9896" vertical-scroll-proportion="-8.599078" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/scala/src/scala-library-src.jar!/scala/io/BufferedSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="30" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfile.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="636" column="30" selection-start="17115" selection-end="17115" vertical-scroll-proportion="-5.071429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="26" selection-start="2668" selection-end="2683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/wamp/www/kairos/shell/prova.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/scala/src/scala-library-src.jar!/scala/io/Source.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="50" selection-start="3448" selection-end="3453" vertical-scroll-proportion="20.54">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/wamp/www/kairos/script/html_editor_lo.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.05214724" />
+      </provider>
+    </entry>
+    <entry file="file://C:/wamp/www/kairos/script/html_editor_lo_conf.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="331" column="11" selection-start="14067" selection-end="14067" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2187" column="53" selection-start="86463" selection-end="86471" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kairos/KairosSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="63" selection-start="834" selection-end="834" vertical-scroll-proportion="0.12230216">
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

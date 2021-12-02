@@ -1,0 +1,830 @@
+/*--- FOGLIO DI STILE PAGINA TUTORIALE ---*/
+
+body{
+	background: white;
+	color: #161691;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	font-style: normal;
+	text-align: left;
+}
+
+img{
+	border-width: 0px;
+}
+
+ul{
+	list-style-type: square;
+}
+
+ol{
+	list-style-type: decimal;
+}
+
+/*--- TITOLI ---*/
+#titolo_lo{
+	color: #ff0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	right: 110px;
+	position: absolute;
+	top: 70px;
+	z-index: 2;
+}
+
+titolo_pagina{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	left: 80px;
+	position: absolute;
+	top: 85px;
+}
+
+h1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+}
+
+h2{
+	font-size: 1.3em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.sottotitolo{
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*--- SCHERMATA ---*/
+#testata_01{
+	background-image: url(testata_01.jpg);
+	height: 68px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 400px;
+}
+
+#testata_02{
+	background-image: url(testata_02.jpg);
+	height: 68px;
+	left: 400px;
+	position: absolute;
+	top: 0px;
+	width: 86px;
+}
+
+#testata_03{
+	background-image: url(testata_03.jpg);
+	height: 68px;
+	left: 486px;
+	position: absolute;
+	top: 0px;
+	width: 300px;
+}
+
+#testata_04{
+	background-image:url(testata_04.jpg);
+	height: 26px;
+	left: 0px;
+	position: absolute;
+	top: 68px;
+	width: 45px;
+}
+
+#testata_05{
+	background-image:url(testata_05.jpg);
+	height: 26px;
+	left: 45px;
+	position: absolute;
+	top: 68px;
+	width: 32px;
+}
+
+#lato_sx{
+	background-image:url(lato_sx.gif);
+	height: 421px;
+	left: 45px;
+	position: absolute;
+	top: 94px;
+	width: 10px;
+}
+
+#lato_dx{
+	background-image:url(lato_dx.gif);
+	height: 447px;
+	left: 746px;
+	position: absolute;
+	top: 68px;
+	width: 11px;
+}
+
+#base_01{
+	background-image:url(base_01.gif);
+	height: 33px;
+	left: 45px;
+	position: absolute;
+	top: 505px;
+	width: 32px;
+}
+
+#base_02{
+	background-image:url(base_02.gif);
+	height: 33px;
+	left: 77px;
+	position: absolute;
+	top: 505px;
+	width: 669px;
+}
+
+#base_03{
+	background-image:url(base_03.gif);
+	height: 33px;
+	left: 726px;
+	position: absolute;
+	top: 505px;
+	width: 31px;
+}
+
+.testata_s_01{
+	background-image: url(testata_s_01.jpg);
+	height: 68px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 400px;
+}
+
+.testata_s_02{
+	background-image: url(testata_s_02.jpg);
+	height: 68px;
+	left: 400px;
+	position: absolute;
+	top: 0px;
+	width: 86px;
+}
+
+.testata_s_03{
+	background-image: url(testata_s_03.jpg);
+	height: 68px;
+	left: 486px;
+	position: absolute;
+	top: 0px;
+	width: 300px;
+}
+
+.testata_s_04{
+	background-image:url(testata_s_04.jpg);
+	height: 26px;
+	left: 0px;
+	position: absolute;
+	top: 68px;
+	width: 45px;
+}
+
+.testata_s_05{
+	background-image:url(testata_s_05.jpg);
+	height: 26px;
+	left: 45px;
+	position: absolute;
+	top: 68px;
+	width: 32px;
+}
+
+.testata_v_01{
+	background-image: url(testata_v_01.jpg);
+	height: 68px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 400px;
+}
+
+.testata_v_02{
+	background-image: url(testata_v_02.jpg);
+	height: 68px;
+	left: 400px;
+	position: absolute;
+	top: 0px;
+	width: 86px;
+}
+
+.testata_v_03{
+	background-image: url(testata_v_03.jpg);
+	height: 68px;
+	left: 486px;
+	position: absolute;
+	top: 0px;
+	width: 300px;
+}
+
+.testata_v_04{
+	background-image:url(testata_v_04.jpg);
+	height: 26px;
+	left: 0px;
+	position: absolute;
+	top: 68px;
+	width: 45px;
+}
+
+.testata_v_05{
+	background-image:url(testata_v_05.jpg);
+	height: 26px;
+	left: 45px;
+	position: absolute;
+	top: 68px;
+	width: 32px;
+}
+
+/*--- LOGO / COPERTINA ---*/
+#copertina{
+	background-image: url(copertina.jpg);
+	height: 600px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 786px;
+}
+
+.logo_garamond{
+	background-image: url(logo_garamond.gif);
+	height: 51px;
+	left: 50%;
+	margin-left: -87px;
+	position: absolute;
+	top: 450px;
+	width: 174px;
+}
+
+/*--- PULSANTI ---*/
+#credits{
+	height: 40px;
+	left: 757px;
+	position: absolute;
+	top: 280px;
+	width: 29px;
+	z-index: 3;
+}
+
+#help{
+	height: 40px;
+	left: 757px;
+	position: absolute;
+	top: 240px;
+	width: 29px;
+	z-index: 3;
+}
+
+#history{
+	height: 33px;
+	left: 575px;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+#home{
+	height: 33px;
+	left: 610px;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+#indice{
+	height: 32px;
+	left: 0px;
+	position: absolute;
+	top: 90px;
+	width: 45px;
+	z-index: 3;
+}
+
+#stampa{
+	height: 40px;
+	left: 757px;
+	position: absolute;
+	top: 200px;
+	width: 29px;
+	z-index: 3;
+}
+
+#uscita{
+	height: 33px;
+	left: 690px;
+	position: absolute;
+	top: 30px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsanteavanti{
+	height: 33px;
+	left: 715px;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsanteindietro{
+	height: 33px;
+	left: 680px;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsanteingrandisci{
+	height: 33px;
+	left: 77px;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsanteinvia{
+	height: 65px;
+	left: 400px;
+	position: absolute;
+	top: 440px;
+	width: 130px;
+	z-index: 3;
+}
+
+.pulsanterimpicciolisci{
+	height: 33px;
+	left: 110px;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsantesuono{
+	height: 33px;
+	left: 50%;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsantetorna{
+	height: 33px;
+	left: 460px;
+	position: absolute;
+	top: 479px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsantetornaindietro{
+	height: 33px;
+	left: 715px;
+	position: absolute;
+	top: 505px;
+	width: 33px;
+	z-index: 3;
+}
+
+.pulsanteverifica{
+	height: 49px;
+	left: 45%;
+	position: absolute;
+	top: 70%;
+	width: 85px;
+	z-index: 3;
+}
+
+.pulsantezoom{
+	height: 32px;
+	left: 757px;
+	position: absolute;
+	top: 94px;
+	width: 29px;
+	z-index: 3;
+}
+
+/*--- CONTENUTO ---*/
+#contenuto{
+	font-size: 1em;
+	height: 595px;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	width: 800px;
+}
+
+.bandiera{
+	font-size: 1em;
+	text-align: left
+}
+
+.didascalia{
+	font-size: 0.9em;
+	text-align: left;
+	font-style: italic;
+}
+
+.linea{
+	color: #cccccc;
+	width: 100%;
+	font-size: 2px;
+}
+
+.nascosto{
+	clear: none;
+	font-size: 0px;
+	height: 0px;
+	left: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: -1000px;
+	width: 0px;
+}
+
+.audio{
+	visibility: hidden;
+}
+
+/*--- TUTORIALE ---*/
+.contenutotutoriale{
+	border: 1px solid transparent;
+	height: 100%;
+	left: -1px;
+	overflow: hidden;
+	position: relative;
+	text-align: justify;
+	top: -1px;
+	width: 100%;
+}
+
+.testotutoriale{
+	height: 375px;
+	left: 77px;
+	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 130px;
+	width: 82%;
+}
+
+.numeropagina{
+	color: #ff0000;
+	font-size: 16px;
+	font-weight: bold;
+	left: 700px;
+	position: absolute;
+	top: 70px;
+}
+
+.totalepagine{
+	color: #ff0000;
+	font-size: 16px;
+	font-weight: bold;
+	left: 720px;
+	position: absolute;
+	top: 70px;
+}
+
+/*--- Home page ---*/
+.presentazione{
+	left: 10%;
+	position: relative;
+	text-align: left;
+	width: 90%;
+}
+
+.immaginepresentazione{
+	position: absolute;
+	left: 10px;
+}
+
+.testohome{
+	height: 325px;
+	left: 77px;
+	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 120px;
+	width: 82%;
+}
+
+/*--- Pagine con animazioni ---*/
+.animazione{
+	height: 80%;
+	margin: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	width: 98%;
+}
+
+.animazionedx {
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 98%;
+	height: 80%;
+}
+
+.animazionesx {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 98%;
+	height: 80%;
+}
+
+/*--- Pagine con immagini ---*/
+.immaginecliccabile{
+	display: block;
+	height: 300px;
+	left: 0px;
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	width: 450;
+}
+
+.immaginedx{
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.immaginesx{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*--- Pagine con test ---*/
+.testotest{
+	background-color: #f0f5ff;
+	border-bottom: 2px solid #cccccc;
+	border-top: 2px solid #cccccc;
+	left: 77px;
+	overflow: auto;
+	position: absolute;
+	top: 175px;
+	width: 84%;
+}
+
+.domanda{
+	left: 10px;
+	position: absolute;
+	font-weight: bold;
+	top: 40%;
+	width: 40%;
+}
+
+.risposta{
+	font-weight: bold;
+	left: 50%;
+	line-height: 2em;
+	position: relative;
+	width: 34%;
+}
+
+/*--- Pagine con video ---*/
+.videodx{
+	float: right;
+	height: 250px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 300px;
+}
+
+.videosx{
+	float: left;
+	height: 250px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 300px;
+}
+
+.videorp2dx{
+	height: 25px;
+	left: 356px;
+	position: absolute;
+	top: 230px;
+	width: 300px;
+}
+
+.videorp2sx{
+	height: 25px;
+	left: 20px;
+	position: absolute;
+	top: 230px;
+	width: 300px;
+}
+
+/*--- MESSAGGI ---*/
+.areamessaggio{
+	position: absolute;
+	top: 478px;
+	right: 50px;
+}
+
+.messaggio{
+	background-color: white;
+	border: none;
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.comunicazioni{
+	border: 2px solid #e11106;
+	color: #e11106;
+	font-size: 12px;
+	font-weight: bold;
+	left: 61%;
+	text-align: center;
+	position: absolute;
+	top: 440px;
+	width: 33%;
+}
+
+/*--- APPROFONDIMENTI ---*/
+.contenutoapprofondimento{
+	height: 100%;
+	left: 15%;
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	width: 80%;
+}
+
+.logoapprofondimentogenerico{
+	background: url(popup_approfondimento.png) no-repeat;
+	height: 34px;
+	position: absolute;
+	top: 100px;	
+	width: 500px;
+}
+
+.testoapprofondimentogenerico{
+	border: 1px solid #73595b;
+	background-color: #efefef;
+	height: 360px;
+	overflow: hidden;
+	position: absolute;
+	top: 134px;
+	width: 498px;
+}
+
+.testoapprofondimento{
+	font-size: 0.9em;
+	height: 300px;
+	overflow: auto;
+	position: absolute;
+	top: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 473px;
+}
+
+.contenutoapprofondimento h1{
+	background-image: none;
+	padding-left: 5px;
+	position: absolute;
+	top: 0px;
+}
+
+/*--- COMMENTI ---*/
+.form{
+	position: absolute;
+	width: 505px;
+	height: 190px;
+	left: 5px;
+	top: 80px;
+	overflow: auto;
+	font-size: 14px;
+	text-align: left;
+}
+
+.contatore{
+	position: absolute;
+	top: 295px;
+	left: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+/*--- USCITA ---*/
+#logouscita{
+	background: url(popup_uscita.png) no-repeat;
+	height: 34px;
+	position: absolute;
+	top: 100px;	
+	width: 500px;
+}
+
+#testouscita{
+	border: 1px solid #73595b;
+	background-color: #efefef;
+	overflow: auto;
+	position: absolute;
+	text-align: center;
+	top: 134px;
+	width: 498px;
+}
+
+#fineuscita{
+	background-color: #cc0000;
+	color: #ffffff;
+	font-weight: bold;
+	width: 100%
+}
+
+#esci h1{
+	clear: none;
+	font-size: 0px;
+	left: -1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+}
+
+/*--- PAGINE DI SERVIZIO ---*/
+.contenutoservizio{
+border: 1px solid transparent;
+	height: 100%;
+	left: -1px;
+	overflow: hidden;
+	position: relative;
+	top: -1px;
+	width: 100%;
+}
+
+.testoservizio{
+	height: 375px;
+	left:77px;	
+	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 130px;
+	width: 82%;	
+}
+
+.datiriepilogo{
+	background-color: transparent;
+	border: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*--- INDICE ---*/
+.sommario1{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.sommario2{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	padding-left: 40px;
+}
+
+.sommarioriga{
+	border-top: 1px solid #cccccc;
+	height: 2em;
+	width: 600px;
+}
+
+.sommarioimm{
+	height: 1.5em;
+	width: 1.5em;
+}
