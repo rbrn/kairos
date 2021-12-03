@@ -1,0 +1,16 @@
+<?php 
+$padre=$_REQUEST["padre"];
+$tipo=$_REQUEST["tipo"];
+
+switch ($tipo) {
+	case 0:
+		Header("Location:index.php?risorsa=materiali_gruppo_web_form_add&padre=$padre");
+		break;			
+	case 1:
+		Header("Location:index.php?risorsa=materiali_gruppo_file_form_add&padre=$padre");
+		break;
+	case 2:		
+		Header("Location:index.php?risorsa=materiali_gruppo_folder_form_add&padre=$padre");
+		break;
+};
+?>

@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+               <general>
+                  <title>
+                     <langstring>Ordering a meal</langstring>
+                  </title>
+                  <catalogentry>
+                     <catalog>TESOL Cosenza CEF-LO Catalogue ID</catalog>
+                     <entry>
+                        <langstring>1000-01-01</langstring>
+                     </entry>
+                  </catalogentry>
+                  <language>en</language>
+                  <description>
+                     <langstring>In this EFL learning object for B1 CEF level ,you will master some of the functional language related to ordering a meal through reading and writing activities based on a model dialogue</langstring>
+                  </description>
+                  <keyword>
+                     <langstring>Ordering</langstring>
+                  </keyword>
+                  <keyword>
+                     <langstring>restaurant</langstring>
+                  </keyword>
+                  <keyword>
+                     <langstring>food</langstring>
+                  </keyword>
+- <structure>
+  <langstring>mixed</langstring> 
+  </structure>
+- <aggregationlevel>
+- <source>
+  <langstring xml:lang="x-none">LOMv1.0</langstring> 
+  </source>
+- <value>
+  <langstring xml:lang="x-none">3</langstring> 
+  </value>
+  </aggregationlevel>
+
+               </general>
+               <lifecycle>
+                  <version>
+                     <langstring>1.0</langstring>
+                  </version>
+                  <status>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">Draft</langstring>
+                     </value>
+                  </status>
+                  <contribute>
+                     <role>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">Author</langstring>
+                        </value>
+                     </role>
+                     <centity>
+                        Sara Filice,Sue Asimoudis, Elena Del Pizzo
+                     </centity>
+                     <date>
+                        <datetime>2004-05-16</datetime>
+                     </date>
+                  </contribute>
+               </lifecycle>
+               <metametadata>
+                  <metadatascheme>ADL SCORM 1.2</metadatascheme>
+                  <language>en</language>
+               </metametadata>
+               <technical>
+                  <format>text/html</format>
+<format>image/bmp</format>
+<format>image/jpg</format>
+                  <size>255.304</size>
+                  <location type="URI">http://master.garamond.it/esempio_LO/index.htm</location>
+                  <requirement>
+                     <type>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">Browser</langstring>
+                        </value>
+                     </type>
+                     <name>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">Microsoft Internet Explorer</langstring>
+                        </value>
+                     </name>
+                     <minimumversion>5.0</minimumversion>
+                  </requirement>
+               </technical>
+               <educational>
+<interactivitytype>
+<source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+<value>
+                        <langstring xml:lang="x-none">Mixed</langstring>
+                     </value>
+</interactivitytype>
+                  <learningresourcetype>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">Exercise</langstring>
+                     </value>
+                  </learningresourcetype>
+                  <typicallearningtime>
+                     <datetime>00:20:00</datetime>
+                  </typicallearningtime>
+               </educational>
+               <rights>
+                  <cost>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">no</langstring>
+                     </value>
+                  </cost>
+                  <copyrightandotherrestrictions>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">no</langstring>
+                     </value>
+                  </copyrightandotherrestrictions>
+                  <description>
+                     <langstring> only to be used for didactic purpose with the mention of the author</langstring>
+                  </description>
+               </rights>
+  <relation>
+                  <kind>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">Ispartof</langstring>
+                     </value>
+                  </kind>
+
+                  <resource>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">The World of Food</langstring>
+                     </value>
+                  </resource>
+                  <description>
+                     <langstring>This Learning Object will give the student the possibility to master some of the functional language related to ordering a meal through reading and writing activities based on a model dialogue. </langstring>
+                  </description>
+           
+               </relation>
+<annotation>
+                  <person>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">Teacher</langstring>
+                     </value>
+                  </person>
+                   <date>
+                        <datetime>2004-05-6</datetime>
+                     </date>
+                  <description>
+                     <langstring>This EFL  Learning Object is easy to handle for the learner and highly motivating </langstring>
+                  </description>
+           
+               </annotation>
+               <classification>
+                  <purpose>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none">Educational Objective</langstring>
+                     </value>
+                  </purpose>
+                  <description>
+                     <langstring>This Learning Object will give the student the possibility to master some of the functional language related to ordering a meal through reading and writing activities based on a model dialogue. </langstring>
+                  </description>
+           
+               </classification>
+            </lom>
+        

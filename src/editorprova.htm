@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Editor Prova</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+  _editor_url = "/html_editor/";
+  _editor_lang = "it";
+</script>
+<script type="text/javascript" src="html_editor/htmlarea.js"></script>
+
+<style type="text/css">
+html, body {
+  font-family: Verdana,sans-serif;
+  background-color: #fea;
+  color: #000;
+}
+a:link, a:visited { color: #00f; }
+a:hover { color: #048; }
+a:active { color: #f00; }
+
+textarea { background-color: #fff; border: 1px solid 00f; }
+</style>
+
+<script type="text/javascript">
+var editor = null;
+function initEditor() {
+  editor = new HTMLArea("ta");
+  var cfg = editor.config; 
+  cfg.hideSomeButtons(" showhelp popupeditor about ");  
+  cfg.hideSomeButtons(" createlink_contenuti createlink_coll insertimage_contenuti insertimage_coll insertflash_contenuti insertflash_coll insertaudio_contenuti insertaudio_coll insertvideo_contenuti insertvideo_coll "); 
+  editor.generate();
+  return false;
+}
+
+
+</script>
+
+</head>
+
+
+<body onload="initEditor()">
+
+
+<form action="" method="post" id="edit" name="edit">
+
+<textarea id="ta" name="ta" style="width:100%" rows="20" cols="80">
+
+</textarea>
+
+<p />
+
+<input type="submit" name="ok" value="  ok  " />
+
+
+</form>
+
+</body>
+</html>

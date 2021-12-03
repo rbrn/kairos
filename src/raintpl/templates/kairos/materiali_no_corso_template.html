@@ -1,0 +1,171 @@
+    <div class="container">
+        <div class="page-header">
+            <h1>
+                Dashboard
+                <small>
+                    <i class="icon-double-angle-right"></i>
+                    admin &amp; configuration
+                </small>
+            </h1>
+        </div>
+        <!-- /.page-header -->
+
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- PAGE CONTENT BEGINS -->
+
+                <div class="alert alert-block alert-success">
+                    <button type="button" class="close" data-dismiss="alert">
+                        <i class="icon-remove"></i>
+                    </button>
+
+                    <i class="icon-ok green"></i>
+
+                    Welcome to
+                    <strong class="green">
+                        Ace
+                        <small>(v1.2)</small>
+                    </strong>
+                    , to the admin page
+                </div>
+
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{$stringa[area_admin]}</h3>
+                    </div>
+                    <div class="panel-body">
+                        {if="$ruolo=='admin'"}
+
+                            <span class="glyphicon glyphicon-user align-top bigger-125 "></span>
+                        <span
+                                class=testopiccolo></span> <a
+                                href="index.php?risorsa=gestione_utenti_index">{$stringa[gestione_utenti]}</a>
+
+                        {/if}
+
+                            <span class="glyphicon glyphicon-user"></span>
+                        <span
+                                class=testopiccolo></span>
+                            <a
+                                href="index.php?risorsa=repository_index">{$stringa[gestione_repository]}</a>
+
+
+
+                            <span class="glyphicon glyphicon-user"></span>
+                        <span
+                                class=testopiccolo></span><a
+                                href="index.php?risorsa=materiali_index">{$stringa[gestione_contenuti]}</a>
+
+
+                            <span class="glyphicon glyphicon-user"></span>
+                        <span
+                                class=testopiccolo></span><a
+                                href="index.php?risorsa=corsi_index">{$stringa[gestione_corsi]}</a>
+
+
+                        {if="$ruolo=='admin'"}
+
+                            <span class="glyphicon glyphicon-user"></span>
+                        <span
+                                class=testopiccolo><a
+                                href="index.php?risorsa=utility_index">{$stringa[utility]}</a></span>
+
+                        {/if}
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        <!-- /widget-main -->
+    </div>
+    <!-- /widget-body -->
+</div><!-- /widget-box -->
+
+
+    {$stringa_mat}
+    {if="$id_corso_s"}
+
+
+                        if (mysql_num_rows($result)) {
+                        <p class="sottotitolopagina">$stringa[lo_corso]</p>
+                        require "./include/materiali_indice.inc
+                        };
+
+                        $query = "SELECT * FROM materiali_sequenza WHERE id_corso='$id_corso_s' AND id_edizione='$id_edizione_s' AND (id_gruppo='' OR id_gruppo IS NULL) AND tipo_risorsa<>'3' and tipo_risorsa<>'20' ORDER BY ordine
+                        $result = mysql_query($query,$db);
+                        if (mysql_num_rows($result)) {
+                        <p class="sottotitolopagina">$stringa[materiali_corso]</p>
+                        require "./include/materiali_indice.inc
+                        };
+
+                        $query = "SELECT * FROM materiali_sequenza WHERE id_corso='$id_corso_s' AND id_edizione='$id_edizione_s' AND (id_gruppo='' OR id_gruppo IS NULL) AND tipo_risorsa='3' ORDER BY ordine
+                        $result = mysql_query($query,$db);
+                        if (mysql_num_rows($result)) {
+                        <hr size=1>
+                        <p class="sottotitolopagina">$stringa[questionari_corso]</p>
+                        require "./include/materiali_indice.inc
+                        };
+
+                        /* MATERIALI DI GRUPPO */
+                        $query_g="SELECT * FROM gruppo_utenti WHERE id_corso='$id_corso_s' AND id_edizione='$id_edizione_s'
+                        $result_g=mysql_query($query_g);
+
+                        while ($riga_g=mysql_fetch_array($result_g)) {
+                        $tit_gruppo=$riga_g["descrizione"];
+                        $id_gr=$riga_g["id_gruppo"];
+                        $id_tutor=$riga_g["id_tutor"];
+                        $istutor="
+                        $mostra=0;
+                        if ($ruolo=="admin" or $ruolo=="staff") {
+                        if ($kairos_cookie[0]==$id_tutor) $istutor="(<b>sei tutor</b>)
+                        $mostra=1;
+                        } else {
+                        $query3="SELECT * FROM iscrizioni_corso WHERE id_corso='$id_corso_s' AND id_edizione='$id_edizione_s' AND id_utente='$kairos_cookie[0]' AND id_gruppo='$id_gr' LIMIT 1
+                        $result3=mysql_query($query3);
+                        if (mysql_num_rows($result3)) $mostra=1;
+                        if (!$mostra) {
+                        $query3="SELECT * FROM iscrizioni_gruppo_pw WHERE id_corso='$id_corso_s' AND id_edizione='$id_edizione_s' AND id_utente='$kairos_cookie[0]' AND id_gruppo='$id_gr' LIMIT 1
+                        $result3=mysql_query($query3);
+                        if (mysql_num_rows($result3)) $mostra=1;
+                        }
+                        }
+
+                        if ($mostra) {
+                        $query = "SELECT * FROM materiali_sequenza WHERE id_corso='$id_corso_s' AND id_edizione='$id_edizione_s' AND (id_gruppo='$id_gr') AND tipo_risorsa<>'20' ORDER BY ordine
+                        $result = mysql_query($query,$db);
+                        if (mysql_num_rows($result)) {
+                        <hr size=1>
+                        <p class="sottotitolopagina">Materiali del gruppo: $tit_gruppo $istutor</p>
+                        require "./include/materiali_indice.inc
+                        };
+
+                        $query = "SELECT * FROM materiali_sequenza WHERE id_corso='$id_corso_s' AND id_edizione='$id_edizione_s' AND (id_gruppo='$id_gr') AND tipo_risorsa='20' ORDER BY ordine
+                        $result = mysql_query($query,$db);
+                        if (mysql_num_rows($result)) {
+                        <p class="sottotitolopagina">Learning Object del gruppo: $tit_gruppo $istutor</p>
+                        require "./include/materiali_indice.inc
+
+
+                        $query = "SELECT * FROM materiali_sequenza WHERE id_corso='' and tipo_risorsa<>'20' ORDER BY ordine
+                        $result = mysql_query($query,$db);
+                        if (mysql_num_rows($result)) {
+                        <hr size=1>
+                        <p class="sottotitolopagina">$stringa[materiali_comuni]</p>
+                        require "./include/materiali_indice.inc
+
+    {/if}
+
+            <img src="img/ico_materiali_int.gif" width="15" height="16" alt="" border="0"><span class=titolo>&nbsp;<b>$stringa[database_lavori]</b></span>
+            <a href="index.php?risorsa=lab_materiali_index&id_cartella=0" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_apri_2','','img/ico_apri_over.gif',1)"><img src="img/ico_apri.gif" width="20" height="20" alt="$stringa[apri]" border="0" name="img_apri_2" align="middle"></a>&nbsp;<a href=index.php?risorsa=lab_materiali_index&id_cartella=0 onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_apri_2','','img/ico_apri_over.gif',1)"><span class=testopiccolo>".strtoupper($stringa[apri])."</span></a>
+
+        <img src="img/ico_materiali_int.gif" width="15" height="16" alt="" border="0"><span class=titolo>&nbsp;<b>$stringa[cartelle_condivise]</b></span>
+        <a href="ftp_comune/" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_apri_3','','img/ico_apri_over.gif',1)"><img src="img/ico_apri.gif" width="20" height="20" alt="$stringa[apri]" border="0" name="img_apri_3" align="middle"></a>&nbsp;<a href="ftp_comune/" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_apri_3','','img/ico_apri_over.gif',1)"><span class=testopiccolo>".strtoupper($stringa[apri])."</span></a>
+
+
+    {if="$lavori_g"}
+        <img src="img/ico_materiali_int.gif" width="15" height="16" alt="" border="0"><span class=titolo>&nbsp;<b>$stringa[lavori_gruppo]</b></span>
+
+        <a href="index.php?risorsa=materiali_gruppo_index" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_apri_4','','img/ico_apri_over.gif',1)"><img src="img/ico_apri.gif" width="20" height="20" alt="$stringa[apri]" border="0" name="img_apri_4" align="middle"></a>&nbsp;<a href="index.php?risorsa=materiali_gruppo_index" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img_apri_4','','img/ico_apri_over.gif',1)"><span class=testopiccolo>".strtoupper($stringa[apri])."</span></a>
+    {/if}

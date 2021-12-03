@@ -1,0 +1,3 @@
+<?
+echo $dominio ."<br>";
+?>

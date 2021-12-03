@@ -1,0 +1,9 @@
+<?php
+$colore_testo_default="#535190";
+$colore_testonegativo_default="#535190";
+$colore_link_default="#535190";
+$colore_sfondo_default="#EBFFFA";
+$colore_sfondo_testata_default="#3EAA8F";
+$colore_bordo_default="#00a799";
+$colore_scuro_default="#92D8C7";
+?>

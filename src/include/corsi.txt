@@ -1,0 +1,10 @@
+corsi_index	0	corsi	\N	\N	\N	Gestione corsi			fleo	2003-03-25 15:30:11	20030325153011	5		\N
+corsi_nuovo_form	0	corsi	\N	\N	\N	Nuovo corso			fleo	2003-03-25 15:33:54	20030325153354	5		\N
+corsi_edizione_nuova_form	0	corsi	\N	\N	\N	Nuova edizione corso			fleo	2003-03-25 15:53:20	20030325155320	5		\N
+corsi_mod_form	0	corsi	\N	\N	\N	Modifica corso			fleo	2003-04-01 09:25:18	20030401092518	5		\N
+corsi_edizione_modifica	0	corsi	\N	\N	\N	Modifica edizione corso			fleo	2003-04-01 09:43:54	20030401094354	5		\N
+corsi_edizioni_archivia	0	corsi	\N	\N	\N	Archivia edizione corso			fleo	2003-04-01 09:44:28	20030401094428	5		\N
+corsi_iscrizioni	0	corsi	\N	\N	\N	Iscrizioni corsi			fleo	2003-04-01 09:44:57	20030401094457	5		\N
+corsi_nuovogruppo_form	0	corsi	\N	\N	\N	Nuovo gruppo corso			fleo	2003-04-01 15:56:23	20030401155623	5		\N
+corsi_gruppo_modifica	0	corsi	\N	\N	\N	Modifica gruppo corso			fleo	2003-04-01 15:56:49	20030401155649	5		\N
+corsi_iscrizioni_gruppo	0	corsi	\N	\N	\N	Iscrizioni gruppo corso			fleo	2003-04-01 15:57:09	20030401155709	5		\N

@@ -1,0 +1,32 @@
+BODY             {font-family: Arial,Verdana, sans-serif; font-size: 10pt; color: black;}
+BODY             {background-color: #000099;}
+
+TD               {font-family: Arial,Verdana, sans-serif; font-size: 10pt; color: black;} 
+
+IMG              {font-family: Arial,Verdana, sans-serif; font-size: 10pt; color: black;}
+                             
+A                {text-decoration: none;}
+A:link           {color: #333399;}
+A:visited        {color: #333399;}
+A:hover          {color: red; text-decoration: underline;}
+
+.menu1           {color: #CCCC99; font-weight: bold;}
+.menu1 A:link    {color: #CCCC99;}
+.menu1 A:visited {color: #CCCC99;}
+.menu1 A:hover   {color: #CCCC99; text-decoration: underline;}
+
+.menu2           {color: #FFFFCC;}
+.menu2 A:link    {color: #FFFFCC;}
+.menu2 A:visited {color: #FFFFCC;}
+.menu2 A:hover   {color: #FFFFCC; text-decoration: underline;}
+
+.thispage        {font-style: normal; color: #EBF5FF;}
+.thistabr        {position:absolute; left: 157px;}
+.thistabl        {position:absolute; left:   3px;}
+.tailcover       {position:relative; top: -4px; left:   4px;} 
+
+.testobianco	 {color:white;}
+
+.nota			 {cursor:hand; color: #333399;text-decoration: underline;}
+
+.copyright       {font-family: Arial,Verdana, sans-serif; font-size: 8pt; color: black;}

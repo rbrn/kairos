@@ -1,0 +1,10 @@
+<?php 
+$colore_testo="#535190";
+$colore_testonegativo="#535190";
+$colore_link="#535190";
+$colore_sfondo="#EBFFFA";
+$colore_sfondo_testata="#3EAA8F";
+$colore_bordo="#00a799";
+$colore_scuro="#00a799";
+$nome_org="";
+?>
