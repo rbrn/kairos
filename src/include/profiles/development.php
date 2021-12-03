@@ -6,9 +6,9 @@ error_reporting(-1);*/
 
 define(KAIROS_PATH, "/kairos/");
 define(KAIROS_PATH_ARCHIVES, "/kairos/archivi/");
-define(DBHOST, "localhost");
+define(DBHOST, "172.21.0.4");
 define(DBUSER, "root");
-define(DBPWD, "1kairos2");
+define(DBPWD, "example");
 define(CONF_DB, "confdb"); // yet to be implemented
 define(DELIMITER, "/");
 define(APP_CONTEXT, "kairos/");

@@ -70,10 +70,6 @@ function authenticateUser($user, $password)
     $mysqli = new mysqli($DBHOST, $DBUSER, $DBPWD, $DBASE);
     $cod_area = $kairos_cookie[4];
 
-    if ($cod_area == 'kairos_facciamo') {
-        return authenticateFacciamo($user, $password);
-    };
-
     $query = "SELECT id_utente,pwd_utente FROM utenti WHERE id_utente='$user'";
 
     if (!$result = $mysqli->query($query)) die($mysqli->error);
@@ -88,45 +84,8 @@ function authenticateUser($user, $password)
         }
     } else {
         return 0;
-    };
+    }
 }
-
-;
-
-function authenticateFacciamo($user, $password)
-{
-    global $DBASE, $DBUSER, $DBPWD, $DBASE_UTENTI, $corsi1_cookie, $DBHOST;
-
-    $mysqli = new mysqli($DBHOST, $DBUSER, $DBPWD, $DBASE);
-
-    $query = "SELECT id_utente,pwd_utente FROM utenti WHERE id_utente='$user'";
-    $result = $mysqli->query($query);
-    $riga = $result->fetch_array();
-
-
-    if ($riga) {
-        $pwd_utente = $riga["pwd_utente"];
-        if ($password == md5($pwd_utente)) {
-            $query = "SELECT * FROM abbonamenti_utente WHERE id_utente='$user' and cod_prodotto='eprof' AND date_add(data_prodotto,interval 1 year) >= now()";
-            $result = $mysqli->query($query);
-            $riga = $result->fetch_array();
-            if ($riga or ($user == 'fleo' or $user == 'ghigo' or $user == 'chc' or $user == 'momis')) {
-                return 1;
-            } else {
-                return 0;
-            }
-        } else {
-
-            return 0;
-        }
-    } else {
-
-        return 0;
-    };
-
-}
-
-;
 
 function deleteCookies()
 {

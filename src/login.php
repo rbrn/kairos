@@ -9,6 +9,7 @@ $id_utente_form=trim($id_utente_form);
 $pwd_utente_form=md5(trim($pwd_utente_form));
 
 if (authenticateUser($id_utente_form,$pwd_utente_form)) {
+
 	setCookies($id_utente_form,$pwd_utente_form);
 	refresh_utente($id_utente_form);
 	$query = "INSERT INTO log_sito(id_utente,data_log,dettagli) VALUES ('$id_utente_form',NOW(),'login')";
@@ -49,7 +50,7 @@ iscrizioni_corso.id_utente='$id_utente_form'";
 	$riga=$result->fetch_array();
 	$valore=$riga[id_corso];
 	if ($valore) {
-		list($id_corso,$id_edizione,$id_gruppo_s,$id_tutor_s)=split(" ",$valore);
+		list($id_corso,$id_edizione,$id_gruppo_s,$id_tutor_s)=explode(" ",$valore);
 		$query="SELECT id_gruppo FROM iscrizioni_corso WHERE id_utente='$id_utente_form' AND id_corso='$id_corso' AND id_edizione='$id_edizione'";
 		$result=$mysqli->query($query);
 		$riga=$result->fetch_array();
@@ -77,7 +78,7 @@ iscrizioni_corso.id_utente='$id_utente_form'";
 	exit();
 } else {
 	$msg=$stringa[errore_no_parametri];
-	$msg=ereg_replace(" ","%20",$msg);
+	$msg=preg_replace(" ","%20",$msg);
 	Header("Location:index.php?risorsa=msg&msg=$msg");
 	exit();
 }

@@ -13,7 +13,7 @@ $kairos_pubblici = array();
 $server = $_SERVER["SERVER_NAME"];
 $usanuovoeditor = true;
 
-ereg("^([aA-zZ]+)\.(.+)$", $server, $parti);
+preg_replace("^([aA-zZ]+)\.(.+)$", $server, $parti);
 $dominio = $parti[2];
 
 $risorsa = $_REQUEST["risorsa"];
@@ -26,7 +26,7 @@ $id_utente = $_REQUEST["id_utente"];
 $url = $_REQUEST["url"];
 
 $id_corso_ed_s = $kairos_cookie[2];
-list($id_corso_s, $id_edizione_s, $id_gruppo_s, $id_tutor_s) = split(" ", $id_corso_ed_s);
+list($id_corso_s, $id_edizione_s, $id_gruppo_s, $id_tutor_s) = preg_split(" ", $id_corso_ed_s);
 
 $lifetime = "0";
 if ($server <> "localhost")
@@ -81,7 +81,7 @@ $PATH_ROOT = "http://$server/" . APP_CONTEXT;
 
 $PATH_ARCHIVI_ADMIN = KAIROS_PATH_ARCHIVES;
 
-$db = mysql_connect($DBHOST, $DBUSER, $DBPWD);
+$db = mysqli_connect($DBHOST, $DBUSER, $DBPWD);
 
 $wimba_lc = "";
 $editor_lo = "";
@@ -206,18 +206,18 @@ iscrizioni_corso.id_utente='$kairos_cookie[0]'";
 
 
 $opera = false;
-if (!ereg('MSIE', $_SERVER["HTTP_USER_AGENT"]) or !ereg('Windows', $_SERVER["HTTP_USER_AGENT"])) {
+if (!preg_replace('MSIE', $_SERVER["HTTP_USER_AGENT"]) or !preg_replace('Windows', $_SERVER["HTTP_USER_AGENT"])) {
     $win_ie = false;
 } else {
     $win_ie = true;
 };
 
-if (ereg('Opera', $_SERVER["HTTP_USER_AGENT"])) {
+if (preg_replace('Opera', $_SERVER["HTTP_USER_AGENT"])) {
     $win_ie = false;
     $opera = true;
 };
 
-if (ereg('Mozilla', $_SERVER["HTTP_USER_AGENT"]) and !ereg('MSIE', $_SERVER["HTTP_USER_AGENT"])) {
+if (preg_replace('Mozilla', $_SERVER["HTTP_USER_AGENT"]) and !preg_replace('MSIE', $_SERVER["HTTP_USER_AGENT"])) {
     $win_ie = false;
 };
 
@@ -296,7 +296,7 @@ if (($kairos_cookie[0])) {
         setcookie("kairos_cookie[1]", "", 0, "/", "garamond.it");
 
         $msg = $stringa[errore_no_parametri];
-        $msg = ereg_replace(" ", "%20", $msg);
+        $msg = preg_replace_replace(" ", "%20", $msg);
         //deleteCookies();
         Header("Location:index.php?risorsa=msg&msg=$msg");
         exit();
